@@ -1,0 +1,329 @@
+{
+  "type": "data",
+  "id": "pythagoras_theorem_practice_test",
+  "props": {
+    "content": [
+      {
+        "type": "Heading",
+        "id": "heading-1",
+        "props": {
+          "heading": "Year 8 Mathematics - Pythagoras' Theorem Practice Test"
+        }
+      },
+      {
+        "type": "ExplanationBox",
+        "id": "explanation-1",
+        "props": {
+          "title": "Understanding Pythagoras' Theorem",
+          "content": [
+            {
+              "type": "ExplanationBoxText",
+              "id": "explanation-text-1",
+              "props": {
+                "children": "Pythagoras' Theorem states that in a right-angled triangle, the square of the length of the hypotenuse equals the sum of the squares of the lengths of the other two sides."
+              }
+            },
+            {
+              "type": "ExplanationBoxFormula",
+              "id": "explanation-formula-1",
+              "props": {
+                "children": "c^2 = a^2 + b^2"
+              }
+            },
+            {
+              "type": "ExplanationBoxText",
+              "id": "explanation-text-2",
+              "props": {
+                "children": "Where c is the length of the hypotenuse (the side opposite the right angle), and a and b are the lengths of the other two sides."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "KeyTakeaway",
+        "id": "key-takeaway-1",
+        "props": {
+          "keyTakeaways": [
+            "The hypotenuse is always the longest side of a right-angled triangle",
+            "Pythagoras' Theorem can be rearranged to find any side: a = √(c² - b²) or b = √(c² - a²)",
+            "When working with Pythagoras' Theorem, make sure your units are consistent",
+            "A Pythagorean triad is a set of three positive integers that satisfy the equation a² + b² = c²"
+          ]
+        }
+      },
+      {
+        "type": "PractiseQuestions",
+        "id": "practice-questions-1",
+        "props": {
+          "content": [
+            {
+              "type": "GroupedSubquestionsGrid",
+              "id": "question-1",
+              "props": {
+                "questionNumber": 1,
+                "questionContent": "Use your calculator to find the value of each of the following:",
+                "subquestions": [
+                  {
+                    "prompt": "5²"
+                  },
+                  {
+                    "prompt": "3.5²"
+                  },
+                  {
+                    "prompt": "6² + 8²"
+                  },
+                  {
+                    "prompt": "50² – 40²"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "GroupedSubquestionsGrid",
+              "id": "question-2",
+              "props": {
+                "questionNumber": 2,
+                "questionContent": "Use your calculator to find the values of:",
+                "subquestions": [
+                  {
+                    "prompt": "√196"
+                  },
+                  {
+                    "prompt": "√900"
+                  },
+                  {
+                    "prompt": "√64"
+                  },
+                  {
+                    "prompt": "√121"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "GroupedSubquestionsGrid",
+              "id": "question-3",
+              "props": {
+                "questionNumber": 3,
+                "questionContent": "Calculate the square root of each of these numbers, correct to two decimal places:",
+                "subquestions": [
+                  {
+                    "prompt": "√12"
+                  },
+                  {
+                    "prompt": "√450"
+                  },
+                  {
+                    "prompt": "√1001"
+                  },
+                  {
+                    "prompt": "√80"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "GroupedSubquestionsGrid",
+              "id": "question-4",
+              "props": {
+                "questionNumber": 4,
+                "questionContent": "Find the value of each of these, correct to one decimal place:",
+                "subquestions": [
+                  {
+                    "prompt": "√(12² − 5²)"
+                  },
+                  {
+                    "prompt": "√(5² + 7²)"
+                  },
+                  {
+                    "prompt": "√((1.5)² + (4.2)²)"
+                  },
+                  {
+                    "prompt": "√((12.5)² − (7.1)²)"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "GeneralPurpose",
+              "id": "triangle-diagram-1",
+              "props": {
+                "componentName": "RightTriangleDiagram",
+                "html": "<div class='flex justify-center space-x-12 my-4'><div class='relative w-40 h-40'><div class='absolute bottom-0 left-0 w-32 h-32 border-b-2 border-l-2 border-black'><div class='absolute bottom-0 right-0 w-6 h-6 border-t-2 border-r-2 border-black transform rotate-45 translate-x-1 translate-y-1'></div></div><div class='absolute top-0 right-8 transform -translate-y-2'>c</div><div class='absolute bottom-16 left-0 transform -translate-x-4'>a</div><div class='absolute bottom-0 right-16 transform translate-y-4'>b</div><div class='absolute bottom-0 left-0 transform -translate-x-2 -translate-y-2'>P</div><div class='absolute bottom-0 right-32 transform translate-y-4'>Q</div><div class='absolute top-0 right-8 transform -translate-y-6'>R</div></div><div class='relative w-40 h-40'><div class='absolute bottom-0 left-0 w-32 h-32 border-b-2 border-l-2 border-black'><div class='absolute bottom-0 right-0 w-6 h-6 border-t-2 border-r-2 border-black transform rotate-45 translate-x-1 translate-y-1'></div></div><div class='absolute top-0 right-8 transform -translate-y-2'>c</div><div class='absolute bottom-16 left-0 transform -translate-x-4'>a</div><div class='absolute bottom-0 right-16 transform translate-y-4'>b</div><div class='absolute bottom-0 left-0 transform -translate-x-2 -translate-y-2'>L</div><div class='absolute bottom-0 right-32 transform translate-y-4'>M</div><div class='absolute top-0 right-8 transform -translate-y-6'>N</div></div></div>"
+              }
+            },
+            {
+              "type": "GroupedSubquestionsGrid",
+              "id": "question-5",
+              "props": {
+                "questionNumber": 5,
+                "questionContent": "Name the hypotenuse in each of these triangles shown above:",
+                "subquestions": [
+                  {
+                    "prompt": "In triangle PQR"
+                  },
+                  {
+                    "prompt": "In triangle LMN"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "GroupedSubquestionsGrid",
+              "id": "question-6",
+              "props": {
+                "questionNumber": 6,
+                "questionContent": "Write Pythagoras' Theorem for these triangles shown above:",
+                "subquestions": [
+                  {
+                    "prompt": "For triangle PQR"
+                  },
+                  {
+                    "prompt": "For triangle LMN"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "GeneralPurpose",
+              "id": "triangle-diagram-2",
+              "props": {
+                "componentName": "MissingLengthTriangles",
+                "html": "<div class='flex justify-center space-x-12 my-4'><div class='relative w-48 h-48'><div class='absolute bottom-0 left-0'><svg width='150' height='120' viewBox='0 0 150 120'><polygon points='0,120 120,120 120,0' fill='none' stroke='black' stroke-width='2'/><text x='60' y='70'>c cm</text><text x='55' y='115'>8 cm</text><text x='5' y='70'>5 cm</text></svg></div></div><div class='relative w-48 h-48'><div class='absolute bottom-0 left-0'><svg width='180' height='120' viewBox='0 0 180 120'><polygon points='0,120 180,120 180,20' fill='none' stroke='black' stroke-width='2'/><text x='90' y='80'>x m</text><text x='85' y='115'>24 m</text><text x='5' y='70'>7 m</text></svg></div></div></div>"
+              }
+            },
+            {
+              "type": "GroupedSubquestionsGrid",
+              "id": "question-7",
+              "props": {
+                "questionNumber": 7,
+                "questionContent": "Find the value of the pronumeral in these triangles. (Give your answer correct to 2 decimal places if necessary):",
+                "subquestions": [
+                  {
+                    "prompt": "Find the value of c in the first triangle (with sides 5 cm and 8 cm)"
+                  },
+                  {
+                    "prompt": "Find the value of x in the second triangle (with sides 7 m and 24 m)"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "GeneralPurpose",
+              "id": "triangle-diagram-3",
+              "props": {
+                "componentName": "MissingLengthTriangles2",
+                "html": "<div class='flex justify-center space-x-12 my-4'><div class='relative w-48 h-48'><div class='absolute bottom-0 left-0'><svg width='150' height='100' viewBox='0 0 150 100'><polygon points='0,100 150,100 150,0' fill='none' stroke='black' stroke-width='2'/><text x='75' y='60'>x mm</text><text x='75' y='95'>18 mm</text><text x='5' y='50'>23 mm</text></svg></div></div><div class='relative w-48 h-48'><div class='absolute bottom-0 left-0'><svg width='120' height='150' viewBox='0 0 120 150'><polygon points='0,150 120,150 120,0' fill='none' stroke='black' stroke-width='2'/><text x='30' y='80'>4 cm</text><text x='60' y='145'>6 cm</text><text x='55' y='75'>x cm</text></svg></div></div></div>"
+              }
+            },
+            {
+              "type": "GroupedSubquestionsGrid",
+              "id": "question-8",
+              "props": {
+                "questionNumber": 8,
+                "questionContent": "Find the value of the pronumeral in these triangles. (Give your answer correct to 2 decimal places if necessary):",
+                "subquestions": [
+                  {
+                    "prompt": "Find the value of x in the first triangle (with sides 23 mm and 18 mm)"
+                  },
+                  {
+                    "prompt": "Find the value of x in the second triangle (with sides 4 cm and 6 cm)"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "ShortAnswerQuestion",
+              "id": "question-9",
+              "props": {
+                "questionNumber": 9,
+                "questionContent": "Find the length of the diagonal of a square with sides 20 cm, correct to 2 decimal places."
+              }
+            },
+            {
+              "type": "GeneralPurpose",
+              "id": "triangle-diagram-4",
+              "props": {
+                "componentName": "RightAngleTriangle",
+                "html": "<div class='flex justify-center my-4'><div class='relative w-48 h-48'><svg width='150' height='120' viewBox='0 0 150 120'><polygon points='0,120 120,120 80,0' fill='none' stroke='black' stroke-width='2'/><text x='40' y='115'>8 cm</text><text x='85' y='65'>7 cm</text><text x='35' y='60'>10 cm</text></svg></div></div>"
+              }
+            },
+            {
+              "type": "ShortAnswerQuestion",
+              "id": "question-10",
+              "props": {
+                "questionNumber": 10,
+                "questionContent": "Is the triangle shown above (with sides 7 cm, 8 cm, and 10 cm) a right-angled triangle? Show your working."
+              }
+            },
+            {
+              "type": "ShortAnswerQuestion",
+              "id": "question-11",
+              "props": {
+                "questionNumber": 11,
+                "questionContent": "Find the value of x as a surd in a right-angled triangle with sides x cm, 6 cm, and 8 cm, where x is the hypotenuse."
+              }
+            },
+            {
+              "type": "ShortAnswerQuestion",
+              "id": "question-12",
+              "props": {
+                "questionNumber": 12,
+                "questionContent": "Do the numbers 5, 8, 10 form a Pythagorean triad? Show your working."
+              }
+            },
+            {
+              "type": "GeneralPurpose",
+              "id": "shape-diagram-1",
+              "props": {
+                "componentName": "PerimeterShapes",
+                "html": "<div class='flex justify-center space-x-12 my-4'><div class='relative w-48 h-48'><svg width='150' height='150' viewBox='0 0 150 150'><rect x='0' y='0' width='150' height='100' fill='none' stroke='black' stroke-width='2'/><line x1='0' y1='0' x2='150' y2='100' stroke='black' stroke-width='2'/><text x='65' y='15'>15 cm</text><text x='35' y='60'>36 cm</text><text x='120' y='60'>35 mm</text></svg></div><div class='relative w-48 h-48'><svg width='150' height='150' viewBox='0 0 150 150'><rect x='0' y='0' width='120' height='80' fill='none' stroke='black' stroke-width='2'/><line x1='0' y1='0' x2='120' y2='80' stroke='black' stroke-width='2'/><text x='50' y='15'>28 mm</text><text x='50' y='55'>30 cm</text><text x='5' y='40'>14 cm</text></svg></div></div>"
+              }
+            },
+            {
+              "type": "GroupedSubquestionsGrid",
+              "id": "question-13",
+              "props": {
+                "questionNumber": 13,
+                "questionContent": "Find the perimeter of each of these shapes shown above, correct to one decimal place:",
+                "subquestions": [
+                  {
+                    "prompt": "First shape (with sides 15 cm, 36 cm, and 35 mm)"
+                  },
+                  {
+                    "prompt": "Second shape (with sides 28 mm, 30 cm, and 14 cm)"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "GeneralPurpose",
+              "id": "shape-diagram-2",
+              "props": {
+                "componentName": "AreaShapes",
+                "html": "<div class='flex justify-center space-x-12 my-4'><div class='relative w-48 h-48'><svg width='150' height='150' viewBox='0 0 150 150'><rect x='0' y='0' width='150' height='100' fill='none' stroke='black' stroke-width='2'/><line x1='0' y1='0' x2='150' y2='100' stroke='black' stroke-width='2'/><text x='65' y='15'>2.5 m</text><text x='75' y='55'></text></svg></div><div class='relative w-48 h-48'><svg width='150' height='150' viewBox='0 0 150 150'><rect x='0' y='0' width='120' height='80' fill='none' stroke='black' stroke-width='2'/><line x1='0' y1='0' x2='120' y2='80' stroke='black' stroke-width='2'/><text x='50' y='15'>1.5 m</text></svg></div></div>"
+              }
+            },
+            {
+              "type": "GroupedSubquestionsGrid",
+              "id": "question-14",
+              "props": {
+                "questionNumber": 14,
+                "questionContent": "Find the area of each of these shapes shown above, correct to one decimal place:",
+                "subquestions": [
+                  {
+                    "prompt": "First shape (with side 2.5 m)"
+                  },
+                  {
+                    "prompt": "Second shape (with side 1.5 m)"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
