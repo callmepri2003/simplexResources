@@ -1,0 +1,17 @@
+- Focus on NSW English K-10 Syllabus (2022) outcomes for reading, writing, and language conventions
+- Questions should be appropriately challenging for students - not too easy, but achievable with effort
+- Use Australian spellings throughout (e.g., 'colour', 'favourite', 'organise')
+- Reading passages should be age-appropriate, engaging, and around 200-400 words
+- Include a mix of literal and inferential comprehension questions
+- Grammar and vocabulary questions should be based on the student's year expectations (adjectives, verbs, nouns, sentence types, punctuation)
+- Writing prompts should allow for creativity while providing clear structure and requirements
+- Always include mark allocations for questions to help students understand weighting
+- Provide adequate writing space (WritingLines) based on expected answer length
+- Use ImagePlaceholder components with descriptive text when images would enhance questions - DO NOT include imageUrl values, leave them empty for manual insertion later
+- Keep headings succinct as they render large
+- Don't place two headings directly next to each other without content between them
+- Ensure sufficient volume - parents value comprehensive assessments
+- Question numbers should be sequential and clear (1, 2, 3... or 1a, 1b, 1c for sub-questions)
+- Include variety in question types: comprehension, multiple choice, vocabulary, grammar, and writing tasks
+- Writing tasks should specify word count expectations appropriate for students (typically 100-200 words)
+- Use ExamSection components to clearly delineate different parts of the assessment (Reading, Language Conventions, Writing)

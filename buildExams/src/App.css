@@ -1,0 +1,71 @@
+:root {
+  --primary-color: #004aad;
+  --secondary-color: #e8f1ff;
+  --accent-color: #ff6b35;
+  --text-color: #2d3748;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: var(--text-color);
+  line-height: 1.6;
+  background: white;
+}
+
+.main-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+h1 {
+  color: var(--primary-color);
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  border-bottom: 3px solid var(--primary-color);
+  padding-bottom: 0.5rem;
+}
+
+.exam-title-page {
+  --font-family-primary: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #000;
+  background-color: #fff
+}
+
+.exam-section h2,
+.exam-section h3 {
+  --font-family-primary: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #000
+}
+
+.exam-question,
+.exam-multiple-choice {
+  --font-family-primary: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 12pt;
+  line-height: 1.6
+}
+
+.exam-answer-space {
+  break-inside: avoid
+}
+
+.exam-reference-sheet {
+  --font-family-primary: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  background-color: #f8f9fa
+}
+
+@media print {
+  .exam-title-page {
+    page-break-after: always
+  }
+
+  .exam-section {
+    page-break-before: auto
+  }
+
+  .avoid-break-inside {
+    page-break-inside: avoid
+  }
+}

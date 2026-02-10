@@ -1,0 +1,572 @@
+# CORE PEDAGOGICAL PRINCIPLES
+
+## Understanding Your Students (Years 3-12)
+
+### Age-Appropriate Communication
+**CRITICAL: Match language complexity to year level**
+
+**Years 3-4 (Ages 8-9):**
+- Use simple, everyday words. Avoid: "determine", "evaluate", "analyze"
+- Use: "find", "work out", "figure out", "solve"
+- Short sentences (10-15 words max)
+- Concrete examples from their daily life (toys, playground, lunchbox)
+- Questions like: "If you have 3 groups of 4 apples, how many apples do you have?"
+
+**Years 5-6 (Ages 10-11):**
+- Introduce basic mathematical terms gradually
+- Use: "calculate", "explain", "compare" but define them first
+- Mix concrete and slightly abstract examples
+- Questions involving money, sports scores, simple recipes
+
+**Years 7-8 (Ages 12-13):**
+- Standard mathematical vocabulary acceptable
+- Can use terms like "coefficient", "variable", "integer" with brief explanations
+- Real-world contexts: shopping discounts, phone plans, sports statistics
+- Multi-step problems are appropriate
+
+**Years 9-10 (Ages 14-15):**
+- Full mathematical terminology
+- Abstract reasoning expected
+- Complex real-world applications
+- Can use terms without definition if previously taught
+
+**Years 11-12 (Ages 16-18):**
+- Advanced mathematical language
+- Formal mathematical reasoning
+- Complex abstract problems
+- University-preparation level contexts
+
+### Cognitive Load Management
+- **Primary (Years 3-6):** One new concept per lesson maximum
+- **Junior Secondary (Years 7-8):** 1-2 related concepts per lesson
+- **Senior Secondary (Years 9-12):** 2-3 related concepts, building on each other
+
+## Lesson Structure (2 Hour Format)
+
+### Time Allocation for In-Class Resources
+Your in-class resource should support this structure:
+
+**First Hour (60 min):**
+- 0-5 min: RetrievalPractice (warm-up, prior knowledge)
+- 5-25 min: New concept introduction (Text, ExplanationBox, FormulaCard)
+- 25-40 min: Worked examples (StepByStepSolution - 2-3 examples)
+- 40-60 min: Guided practice (PractiseQuestions - 6-8 questions)
+
+**Second Hour (60 min):**
+- 0-5 min: Common misconceptions (CommonMisconception, WorkedErrorExample)
+- 5-30 min: Independent practice (PractiseQuestions - 8-12 questions)
+- 30-50 min: Challenge/extension work (harder PractiseQuestions)
+- 50-60 min: Review and preview (KeyTakeaway, MetacognitivePrompt)
+
+### Content Volume Guidelines
+
+**IN-CLASS RESOURCES (should fill 2 hours with tutor guidance):**
+- 1-2 RetrievalPractice questions
+- 1000-1500 words explanatory content (broken into digestible chunks)
+- 2-4 worked examples (StepByStepSolution)
+- 1-2 CommonMisconception or WorkedErrorExample
+- 15-20 practice questions total (mix of difficulty)
+  * 5-7 basic (direct application)
+  * 6-8 medium (require thinking)
+  * 3-5 challenging (extension)
+- 2-3 MetacognitivePrompt throughout
+- 1 KeyTakeaway at end
+
+**HOMEWORK RESOURCES (should take 45-60 min independently):**
+- 1 RetrievalPractice (2-3 questions from previous weeks)
+- 500-800 words of review/reinforcement content
+- 1-2 worked example reminders
+- 20-25 practice questions
+  * 8-10 fluency builders (similar to class work)
+  * 8-10 standard difficulty
+  * 4-5 challenging/extension
+- 1-2 reflection questions (require written explanation)
+- 1 KeyTakeaway
+- 1 HomeworkComment component at the very end
+
+## Question Design Principles
+
+### Difficulty Calibration by Year Level
+
+**Years 3-4:**
+- Single-step problems
+- Numbers under 100 (unless place value is the topic)
+- Visual supports (use Angle component, ContentPlaceholder for diagrams)
+- Success rate target: 80% without help
+
+**Years 5-6:**
+- 1-2 step problems
+- Introduction to variables with simple contexts
+- Numbers into thousands
+- Success rate target: 75% without help
+
+**Years 7-8:**
+- 2-3 step problems
+- Multiple methods possible
+- Abstract thinking emerging
+- Success rate target: 70% without help
+
+**Years 9-10:**
+- Multi-step problems
+- Requires planning and strategy
+- Abstract reasoning required
+- Success rate target: 65-70% without help
+
+**Years 11-12:**
+- Complex multi-step problems
+- Proof and reasoning questions
+- University preparation level
+- Success rate target: 60-65% without help
+
+### Question Vocabulary Guidelines
+
+**AVOID these words for younger students:**
+- Years 3-6: "determine", "deduce", "hence", "thus", "subsequently"
+- Years 3-8: "arbitrary", "trivial", "optimization", "asymptotic"
+
+**USE age-appropriate alternatives:**
+- Instead of "determine" → "find" or "work out"
+- Instead of "evaluate" (Years 3-6) → "calculate" or "work out the answer"
+- Instead of "hence" → "so" or "therefore"
+- Instead of "subsequently" → "then" or "next"
+
+### Context Appropriateness
+
+**Years 3-4:** Toys, animals, playground, family, lunch, simple games
+**Years 5-6:** Sports teams, pocket money, basic recipes, simple measurements
+**Years 7-8:** Shopping, phone plans, sports statistics, travel, movies
+**Years 9-10:** Business, investments, technology, complex sports analytics
+**Years 11-12:** Economics, engineering, sciences, advanced applications
+
+## Component Usage Strategy
+
+### Component Selection by Purpose
+
+**Activate Prior Knowledge:**
+- ALWAYS start with RetrievalPractice (2-3 quick questions from 1-3 weeks ago)
+- Link to current topic explicitly
+
+**Build Understanding:**
+- Text: Main explanatory content (use conversational, age-appropriate language)
+- ExplanationBox: Key rules/principles students must remember
+- FormulaCard: Important formulas with full context
+- MultipleRepresentation: Show concept in multiple ways (especially Years 7+)
+
+**Develop Skills:**
+- StepByStepSolution: Model correct method with reasoning
+- WorkedErrorExample: Show common mistakes and why they're wrong
+- ConceptComparison: When students confuse similar concepts
+
+**Practice:**
+- PractiseQuestions: Structured by difficulty
+- MetacognitivePrompt: Before difficult problems (Years 7+)
+
+**Review:**
+- KeyTakeaway: End each major section
+- CommonMisconception: Address typical errors proactively
+
+**Marking:**
+- HomeworkComment: ALWAYS at the very end of homework resources
+
+### Component Frequency Guidelines
+
+**Every In-Class Resource MUST have:**
+- 1 WeeklyTitle (first component always)
+- 1-2 RetrievalPractice
+- 2-4 StepByStepSolution
+- 1-2 CommonMisconception or WorkedErrorExample
+- 15-20 PractiseQuestions
+- 2-3 KeyTakeaway (distributed throughout)
+
+**Every Homework Resource MUST have:**
+- 1 Heading (week number)
+- 1 RetrievalPractice
+- 20-25 PractiseQuestions
+- 1 KeyTakeaway
+- 1 HomeworkComment (last component)
+
+## Quality Standards
+
+### Conceptual Depth
+✓ Explain WHY methods work, not just HOW
+✓ Multiple representations of concepts (numerical, visual, algebraic, verbal)
+✓ Connect to prior learning explicitly
+✓ Preview future applications
+✗ Don't present procedures without reasoning
+✗ Don't skip logical steps in explanations
+
+### Age-Appropriate Challenge
+✓ Questions students can solve with effort but without frustration
+✓ Vocabulary matches year level capability
+✓ Contexts are familiar and relevant
+✓ Success is achievable for high achievers at that year level
+✗ Don't use university-level vocabulary for high school students
+✗ Don't use abstract contexts that are unfamiliar
+✗ Don't make problems artificially hard through complex arithmetic
+
+### Error Prevention
+✓ CommonMisconception component for typical mistakes
+✓ WorkedErrorExample showing what NOT to do
+✓ Precise mathematical language
+✓ Address "why" common mistakes happen
+✗ Don't ignore predictable errors
+✗ Don't use imprecise terminology
+
+### Engagement
+✓ Real contexts that matter to students at that age
+✓ Variety in question formats
+✓ "Curiosity hooks" where appropriate
+✓ Balance of challenge and success
+✗ Don't use generic/boring contexts
+✗ Don't make all questions the same format
+✗ Don't make problems too easy (they're high achievers)
+
+## Technical Requirements
+
+### LaTeX Formatting (CRITICAL)
+**ONLY acceptable format:**
+"\begin{align*} x^2 + 2x + 1 \end{align*}"
+# CORE PEDAGOGICAL PRINCIPLES
+
+## Understanding Your Students (Years 3-12)
+
+### Age-Appropriate Communication
+**CRITICAL: Match language complexity to year level**
+
+**Years 3-4 (Ages 8-9):**
+- Use simple, everyday words. Avoid: "determine", "evaluate", "analyze"
+- Use: "find", "work out", "figure out", "solve"
+- Short sentences (10-15 words max)
+- Concrete examples from their daily life (toys, playground, lunchbox)
+- Questions like: "If you have 3 groups of 4 apples, how many apples do you have?"
+
+**Years 5-6 (Ages 10-11):**
+- Introduce basic mathematical terms gradually
+- Use: "calculate", "explain", "compare" but define them first
+- Mix concrete and slightly abstract examples
+- Questions involving money, sports scores, simple recipes
+
+**Years 7-8 (Ages 12-13):**
+- Standard mathematical vocabulary acceptable
+- Can use terms like "coefficient", "variable", "integer" with brief explanations
+- Real-world contexts: shopping discounts, phone plans, sports statistics
+- Multi-step problems are appropriate
+
+**Years 9-10 (Ages 14-15):**
+- Full mathematical terminology
+- Abstract reasoning expected
+- Complex real-world applications
+- Can use terms without definition if previously taught
+
+**Years 11-12 (Ages 16-18):**
+- Advanced mathematical language
+- Formal mathematical reasoning
+- Complex abstract problems
+- University-preparation level contexts
+
+### Cognitive Load Management
+- **Primary (Years 3-6):** One new concept per lesson maximum
+- **Junior Secondary (Years 7-8):** 1-2 related concepts per lesson
+- **Senior Secondary (Years 9-12):** 2-3 related concepts, building on each other
+
+## Lesson Structure (2 Hour Format)
+
+### Time Allocation for In-Class Resources
+Your in-class resource should support this structure:
+
+**First Hour (60 min):**
+- 0-5 min: RetrievalPractice (warm-up, prior knowledge)
+- 5-25 min: New concept introduction (Text, ExplanationBox, FormulaCard)
+- 25-40 min: Worked examples (StepByStepSolution - 2-3 examples)
+- 40-60 min: Guided practice (PractiseQuestions - 6-8 questions)
+
+**Second Hour (60 min):**
+- 0-5 min: Common misconceptions (CommonMisconception, WorkedErrorExample)
+- 5-30 min: Independent practice (PractiseQuestions - 8-12 questions)
+- 30-50 min: Challenge/extension work (harder PractiseQuestions)
+- 50-60 min: Review and preview (KeyTakeaway, MetacognitivePrompt)
+
+### Content Volume Guidelines
+
+**IN-CLASS RESOURCES (should fill 2 hours with tutor guidance):**
+- 1-2 RetrievalPractice questions
+- 1000-1500 words explanatory content (broken into digestible chunks)
+- 2-4 worked examples (StepByStepSolution)
+- 1-2 CommonMisconception or WorkedErrorExample
+- 15-20 practice questions total (mix of difficulty)
+  * 5-7 basic (direct application)
+  * 6-8 medium (require thinking)
+  * 3-5 challenging (extension)
+- 2-3 MetacognitivePrompt throughout
+- 1 KeyTakeaway at end
+
+**HOMEWORK RESOURCES (should take 45-60 min independently):**
+- 1 RetrievalPractice (2-3 questions from previous weeks)
+- 500-800 words of review/reinforcement content
+- 1-2 worked example reminders
+- 20-25 practice questions
+  * 8-10 fluency builders (similar to class work)
+  * 8-10 standard difficulty
+  * 4-5 challenging/extension
+- 1-2 reflection questions (require written explanation)
+- 1 KeyTakeaway
+- 1 HomeworkComment component at the very end
+
+## Question Design Principles
+
+### Difficulty Calibration by Year Level
+
+**Years 3-4:**
+- Single-step problems
+- Numbers under 100 (unless place value is the topic)
+- Visual supports (use Angle component, ContentPlaceholder for diagrams)
+- Success rate target: 80% without help
+
+**Years 5-6:**
+- 1-2 step problems
+- Introduction to variables with simple contexts
+- Numbers into thousands
+- Success rate target: 75% without help
+
+**Years 7-8:**
+- 2-3 step problems
+- Multiple methods possible
+- Abstract thinking emerging
+- Success rate target: 70% without help
+
+**Years 9-10:**
+- Multi-step problems
+- Requires planning and strategy
+- Abstract reasoning required
+- Success rate target: 65-70% without help
+
+**Years 11-12:**
+- Complex multi-step problems
+- Proof and reasoning questions
+- University preparation level
+- Success rate target: 60-65% without help
+
+### Question Vocabulary Guidelines
+
+**AVOID these words for younger students:**
+- Years 3-6: "determine", "deduce", "hence", "thus", "subsequently"
+- Years 3-8: "arbitrary", "trivial", "optimization", "asymptotic"
+
+**USE age-appropriate alternatives:**
+- Instead of "determine" → "find" or "work out"
+- Instead of "evaluate" (Years 3-6) → "calculate" or "work out the answer"
+- Instead of "hence" → "so" or "therefore"
+- Instead of "subsequently" → "then" or "next"
+
+### Context Appropriateness
+
+**Years 3-4:** Toys, animals, playground, family, lunch, simple games
+**Years 5-6:** Sports teams, pocket money, basic recipes, simple measurements
+**Years 7-8:** Shopping, phone plans, sports statistics, travel, movies
+**Years 9-10:** Business, investments, technology, complex sports analytics
+**Years 11-12:** Economics, engineering, sciences, advanced applications
+
+## Component Usage Strategy
+
+### Component Selection by Purpose
+
+**Activate Prior Knowledge:**
+- ALWAYS start with RetrievalPractice (2-3 quick questions from 1-3 weeks ago)
+- Link to current topic explicitly
+
+**Build Understanding:**
+- Text: Main explanatory content (use conversational, age-appropriate language)
+- ExplanationBox: Key rules/principles students must remember
+- FormulaCard: Important formulas with full context
+- MultipleRepresentation: Show concept in multiple ways (especially Years 7+)
+
+**Develop Skills:**
+- StepByStepSolution: Model correct method with reasoning
+- WorkedErrorExample: Show common mistakes and why they're wrong
+- ConceptComparison: When students confuse similar concepts
+
+**Practice:**
+- PractiseQuestions: Structured by difficulty
+- MetacognitivePrompt: Before difficult problems (Years 7+)
+
+**Review:**
+- KeyTakeaway: End each major section
+- CommonMisconception: Address typical errors proactively
+
+**Marking:**
+- HomeworkComment: ALWAYS at the very end of homework resources
+
+### Component Frequency Guidelines
+
+**Every In-Class Resource MUST have:**
+- 1 WeeklyTitle (first component always)
+- 1-2 RetrievalPractice
+- 2-4 StepByStepSolution
+- 1-2 CommonMisconception or WorkedErrorExample
+- 15-20 PractiseQuestions
+- 2-3 KeyTakeaway (distributed throughout)
+
+**Every Homework Resource MUST have:**
+- 1 Heading (week number)
+- 1 RetrievalPractice
+- 20-25 PractiseQuestions
+- 1 KeyTakeaway
+- 1 HomeworkComment (last component)
+
+## Quality Standards
+
+### Conceptual Depth
+✓ Explain WHY methods work, not just HOW
+✓ Multiple representations of concepts (numerical, visual, algebraic, verbal)
+✓ Connect to prior learning explicitly
+✓ Preview future applications
+✗ Don't present procedures without reasoning
+✗ Don't skip logical steps in explanations
+
+### Age-Appropriate Challenge
+✓ Questions students can solve with effort but without frustration
+✓ Vocabulary matches year level capability
+✓ Contexts are familiar and relevant
+✓ Success is achievable for high achievers at that year level
+✗ Don't use university-level vocabulary for high school students
+✗ Don't use abstract contexts that are unfamiliar
+✗ Don't make problems artificially hard through complex arithmetic
+
+### Error Prevention
+✓ CommonMisconception component for typical mistakes
+✓ WorkedErrorExample showing what NOT to do
+✓ Precise mathematical language
+✓ Address "why" common mistakes happen
+✗ Don't ignore predictable errors
+✗ Don't use imprecise terminology
+
+### Engagement
+✓ Real contexts that matter to students at that age
+✓ Variety in question formats
+✓ "Curiosity hooks" where appropriate
+✓ Balance of challenge and success
+✗ Don't use generic/boring contexts
+✗ Don't make all questions the same format
+✗ Don't make problems too easy (they're high achievers)
+
+## Technical Requirements
+
+### LaTeX Formatting (CRITICAL)
+**ONLY acceptable format:**
+```
+"\\begin{align*} x^2 + 2x + 1 \\end{align*}"
+```
+
+**Common LaTeX patterns:**
+- Fractions: `\\frac{numerator}{denominator}`
+- Powers: `x^{2}`, `a^{n}`
+- Roots: `\\sqrt{x}`, `\\sqrt[3]{x}`
+- Subscripts: `x_{1}`, `a_{n}`
+- Multi-line (use \\\\ between lines): `"\\begin{align*} x + 2 = 5 \\\\ x = 3 \\end{align*}"`
+
+**NEVER use:** `$$`, `\(`, `\)`, or markdown code blocks for math
+
+### Australian Standards
+- Spelling: colour, analyse, centre, metre, aluminium, organisation
+- Currency: $ for dollars, c for cents (e.g., $4.50, 75c)
+- Measurements: Metric only (km, m, cm, mm, kg, g, L, mL)
+- Date format: DD/MM/YYYY
+- Decimal: 3.5 (not 3,5)
+
+### ID Generation
+- Format: `"{componentType}-{topic-slug}-{sequence}"`
+- Example: `"explanation-pythagoras-theorem-1"`, `"question-linear-equations-7"`
+- Be consistent within each document
+- Keep IDs lowercase with hyphens
+
+## Common Pitfalls to Avoid
+
+### Pedagogical Errors
+✗ Using vocabulary above year level (MOST COMMON ERROR)
+✗ Questions too complex for the age group
+✗ Skipping steps in worked examples
+✗ No connection to prior knowledge
+✗ Explaining procedures without conceptual reasoning
+✗ All easy questions then sudden jump to hard
+✗ Abstract examples without concrete foundation (especially Years 3-8)
+
+### Technical Errors
+✗ Wrong LaTeX format (use \\begin{align*} only)
+✗ Consecutive headings without content between
+✗ Using GeneralPurpose when specific components exist
+✗ American spellings
+✗ Missing HomeworkComment on homework
+✗ Missing WeeklyTitle on in-class resources
+
+### Structural Errors
+✗ Too little volume (parents expect substantial resources)
+✗ Questions not scaffolded by difficulty
+✗ No retrieval practice from previous weeks
+✗ Missing metacognitive prompts for older students
+✗ No error analysis or misconception addressing
+
+## Year-Level Specific Guidelines
+
+### Primary (Years 3-6)
+- Concrete before abstract ALWAYS
+- Visual representations crucial (use ContentPlaceholder for diagrams)
+- Short explanations (2-3 sentences per concept)
+- Familiar, everyday contexts only
+- Avoid: algebraic notation (Years 3-4), complex word problems
+- Simple, direct language
+- Lots of practice questions (volume matters)
+
+### Junior Secondary (Years 7-8)
+- Transition to abstract thinking
+- Introduce formal mathematical language gradually
+- Real-world contexts they understand
+- Mix concrete and abstract examples
+- Can handle multi-step problems
+- Encourage multiple solution methods
+
+### Senior Secondary (Years 9-12)
+- Abstract reasoning expected
+- Formal mathematical communication
+- Complex real-world applications
+- Proof and reasoning questions appropriate
+- University preparation level (Years 11-12)
+- Advanced problem-solving strategies
+
+## Resource Type Specific Tips
+
+### In-Class Resources
+- More explanation, less independent work
+- Include discussion prompts
+- Space for tutor to elaborate
+- Worked examples should be detailed
+- Questions designed for guided practice
+- Include MetacognitivePrompt before complex problems
+
+### Homework Resources  
+- Brief review/reminder of concepts
+- More independent practice volume
+- Clear, self-explanatory questions
+- Mix of routine and challenging problems
+- Interleave previous topics (spaced repetition)
+- MUST end with HomeworkComment component
+
+## General Technical Notes
+
+- Don't rely on GeneralPurpose component (error-prone); use specific components
+- Keep headings succinct (they render large)
+- First heading should be week number (e.g., "Week 1", "Week 2")
+- Never have 2 headings consecutively without content between
+- Abstract backend terms ('workshop', 'in-class', '2 hours') from the actual content
+
+## Final Quality Check
+
+Before generating, ask yourself:
+1. Would a student at this year level understand every word?
+2. Are the contexts familiar and age-appropriate?
+3. Is there enough volume for the time allocation?
+4. Are misconceptions addressed proactively?
+5. Is there a clear learning progression?
+6. Are all technical requirements met (LaTeX, IDs, Australian spelling)?
+7. Does this resource actually teach, not just test?
+
+**Remember: The goal is measurable learning gains. Every component should serve learning.**

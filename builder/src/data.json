@@ -1,0 +1,609 @@
+{
+  "type": "data",
+  "id": "lead-magnet-mental-math-guide",
+  "props": {
+    "content": [
+      {
+        "type": "Heading",
+        "id": "heading-main-title",
+        "props": {
+          "heading": "Mental Math Mastery Guide"
+        }
+      },
+      {
+        "type": "Text",
+        "id": "text-intro",
+        "props": {
+          "text": "Welcome! This guide contains powerful mental math strategies that will help your child calculate faster and more confidently. These techniques are used by high-achieving students and can transform how your child thinks about numbers."
+        }
+      },
+      {
+        "type": "ExplanationBox",
+        "id": "explanation-how-to-use",
+        "props": {
+          "title": "How to Use This Guide",
+          "content": [
+            {
+              "type": "ExplanationBoxText",
+              "id": "text-how-to-1",
+              "props": {
+                "children": "This guide is designed for students in Years 3-6. Each strategy includes examples at different difficulty levels, so your child can start where they feel comfortable and progress at their own pace."
+              }
+            },
+            {
+              "type": "ExplanationBoxList",
+              "id": "list-how-to",
+              "props": {
+                "items": [
+                  "Read through each strategy together",
+                  "Practice the examples out loud",
+                  "Try the practice questions at the end",
+                  "Use these tricks in everyday situations (shopping, cooking, games)"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "Heading",
+        "id": "heading-strategy-1",
+        "props": {
+          "heading": "Strategy 1: Adding 9 (The Sneaky Shortcut)"
+        }
+      },
+      {
+        "type": "Text",
+        "id": "text-strategy-1-intro",
+        "props": {
+          "text": "Instead of adding 9, add 10 and then subtract 1. This works because 9 is just one less than 10, and adding 10 is much easier!"
+        }
+      },
+      {
+        "type": "StepByStepSolution",
+        "id": "solution-adding-9-example",
+        "props": {
+          "title": "Example: 47 + 9",
+          "steps": [
+            {
+              "id": "step-1",
+              "description": "Add 10 instead of 9",
+              "work": "\\begin{align*} 47 + 10 = 57 \\end{align*}",
+              "explanation": "Adding 10 is easy - just increase the tens digit by 1"
+            },
+            {
+              "id": "step-2",
+              "description": "Subtract 1 to correct",
+              "work": "\\begin{align*} 57 - 1 = 56 \\end{align*}",
+              "explanation": "Since we added 10 instead of 9, we need to take away 1"
+            },
+            {
+              "id": "step-3",
+              "description": "Final answer",
+              "work": "\\begin{align*} 47 + 9 = 56 \\end{align*}",
+              "explanation": "Much faster than counting up by 9!"
+            }
+          ]
+        }
+      },
+      {
+        "type": "PractiseQuestions",
+        "id": "practice-adding-9",
+        "props": {
+          "content": [
+            {
+              "type": "ShortAnswerQuestion",
+              "id": "q-add9-1",
+              "props": {
+                "questionNumber": 1,
+                "questionContent": "Use the trick to work out: 23 + 9"
+              }
+            },
+            {
+              "type": "ShortAnswerQuestion",
+              "id": "q-add9-2",
+              "props": {
+                "questionNumber": 2,
+                "questionContent": "Use the trick to work out: 68 + 9"
+              }
+            },
+            {
+              "type": "ShortAnswerQuestion",
+              "id": "q-add9-3",
+              "props": {
+                "questionNumber": 3,
+                "questionContent": "Use the trick to work out: 135 + 9"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "Heading",
+        "id": "heading-strategy-2",
+        "props": {
+          "heading": "Strategy 2: Doubling and Halving for Multiplication"
+        }
+      },
+      {
+        "type": "Text",
+        "id": "text-strategy-2-intro",
+        "props": {
+          "text": "When multiplying, if one number is even, you can make the problem easier by doubling one number and halving the other. The answer stays the same!"
+        }
+      },
+      {
+        "type": "StepByStepSolution",
+        "id": "solution-double-halve",
+        "props": {
+          "title": "Example: 16 × 5",
+          "steps": [
+            {
+              "id": "step-1",
+              "description": "Double the first number",
+              "work": "\\begin{align*} 16 \\times 2 = 32 \\end{align*}",
+              "explanation": "We double 16 to get 32"
+            },
+            {
+              "id": "step-2",
+              "description": "Halve the second number",
+              "work": "\\begin{align*} 5 \\div 2 = 2.5 \\end{align*}",
+              "explanation": "We halve 5 to get 2.5"
+            },
+            {
+              "id": "step-3",
+              "description": "Now multiply the new numbers",
+              "work": "\\begin{align*} 32 \\times 2.5 = 80 \\end{align*}",
+              "explanation": "This might still seem hard, so let's try again!"
+            },
+            {
+              "id": "step-4",
+              "description": "Better approach: Halve the 16 instead",
+              "work": "\\begin{align*} 16 \\div 2 = 8 \\end{align*}",
+              "explanation": "Halve the first number to get 8"
+            },
+            {
+              "id": "step-5",
+              "description": "Double the 5",
+              "work": "\\begin{align*} 5 \\times 2 = 10 \\end{align*}",
+              "explanation": "Double the second number to get 10"
+            },
+            {
+              "id": "step-6",
+              "description": "Multiply the easier numbers",
+              "work": "\\begin{align*} 8 \\times 10 = 80 \\end{align*}",
+              "explanation": "8 times 10 is much easier than 16 times 5!"
+            }
+          ]
+        }
+      },
+      {
+        "type": "PractiseQuestions",
+        "id": "practice-double-halve",
+        "props": {
+          "content": [
+            {
+              "type": "ShortAnswerQuestion",
+              "id": "q-dh-1",
+              "props": {
+                "questionNumber": 4,
+                "questionContent": "Use doubling and halving: 14 × 5"
+              }
+            },
+            {
+              "type": "ShortAnswerQuestion",
+              "id": "q-dh-2",
+              "props": {
+                "questionNumber": 5,
+                "questionContent": "Use doubling and halving: 18 × 5"
+              }
+            },
+            {
+              "type": "ShortAnswerQuestion",
+              "id": "q-dh-3",
+              "props": {
+                "questionNumber": 6,
+                "questionContent": "Use doubling and halving: 32 × 25"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "Heading",
+        "id": "heading-strategy-3",
+        "props": {
+          "heading": "Strategy 3: The 11 Times Table Trick"
+        }
+      },
+      {
+        "type": "Text",
+        "id": "text-strategy-3-intro",
+        "props": {
+          "text": "Multiplying by 11 is super easy once you know the pattern! For two-digit numbers, add the two digits together and put the answer in the middle."
+        }
+      },
+      {
+        "type": "StepByStepSolution",
+        "id": "solution-times-11",
+        "props": {
+          "title": "Example: 23 × 11",
+          "steps": [
+            {
+              "id": "step-1",
+              "description": "Write the first digit",
+              "work": "\\begin{align*} 2\\_ \\_ \\end{align*}",
+              "explanation": "Start with the first digit of 23, which is 2"
+            },
+            {
+              "id": "step-2",
+              "description": "Add the two digits",
+              "work": "\\begin{align*} 2 + 3 = 5 \\end{align*}",
+              "explanation": "Add the two digits of 23 together"
+            },
+            {
+              "id": "step-3",
+              "description": "Put the sum in the middle",
+              "work": "\\begin{align*} 2\\underline{5}\\_ \\end{align*}",
+              "explanation": "The 5 goes in the middle"
+            },
+            {
+              "id": "step-4",
+              "description": "Write the last digit",
+              "work": "\\begin{align*} 253 \\end{align*}",
+              "explanation": "End with the last digit of 23, which is 3. So 23 × 11 = 253!"
+            }
+          ]
+        }
+      },
+      {
+        "type": "CommonMisconception",
+        "id": "misconception-11-trick",
+        "props": {
+          "misconception": "The trick doesn't work if the two digits add up to 10 or more",
+          "reality": "It still works, but you need to carry the 1",
+          "explanation": "For example: 67 × 11. Add 6 + 7 = 13. Write down the 3 and carry the 1 to the first digit. So you get 7, then 3, then 7, but you add the carried 1 to the first 6 to get 7. The answer is 737."
+        }
+      },
+      {
+        "type": "PractiseQuestions",
+        "id": "practice-times-11",
+        "props": {
+          "content": [
+            {
+              "type": "ShortAnswerQuestion",
+              "id": "q-11-1",
+              "props": {
+                "questionNumber": 7,
+                "questionContent": "Use the trick: 34 × 11"
+              }
+            },
+            {
+              "type": "ShortAnswerQuestion",
+              "id": "q-11-2",
+              "props": {
+                "questionNumber": 8,
+                "questionContent": "Use the trick: 52 × 11"
+              }
+            },
+            {
+              "type": "ShortAnswerQuestion",
+              "id": "q-11-3",
+              "props": {
+                "questionNumber": 9,
+                "questionContent": "Challenge: 78 × 11 (Remember to carry!)"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "Heading",
+        "id": "heading-strategy-4",
+        "props": {
+          "heading": "Strategy 4: Subtracting Near Multiples of 10"
+        }
+      },
+      {
+        "type": "Text",
+        "id": "text-strategy-4-intro",
+        "props": {
+          "text": "When subtracting numbers close to 10, 20, 30, etc., it's easier to subtract the round number and then add back the difference."
+        }
+      },
+      {
+        "type": "StepByStepSolution",
+        "id": "solution-subtract-near",
+        "props": {
+          "title": "Example: 85 - 29",
+          "steps": [
+            {
+              "id": "step-1",
+              "description": "Subtract 30 instead of 29",
+              "work": "\\begin{align*} 85 - 30 = 55 \\end{align*}",
+              "explanation": "30 is close to 29 and easier to work with"
+            },
+            {
+              "id": "step-2",
+              "description": "Add back 1",
+              "work": "\\begin{align*} 55 + 1 = 56 \\end{align*}",
+              "explanation": "We took away too much by 1 (since we subtracted 30 not 29), so add it back"
+            },
+            {
+              "id": "step-3",
+              "description": "Final answer",
+              "work": "\\begin{align*} 85 - 29 = 56 \\end{align*}",
+              "explanation": "Much easier than traditional subtraction!"
+            }
+          ]
+        }
+      },
+      {
+        "type": "PractiseQuestions",
+        "id": "practice-subtract-near",
+        "props": {
+          "content": [
+            {
+              "type": "ShortAnswerQuestion",
+              "id": "q-sub-1",
+              "props": {
+                "questionNumber": 10,
+                "questionContent": "Use the trick: 73 - 19"
+              }
+            },
+            {
+              "type": "ShortAnswerQuestion",
+              "id": "q-sub-2",
+              "props": {
+                "questionNumber": 11,
+                "questionContent": "Use the trick: 156 - 49"
+              }
+            },
+            {
+              "type": "ShortAnswerQuestion",
+              "id": "q-sub-3",
+              "props": {
+                "questionNumber": 12,
+                "questionContent": "Use the trick: 234 - 98"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "Heading",
+        "id": "heading-strategy-5",
+        "props": {
+          "heading": "Strategy 5: Percentage Shortcuts"
+        }
+      },
+      {
+        "type": "Text",
+        "id": "text-strategy-5-intro",
+        "props": {
+          "text": "Finding percentages can be really quick with these tricks. Remember: 10% is the same as dividing by 10, and you can build other percentages from there!"
+        }
+      },
+      {
+        "type": "ExplanationBox",
+        "id": "explanation-percentage-tricks",
+        "props": {
+          "title": "Quick Percentage Tricks",
+          "content": [
+            {
+              "type": "ExplanationBoxList",
+              "id": "list-percentage",
+              "props": {
+                "items": [
+                  "10% = Divide by 10 (move decimal point left one place)",
+                  "5% = Half of 10%",
+                  "25% = Quarter of the number (divide by 4)",
+                  "50% = Half of the number (divide by 2)",
+                  "20% = Double 10%",
+                  "15% = 10% + 5%"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "StepByStepSolution",
+        "id": "solution-percentage",
+        "props": {
+          "title": "Example: Find 15% of $80",
+          "steps": [
+            {
+              "id": "step-1",
+              "description": "Find 10% first",
+              "work": "\\begin{align*} 10\\% \\text{ of } \\$80 = \\$8 \\end{align*}",
+              "explanation": "Divide 80 by 10 to get 8"
+            },
+            {
+              "id": "step-2",
+              "description": "Find 5% (half of 10%)",
+              "work": "\\begin{align*} 5\\% \\text{ of } \\$80 = \\$4 \\end{align*}",
+              "explanation": "Half of $8 is $4"
+            },
+            {
+              "id": "step-3",
+              "description": "Add them together",
+              "work": "\\begin{align*} \\$8 + \\$4 = \\$12 \\end{align*}",
+              "explanation": "10% + 5% = 15%, so $8 + $4 = $12"
+            }
+          ]
+        }
+      },
+      {
+        "type": "PractiseQuestions",
+        "id": "practice-percentage",
+        "props": {
+          "content": [
+            {
+              "type": "ShortAnswerQuestion",
+              "id": "q-perc-1",
+              "props": {
+                "questionNumber": 13,
+                "questionContent": "Find 10% of $60"
+              }
+            },
+            {
+              "type": "ShortAnswerQuestion",
+              "id": "q-perc-2",
+              "props": {
+                "questionNumber": 14,
+                "questionContent": "Find 25% of $120"
+              }
+            },
+            {
+              "type": "ShortAnswerQuestion",
+              "id": "q-perc-3",
+              "props": {
+                "questionNumber": 15,
+                "questionContent": "Find 15% of $200"
+              }
+            },
+            {
+              "type": "ShortAnswerQuestion",
+              "id": "q-perc-4",
+              "props": {
+                "questionNumber": 16,
+                "questionContent": "Challenge: Find 35% of $80 (Hint: Use 10% three times, then add 5%)"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "Heading",
+        "id": "heading-bonus-challenge",
+        "props": {
+          "heading": "Bonus Challenge: Mixed Practice"
+        }
+      },
+      {
+        "type": "Text",
+        "id": "text-bonus-intro",
+        "props": {
+          "text": "Now try these problems using whichever strategy works best. Think about which trick will make each problem easiest!"
+        }
+      },
+      {
+        "type": "PractiseQuestions",
+        "id": "practice-mixed",
+        "props": {
+          "content": [
+            {
+              "type": "ShortAnswerQuestion",
+              "id": "q-mix-1",
+              "props": {
+                "questionNumber": 17,
+                "questionContent": "42 + 9"
+              }
+            },
+            {
+              "type": "ShortAnswerQuestion",
+              "id": "q-mix-2",
+              "props": {
+                "questionNumber": 18,
+                "questionContent": "45 × 11"
+              }
+            },
+            {
+              "type": "ShortAnswerQuestion",
+              "id": "q-mix-3",
+              "props": {
+                "questionNumber": 19,
+                "questionContent": "124 - 39"
+              }
+            },
+            {
+              "type": "ShortAnswerQuestion",
+              "id": "q-mix-4",
+              "props": {
+                "questionNumber": 20,
+                "questionContent": "Find 20% of $150"
+              }
+            },
+            {
+              "type": "ShortAnswerQuestion",
+              "id": "q-mix-5",
+              "props": {
+                "questionNumber": 21,
+                "questionContent": "26 × 5"
+              }
+            },
+            {
+              "type": "ShortAnswerQuestion",
+              "id": "q-mix-6",
+              "props": {
+                "questionNumber": 22,
+                "questionContent": "Sarah has $95. She spends $29 on a book. How much does she have left?"
+              }
+            },
+            {
+              "type": "ShortAnswerQuestion",
+              "id": "q-mix-7",
+              "props": {
+                "questionNumber": 23,
+                "questionContent": "A shop offers 25% off a $64 game. How much is the discount?"
+              }
+            },
+            {
+              "type": "ShortAnswerQuestion",
+              "id": "q-mix-8",
+              "props": {
+                "questionNumber": 24,
+                "questionContent": "Challenge: 88 × 11"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "KeyTakeaway",
+        "id": "takeaway-final",
+        "props": {
+          "keyTakeaways": [
+            "Mental math is about finding clever shortcuts, not just memorising",
+            "Adding 9? Add 10 and subtract 1",
+            "Multiplying by 11? Add the digits and put them in the middle",
+            "Subtracting near 10, 20, 30? Subtract the round number and adjust",
+            "Percentages? Start with 10% and build from there",
+            "The more you practice these tricks, the faster and more automatic they become"
+          ]
+        }
+      },
+      {
+        "type": "Text",
+        "id": "text-closing",
+        "props": {
+          "text": "Congratulations on completing this Mental Math Mastery Guide! These strategies will help you calculate faster in class, during tests, and in everyday life. Keep practicing these tricks and they'll become second nature. Remember, the best mathematicians aren't always the ones who work the hardest – they're the ones who work the smartest!"
+        }
+      },
+      {
+        "type": "ExplanationBox",
+        "id": "explanation-next-steps",
+        "props": {
+          "title": "Want to Learn More?",
+          "content": [
+            {
+              "type": "ExplanationBoxText",
+              "id": "text-next-1",
+              "props": {
+                "children": "This guide only scratches the surface of what's possible when you understand mathematics deeply. Our expert tutors help students master not just mental math tricks, but develop genuine mathematical thinking that leads to exceptional results."
+              }
+            },
+            {
+              "type": "ExplanationBoxText",
+              "id": "text-next-2",
+              "props": {
+                "children": "If your child enjoyed these strategies and you'd like them to develop their mathematical abilities further, we'd love to help. Our personalised tutoring programs are designed specifically for high-achieving students who want to excel in mathematics."
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

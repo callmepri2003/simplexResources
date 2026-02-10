@@ -1,0 +1,61 @@
+[
+  {
+    "component": "ExampleComponent",
+    "usage": "Use this as a sample component to demonstrate structure and integration."
+  },
+  {
+    "component": "SolutionTitlePage",
+    "children": [],
+    "usage": "Creates the title page for an HSC-style exam solution bank with logo, exam title, subject, and solution guide information. Should be the first component in a solution document."
+  },
+  {
+    "component": "SolutionSection",
+    "children": [],
+    "usage": "Marks the beginning of a new section in the solution bank, corresponding to exam sections. Groups solutions by section number and title."
+  },
+  {
+    "component": "SolutionAnswer",
+    "children": [],
+    "usage": "Displays a simple answer with optional explanation for a question. Supports multi-part questions with separate answers and explanations for each part. Best for straightforward answers that don't require detailed working."
+  },
+  {
+    "component": "SolutionWorkedSteps",
+    "children": [],
+    "usage": "Provides detailed step-by-step working for a question, showing each calculation or reasoning step with descriptions and explanations. Includes a highlighted final answer. Ideal for complex mathematical problems."
+  },
+  {
+    "component": "SolutionMarkingCriteria",
+    "children": [],
+    "usage": "Displays the marking criteria and rubric for a question, breaking down how marks are allocated and what requirements must be met. Essential for understanding how answers are assessed."
+  },
+  {
+    "component": "SolutionMultipleChoiceAnswer",
+    "children": [],
+    "usage": "Shows the correct answer for a multiple choice question with explanation. Optionally includes distractor analysis explaining why incorrect options are wrong. Helps students understand common traps."
+  },
+  {
+    "component": "SolutionCommonMistakes",
+    "children": [],
+    "usage": "Highlights common errors students make on a particular question, explaining what the mistake is and how to correct it. Displayed with warning styling to draw attention."
+  },
+  {
+    "component": "SolutionKeyPoints",
+    "children": [],
+    "usage": "Summarizes key concepts, formulas, or techniques relevant to a question. Can include formula reminders. Useful for reinforcing important learning points."
+  },
+  {
+    "component": "SolutionAlternativeMethod",
+    "children": [],
+    "usage": "Presents an alternative approach to solving a question with step-by-step working. Shows students that multiple valid solution methods exist. Can include comparison notes about when each method is preferable."
+  },
+  {
+    "component": "SolutionPageBreak",
+    "children": [],
+    "usage": "Forces a page break in the solution document, optionally showing an 'End of Section Solutions' marker. Essential for print layouts and organizing solutions by section."
+  },
+  {
+    "component": "ContentCard",
+    "children": [],
+    "usage": "A versatile card container that wraps content with optional title and colored variants (default, success, warning, info, danger). Perfect for grouping related information and creating visual hierarchy. Can contain any child content."
+  }
+]

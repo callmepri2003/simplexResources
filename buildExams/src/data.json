@@ -1,0 +1,496 @@
+{
+  "type": "data",
+  "id": "year5-selective-trial-lesson",
+  "props": {
+    "content": [
+      {
+        "type": "ExamTitlePage",
+        "id": "title-001",
+        "props": {
+          "examTitle": "Year 5 Selective Schools Trial Lesson",
+          "subject": "Multi-Subject Assessment",
+          "examType": "Diagnostic & Practice",
+          "instructions": [
+            "This lesson will help us understand your current strengths and areas for growth",
+            "Take your time and show all your working",
+            "Ask questions whenever you're unsure",
+            "There are different types of questions across Reading, Mathematics, and Thinking Skills"
+          ],
+          "totalMarks": 60,
+          "sections": [
+            {
+              "section": "Reading Comprehension",
+              "marks": 15
+            },
+            {
+              "section": "Mathematical Reasoning",
+              "marks": 25
+            },
+            {
+              "section": "Thinking Skills",
+              "marks": 20
+            }
+          ]
+        }
+      },
+      {
+        "type": "ExamPageBreak",
+        "id": "pb-001",
+        "props": {}
+      },
+      {
+        "type": "ExamSection",
+        "id": "section-001",
+        "props": {
+          "sectionNumber": "Section 1",
+          "sectionTitle": "Reading Comprehension",
+          "marks": 15,
+          "instructions": "Read the passage carefully and answer all questions. Use evidence from the text to support your answers."
+        }
+      },
+      {
+        "type": "ExamQuestion",
+        "id": "q-001",
+        "props": {
+          "questionNumber": "1",
+          "questionText": "<strong>Read the following passage:</strong><br><br><em>The octopus is one of nature's most remarkable problem-solvers. Unlike most invertebrates, octopuses possess large, complex brains and exhibit behaviours that suggest genuine intelligence. They can navigate mazes, open jars to retrieve food, and even use tools—a trait once thought exclusive to vertebrates. Perhaps most astonishingly, octopuses in captivity have been observed escaping from their tanks, crawling across laboratory floors, and entering other tanks to hunt fish before returning to their own enclosures. This ability to plan and execute complex sequences of actions suggests a level of cognitive sophistication that continues to surprise researchers. However, octopuses are solitary creatures with short lifespans, typically living only 1-2 years. This means each octopus must learn survival skills independently, without the benefit of parental teaching or social learning from peers.</em>"
+        }
+      },
+      {
+        "type": "ExamQuestion",
+        "id": "q-002",
+        "props": {
+          "questionNumber": "2",
+          "questionText": "What makes the octopus's intelligence particularly remarkable according to the passage?",
+          "marks": 3,
+          "parts": [
+            {
+              "partLabel": "a",
+              "text": "Identify TWO specific examples from the text that demonstrate the octopus's problem-solving abilities.",
+              "marks": 2
+            },
+            {
+              "partLabel": "b",
+              "text": "Explain why the octopus's short lifespan makes its intelligence even more impressive.",
+              "marks": 1
+            }
+          ]
+        }
+      },
+      {
+        "type": "ExamAnswerSpace",
+        "id": "ans-001",
+        "props": {
+          "lines": 6,
+          "ruled": true
+        }
+      },
+      {
+        "type": "ExamMultipleChoice",
+        "id": "mc-001",
+        "props": {
+          "questionNumber": "3",
+          "questionText": "The word 'invertebrates' in the passage most likely refers to:",
+          "marks": 1,
+          "options": [
+            {
+              "label": "A",
+              "text": "Animals without backbones"
+            },
+            {
+              "label": "B",
+              "text": "Animals that live underwater"
+            },
+            {
+              "label": "C",
+              "text": "Animals with multiple limbs"
+            },
+            {
+              "label": "D",
+              "text": "Animals that are highly intelligent"
+            }
+          ]
+        }
+      },
+      {
+        "type": "ExamQuestion",
+        "id": "q-003",
+        "props": {
+          "questionNumber": "4",
+          "questionText": "The author states that tool use was 'once thought exclusive to vertebrates.' What does this suggest about scientific understanding?",
+          "marks": 2
+        }
+      },
+      {
+        "type": "ExamAnswerSpace",
+        "id": "ans-002",
+        "props": {
+          "lines": 4,
+          "ruled": true
+        }
+      },
+      {
+        "type": "ExamQuestion",
+        "id": "q-004",
+        "props": {
+          "questionNumber": "5",
+          "questionText": "Write a suitable headline for this passage that captures its main idea (maximum 10 words).",
+          "marks": 2
+        }
+      },
+      {
+        "type": "ExamAnswerSpace",
+        "id": "ans-003",
+        "props": {
+          "lines": 2,
+          "ruled": true
+        }
+      },
+      {
+        "type": "ExamPageBreak",
+        "id": "pb-002",
+        "props": {
+          "showEndMarker": true
+        }
+      },
+      {
+        "type": "ExamSection",
+        "id": "section-002",
+        "props": {
+          "sectionNumber": "Section 2",
+          "sectionTitle": "Mathematical Reasoning",
+          "marks": 25,
+          "instructions": "Show all working. Marks are awarded for method as well as correct answers."
+        }
+      },
+      {
+        "type": "ExamQuestion",
+        "id": "q-005",
+        "props": {
+          "questionNumber": "6",
+          "questionText": "A rectangular garden measures 24 metres by 15 metres. A path 2 metres wide is built around the <strong>outside</strong> of the garden.",
+          "marks": 4,
+          "parts": [
+            {
+              "partLabel": "a",
+              "text": "What is the area of the garden itself?",
+              "marks": 1
+            },
+            {
+              "partLabel": "b",
+              "text": "What are the dimensions of the entire area including the path?",
+              "marks": 1
+            },
+            {
+              "partLabel": "c",
+              "text": "What is the area of the path only?",
+              "marks": 2
+            }
+          ]
+        }
+      },
+      {
+        "type": "ExamAnswerSpace",
+        "id": "ans-004",
+        "props": {
+          "lines": 8,
+          "ruled": true
+        }
+      },
+      {
+        "type": "ExamQuestion",
+        "id": "q-006",
+        "props": {
+          "questionNumber": "7",
+          "questionText": "A school is organising a camp. The total cost is $4,560 and this must be shared equally among all students attending. If 48 students attend, each pays $95. However, some students drop out at the last minute.",
+          "marks": 5,
+          "parts": [
+            {
+              "partLabel": "a",
+              "text": "If only 40 students end up attending, how much will each student need to pay?",
+              "marks": 2
+            },
+            {
+              "partLabel": "b",
+              "text": "How much extra does each of the 40 students pay compared to if 48 students had attended?",
+              "marks": 2
+            },
+            {
+              "partLabel": "c",
+              "text": "What is the minimum number of students needed so that each pays no more than $100?",
+              "marks": 1
+            }
+          ]
+        }
+      },
+      {
+        "type": "ExamAnswerSpace",
+        "id": "ans-005",
+        "props": {
+          "lines": 10,
+          "ruled": true
+        }
+      },
+      {
+        "type": "ExamQuestion",
+        "id": "q-007",
+        "props": {
+          "questionNumber": "8",
+          "questionText": "Consider the number pattern: 5, 12, 19, 26, 33, ...",
+          "marks": 4,
+          "parts": [
+            {
+              "partLabel": "a",
+              "text": "What is the rule for this pattern?",
+              "marks": 1
+            },
+            {
+              "partLabel": "b",
+              "text": "What is the 10th term in this sequence?",
+              "marks": 1
+            },
+            {
+              "partLabel": "c",
+              "text": "Which term in the sequence equals 103?",
+              "marks": 2
+            }
+          ]
+        }
+      },
+      {
+        "type": "ExamAnswerSpace",
+        "id": "ans-006",
+        "props": {
+          "lines": 8,
+          "ruled": true
+        }
+      },
+      {
+        "type": "ExamQuestion",
+        "id": "q-008",
+        "props": {
+          "questionNumber": "9",
+          "questionText": "A baker makes cookies. She uses \\(\\frac{3}{4}\\) cup of sugar for each batch. If she has \\(6\\frac{1}{2}\\) cups of sugar, how many complete batches can she make, and how much sugar will be left over?",
+          "marks": 4
+        }
+      },
+      {
+        "type": "ExamAnswerSpace",
+        "id": "ans-007",
+        "props": {
+          "lines": 8,
+          "ruled": true
+        }
+      },
+      {
+        "type": "ExamMultipleChoice",
+        "id": "mc-002",
+        "props": {
+          "questionNumber": "10",
+          "questionText": "A cube has a volume of 125 cm³. What is the total surface area of the cube?",
+          "marks": 2,
+          "options": [
+            {
+              "label": "A",
+              "text": "25 cm²"
+            },
+            {
+              "label": "B",
+              "text": "75 cm²"
+            },
+            {
+              "label": "C",
+              "text": "125 cm²"
+            },
+            {
+              "label": "D",
+              "text": "150 cm²"
+            }
+          ]
+        }
+      },
+      {
+        "type": "ExamQuestion",
+        "id": "q-009",
+        "props": {
+          "questionNumber": "11",
+          "questionText": "The average of five numbers is 36. Four of the numbers are 28, 35, 42, and 31. What is the fifth number?",
+          "marks": 3
+        }
+      },
+      {
+        "type": "ExamAnswerSpace",
+        "id": "ans-008",
+        "props": {
+          "lines": 6,
+          "ruled": true
+        }
+      },
+      {
+        "type": "ExamQuestion",
+        "id": "q-010",
+        "props": {
+          "questionNumber": "12",
+          "questionText": "A train leaves Sydney at 08:45 and arrives in Newcastle at 11:20. The distance is 140 km. What is the average speed of the train in km/h? Give your answer to the nearest whole number.",
+          "marks": 3
+        }
+      },
+      {
+        "type": "ExamAnswerSpace",
+        "id": "ans-009",
+        "props": {
+          "lines": 6,
+          "ruled": true
+        }
+      },
+      {
+        "type": "ExamPageBreak",
+        "id": "pb-003",
+        "props": {
+          "showEndMarker": true
+        }
+      },
+      {
+        "type": "ExamSection",
+        "id": "section-003",
+        "props": {
+          "sectionNumber": "Section 3",
+          "sectionTitle": "Thinking Skills",
+          "marks": 20,
+          "instructions": "These questions test your logical reasoning and problem-solving abilities. Think carefully and explain your reasoning clearly."
+        }
+      },
+      {
+        "type": "ExamQuestion",
+        "id": "q-011",
+        "props": {
+          "questionNumber": "13",
+          "questionText": "Five friends—Alex, Beth, Carlos, Dana, and Emma—are standing in a line. We know:<br>• Alex is not at either end<br>• Beth is standing immediately next to Carlos<br>• Dana is somewhere to the left of Emma<br>• Carlos is at one of the ends<br><br>What is the order of the five friends from left to right?",
+          "marks": 4
+        }
+      },
+      {
+        "type": "ExamAnswerSpace",
+        "id": "ans-010",
+        "props": {
+          "lines": 6,
+          "ruled": true
+        }
+      },
+      {
+        "type": "ExamQuestion",
+        "id": "q-012",
+        "props": {
+          "questionNumber": "14",
+          "questionText": "Complete the analogy: <strong>Palette</strong> is to <strong>painter</strong> as <strong>keyboard</strong> is to _______",
+          "marks": 2,
+          "parts": [
+            {
+              "partLabel": "a",
+              "text": "What word completes the analogy?",
+              "marks": 1
+            },
+            {
+              "partLabel": "b",
+              "text": "Explain the relationship that makes this analogy work.",
+              "marks": 1
+            }
+          ]
+        }
+      },
+      {
+        "type": "ExamAnswerSpace",
+        "id": "ans-011",
+        "props": {
+          "lines": 4,
+          "ruled": true
+        }
+      },
+      {
+        "type": "ExamQuestion",
+        "id": "q-013",
+        "props": {
+          "questionNumber": "15",
+          "questionText": "A farmer has chickens and rabbits. In total, there are 25 heads and 68 legs. How many chickens and how many rabbits does the farmer have?",
+          "marks": 5
+        }
+      },
+      {
+        "type": "ExamAnswerSpace",
+        "id": "ans-012",
+        "props": {
+          "lines": 10,
+          "ruled": true
+        }
+      },
+      {
+        "type": "ExamQuestion",
+        "id": "q-014",
+        "props": {
+          "questionNumber": "16",
+          "questionText": "Look at this number sequence: 2, 6, 12, 20, 30, ?<br><br>What is the next number and what is the pattern?",
+          "marks": 3
+        }
+      },
+      {
+        "type": "ExamAnswerSpace",
+        "id": "ans-013",
+        "props": {
+          "lines": 6,
+          "ruled": true
+        }
+      },
+      {
+        "type": "ExamMultipleChoice",
+        "id": "mc-003",
+        "props": {
+          "questionNumber": "17",
+          "questionText": "If all Glorps are Snibbles, and some Snibbles are Quacks, which statement MUST be true?",
+          "marks": 2,
+          "options": [
+            {
+              "label": "A",
+              "text": "All Quacks are Glorps"
+            },
+            {
+              "label": "B",
+              "text": "Some Glorps are Quacks"
+            },
+            {
+              "label": "C",
+              "text": "All Glorps are Snibbles"
+            },
+            {
+              "label": "D",
+              "text": "No Glorps are Quacks"
+            }
+          ]
+        }
+      },
+      {
+        "type": "ExamQuestion",
+        "id": "q-015",
+        "props": {
+          "questionNumber": "18",
+          "questionText": "A bookshelf has 5 shelves. The number of books on each shelf follows this pattern:<br>• The middle shelf has the most books (24 books)<br>• Each shelf above or below the middle has 4 fewer books than the one closer to the middle<br><br>How many books are on the bookshelf in total?",
+          "marks": 4
+        }
+      },
+      {
+        "type": "ExamAnswerSpace",
+        "id": "ans-014",
+        "props": {
+          "lines": 8,
+          "ruled": true
+        }
+      },
+      {
+        "type": "ExamPageBreak",
+        "id": "pb-004",
+        "props": {
+          "showEndMarker": true
+        }
+      }
+    ]
+  }
+}

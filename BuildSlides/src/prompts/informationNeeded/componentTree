@@ -1,0 +1,36 @@
+[
+  {
+    "Slide": [
+      { "SlideTitle": [] },
+      { "SlideContent": [
+        { "SlideBulletList": [] },
+        { "SlideImage": [] },
+        { "SlideTwoColumn": [] },
+        { "SlideCallout": [] },
+        { "SlideCard": [] },
+        { "SlideAccentBar": [] },
+        { "SlideIconBox": [] },
+        { "SlideGradientBox": [] },
+        { "SlideNumberedStep": [] },
+        { "SlideVisualDivider": [] },
+        { "SlideFeatureBox": [] },
+        { "SlideDecorativeCorner": [] },
+        { "SlideQuoteBox": [] }
+      ]},
+      { "SlideBulletList": [] },
+      { "SlideImage": [] },
+      { "SlideTwoColumn": [] },
+      { "SlideCallout": [] },
+      { "SlideCard": [] },
+      { "SlideAccentBar": [] },
+      { "SlideIconBox": [] },
+      { "SlideGradientBox": [] },
+      { "SlideNumberedStep": [] },
+      { "SlideVisualDivider": [] },
+      { "SlideFeatureBox": [] },
+      { "SlideDecorativeCorner": [] },
+      { "SlideQuoteBox": [] }
+    ],
+    "usage": "Main container for each presentation slide. Can contain titles, content areas, and direct content components. Supports custom backgrounds, padding, and styling. Now includes enhanced layout and visual components for better aesthetics."
+  }
+]

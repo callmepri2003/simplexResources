@@ -1,0 +1,19 @@
+/* components/CoverPage.css */
+
+.cover-logo {
+  transition: transform 0.3s ease;
+}
+
+.cover-logo:hover {
+  transform: scale(1.05);
+}
+
+.math-decoration {
+  letter-spacing: 1rem;
+  user-select: none;
+  font-family: 'Times New Roman', serif;
+}
+
+.cover-content {
+  z-index: 1;
+}

@@ -1,0 +1,54 @@
+:root {
+  --primary-color: #004aad;
+  --secondary-color: #e8f1ff;
+  --accent-color: #ff6b35;
+  --text-color: #2d3748;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: var(--text-color);
+  line-height: 1.6;
+  background: white;
+}
+
+.main-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+h1 {
+  color: var(--primary-color);
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  border-bottom: 3px solid var(--primary-color);
+  padding-bottom: 0.5rem;
+}
+
+.slide-container {
+  width: 100%;
+  min-height: 500px;
+  page-break-after: always;
+  break-after: page;
+  position: relative;
+  overflow: hidden;
+}
+
+.slide-content {
+  width: 100%;
+}
+
+.slide-image img {
+  max-height: 600px;
+  object-fit: contain;
+}
+
+@media print {
+  .slide-container {
+    height: 100vh;
+    page-break-after: always;
+  }
+}

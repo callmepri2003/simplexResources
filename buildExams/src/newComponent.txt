@@ -1,0 +1,5 @@
+To add a new component:
+1. Define it
+2. Append the schema to schema.js
+3. Append it to the componetTree file
+4. Append it to the componentMap

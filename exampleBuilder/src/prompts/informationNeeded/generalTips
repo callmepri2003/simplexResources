@@ -1,0 +1,10 @@
+- don't rely on GeneralPurpose component too much as it is prone to formatting errors, and if you use it just make sure its super basic so theres not much opportunity for error
+- this is aimed at high achievers to all questions should be on the difficult end of the year level
+- volume is a huge factor for parents, they don't like short homework/resources
+- the 'workshop', 'homework', 'inclass', '2 hours' all this stuff is backend stuff and should be abstracted from the resources.
+- keep the headings succint, because they're large
+- Each document's first heading should be which week it is like 'week 1', 'week 2', etc
+- Use Australian spellings
+- 2 headings shouldn't go next to each other
+- If you are generating homework as opposed to class work, make sure there's enough volume of questions, quantity matters just as much as quality, think about other tutoring resources.
+- Always provide LaTeX as a single-line, JSON-escaped string wrapped in \\begin{align*} ... \\end{align*} with all backslashes doubled (\\). Avoid using $$, \(, or multiline LaTeX, as only this format works reliably.

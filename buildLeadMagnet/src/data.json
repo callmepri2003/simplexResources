@@ -1,0 +1,19 @@
+{
+  "type": "data",
+  "id": "year7-math-resource",
+  "props": {
+    "content": [
+      {
+        "type": "CoverPage",
+        "id": "cover-1",
+        "props": {
+          "yearLevel": "Year 7",
+          "subject": "Mathematics",
+          "subtitle": "Complete Self-Study Resource for Parents & Students",
+          "academicYear": "2025 Academic Year",
+          "logoAlt": "Excellence Tutoring Centre"
+        }
+      }
+    ]
+  }
+}

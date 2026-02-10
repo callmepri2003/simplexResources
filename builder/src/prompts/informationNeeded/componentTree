@@ -1,0 +1,99 @@
+[
+  {
+    "ExplanationBox": [
+      {
+        "ExplanationBoxText": []
+      },
+      {
+        "ExplanationBoxFormula": []
+      },
+      {
+        "ExplanationBoxList": []
+      }
+    ],
+    "useage": "Use to highlight important parts of the explanation."
+  },
+  {
+    "KeyTakeaway": [],
+    "useage": "Use to highlight quick important dot points."
+  },
+  {
+    "PractiseQuestions": [
+      {
+        "MultipleChoiceQuestion": []
+      },
+      {
+        "FillInTheBlanksQuestion": []
+      },
+      {
+        "ShortAnswerQuestion": []
+      },
+      {
+        "GroupedSubquestionsGrid": []
+      }
+    ]
+  },
+  {
+    "GeneralPurpose": [],
+    "useage": "Used in cases that call for components that aren't offered."
+  },
+  {
+    "Heading": []
+  },
+  {
+    "Text": [],
+    "useage": "Use this mainly for explanations. This is the default text."
+  },
+  {
+    "StepByStepSolution": [],
+    "usage": "Use to show step-by-step problem solving with explanations. Each step can include the mathematical work and reasoning behind it. Perfect for demonstrating equation solving, algebraic manipulation, or multi-step calculations where students need to follow the logical progression."
+  },
+  {
+    "FormulaCard": [],
+    "usage": "Use to display important formulas with explanations, variable definitions, usage context, and practical examples. Perfect for mathematical equations, scientific formulas, or any formula that students need to understand and apply."
+  },
+  {
+    "WeeklyTitle": [],
+    "usage": "Use at the very beginning of each week's content. Creates a professional full-page introduction with week number, title, description, learning objectives, and important information for both parents and students. Should only appear once per week and never be repeated within the same week's content."
+  },
+  {
+    "TermTitlePage": [],
+    "usage": "Use at the very beginning of each 10-week term (I will explicitly prompt it). Creates a comprehensive, professional title page with term overview, weekly breakdown, learning objectives, assessment information, and important dates. Should only appear once per term - typically used every 10 weeks to introduce the entire term's learning journey."
+  },
+  {
+    "ContentPlaceholder": [],
+    "usage": "Use when content requires manual creation (diagrams, complex images, interactive elements). Provides clear visual indication that human intervention is needed and includes instructions for easy replacement with actual content."
+  },
+  {
+    "Angle": [],
+    "usage": "Use to display geometric angles with precise visual representation. Supports various customization options including size, color, and visibility of components (rays, arc, label). Replaces the unreliable GeneralPurpose component for angle visualization with consistent, scalable SVG rendering."
+  },
+  {
+    "RetrievalPractice": [],
+    "usage": "For activating prior knowledge at the start of a lesson with 2-3 quick questions from previous weeks"
+  },
+  {
+    "CommonMisconception": [],
+    "usage": "Highlight typical errors with explanations, showing what students often think vs what is actually correct"
+  },
+  {
+    "WorkedErrorExample": [],
+    "usage": "Show incorrect solution with annotations explaining the mistakes, different from StepByStepSolution which shows correct method"
+  },
+  {
+    "MetacognitivePrompt": [],
+    "usage": "Reflection prompts like 'What strategy will you use?' or 'Why did you choose this method?'"
+  },
+  {
+    "ConceptComparison": [],
+    "usage": "Side-by-side comparison of related concepts with tables showing similarities and differences"
+  },
+  {
+    "MultipleRepresentation": [],
+    "usage": "Show same concept in numerical, graphical, algebraic, and verbal forms simultaneously"
+  },
+  {
+    "HomeworkComment": [],
+    "usage": "Space for tutor to write mark, comment, and sign off on homework"
+  }
+]
