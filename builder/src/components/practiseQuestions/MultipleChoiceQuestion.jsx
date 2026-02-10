@@ -8,10 +8,12 @@ export default function MultipleChoiceQuestion({ props }) {
       <div className="mcq-options">
         <div className="row">
           {props.options.map((option, index) => (
-            <div className="mcq-option col-6" key={index}>
-              {option}
-            </div>
-          ))}
+          <label className="col-6 paper-mcq-option" key={index}>
+            <input type="radio" name={`q${props.questionNumber}`} />
+            <span className="bubble" />
+            <span className="option-text">{option}</span>
+          </label>
+        ))}
         </div>
       </div>
     </div>

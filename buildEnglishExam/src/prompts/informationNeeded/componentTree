@@ -1,0 +1,46 @@
+[
+  {
+    "ExamHeader": [],
+    "usage": "Top-level component for exam header with title, student details, and time allowed"
+  },
+  {
+    "ExamSection": [],
+    "usage": "Section divider with title, instructions, and total marks for each exam section"
+  },
+  {
+    "ReadingPassage": [],
+    "usage": "Display reading comprehension passages with optional image, title, and author"
+  },
+  {
+    "ComprehensionQuestion": [],
+    "usage": "Comprehension questions with optional sub-questions and mark allocation"
+  },
+  {
+    "WritingLines": [],
+    "usage": "Lined writing space with configurable line count and height for student responses"
+  },
+  {
+    "MultipleChoiceExam": [],
+    "usage": "Multiple choice questions with options labeled A, B, C, D, etc."
+  },
+  {
+    "VocabularyQuestion": [],
+    "usage": "Vocabulary questions with word definition, context, and mark allocation"
+  },
+  {
+    "GrammarQuestion": [],
+    "usage": "Grammar questions with sentence examples and specific instructions"
+  },
+  {
+    "WritingPrompt": [],
+    "usage": "Creative or persuasive writing prompts with requirements, stimulus image, and word count"
+  },
+  {
+    "ImagePlaceholder": [],
+    "usage": "Insert images or placeholders for visual content with captions"
+  },
+  {
+    "AnswerBox": [],
+    "usage": "Empty bordered box for student answers with configurable height"
+  }
+]

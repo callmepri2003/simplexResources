@@ -1,0 +1,1118 @@
+{
+  "type": "data",
+  "id": "year3-assessment-001",
+  "props": {
+    "content": [
+      {
+        "type": "Heading",
+        "id": "heading-001",
+        "props": {
+          "heading": "Year 3 Mathematics Assessment"
+        }
+      },
+      {
+        "type": "Text",
+        "id": "text-001",
+        "props": {
+          "text": "Time allowed: 45 minutes | Total marks: 50"
+        }
+      },
+      {
+        "type": "Text",
+        "id": "text-002",
+        "props": {
+          "text": "Instructions: Answer all questions in the spaces provided. Show your working for calculation questions. You may use scrap paper for rough work."
+        }
+      },
+      {
+        "type": "Heading",
+        "id": "heading-002",
+        "props": {
+          "heading": "Section A: Number and Place Value"
+        }
+      },
+      {
+        "type": "PractiseQuestions",
+        "id": "practice-001",
+        "props": {
+          "content": [
+            {
+              "type": "MultipleChoiceQuestion",
+              "id": "mcq-001",
+              "props": {
+                "questionNumber": 1,
+                "questionContent": "What is the value of the digit 7 in the number 4,738? (1 mark)",
+                "options": [
+                  "7",
+                  "70",
+                  "700",
+                  "7,000"
+                ]
+              }
+            },
+            {
+              "type": "ShortAnswerQuestion",
+              "id": "saq-001",
+              "props": {
+                "questionNumber": 2,
+                "questionContent": "Write the number five thousand, two hundred and sixteen in numerals. (1 mark)"
+              }
+            },
+            {
+              "type": "ShortAnswerQuestion",
+              "id": "saq-002",
+              "props": {
+                "questionNumber": 3,
+                "questionContent": "Round 3,847 to the nearest hundred. (1 mark)"
+              }
+            },
+            {
+              "type": "MultipleChoiceQuestion",
+              "id": "mcq-002",
+              "props": {
+                "questionNumber": 4,
+                "questionContent": "Which number comes exactly halfway between 2,400 and 2,600? (1 mark)",
+                "options": [
+                  "2,450",
+                  "2,500",
+                  "2,550",
+                  "2,480"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "Heading",
+        "id": "heading-003",
+        "props": {
+          "heading": "Section B: Addition and Subtraction"
+        }
+      },
+      {
+        "type": "PractiseQuestions",
+        "id": "practice-002",
+        "props": {
+          "content": [
+            {
+              "type": "ShortAnswerQuestion",
+              "id": "saq-003",
+              "props": {
+                "questionNumber": 5,
+                "questionContent": "Calculate: 3,456 + 2,789 = _____ (Show your working) (2 marks)"
+              }
+            },
+            {
+              "type": "ShortAnswerQuestion",
+              "id": "saq-004",
+              "props": {
+                "questionNumber": 6,
+                "questionContent": "Calculate: 5,003 - 1,847 = _____ (Show your working) (2 marks)"
+              }
+            },
+            {
+              "type": "ShortAnswerQuestion",
+              "id": "saq-005",
+              "props": {
+                "questionNumber": 7,
+                "questionContent": "Sarah had $4,250 in her savings account. She withdrew $1,685 to buy a computer. How much money does she have left? (2 marks)"
+              }
+            },
+            {
+              "type": "ShortAnswerQuestion",
+              "id": "saq-006",
+              "props": {
+                "questionNumber": 8,
+                "questionContent": "A library had 2,348 books. They received donations of 876 books and 1,254 books. How many books does the library have now? (2 marks)"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "Heading",
+        "id": "heading-004",
+        "props": {
+          "heading": "Section C: Multiplication and Division"
+        }
+      },
+      {
+        "type": "PractiseQuestions",
+        "id": "practice-003",
+        "props": {
+          "content": [
+            {
+              "type": "GroupedSubquestionsGrid",
+              "id": "gsq-001",
+              "props": {
+                "questionNumber": 9,
+                "questionContent": "Solve these multiplication problems: (4 marks - 1 mark each)",
+                "subquestions": [
+                  {
+                    "prompt": "7 × 8 = _____"
+                  },
+                  {
+                    "prompt": "9 × 6 = _____"
+                  },
+                  {
+                    "prompt": "12 × 4 = _____"
+                  },
+                  {
+                    "prompt": "8 × 7 = _____"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "GroupedSubquestionsGrid",
+              "id": "gsq-002",
+              "props": {
+                "questionNumber": 10,
+                "questionContent": "Solve these division problems: (4 marks - 1 mark each)",
+                "subquestions": [
+                  {
+                    "prompt": "72 ÷ 8 = _____"
+                  },
+                  {
+                    "prompt": "63 ÷ 9 = _____"
+                  },
+                  {
+                    "prompt": "45 ÷ 5 = _____"
+                  },
+                  {
+                    "prompt": "56 ÷ 7 = _____"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "ShortAnswerQuestion",
+              "id": "saq-007",
+              "props": {
+                "questionNumber": 11,
+                "questionContent": "A bakery makes 8 trays of muffins each day. Each tray holds 12 muffins. How many muffins does the bakery make in one day? (2 marks)"
+              }
+            },
+            {
+              "type": "ShortAnswerQuestion",
+              "id": "saq-008",
+              "props": {
+                "questionNumber": 12,
+                "questionContent": "There are 84 students going on a school excursion. If each bus holds 7 students, how many buses are needed? (2 marks)"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "Heading",
+        "id": "heading-005",
+        "props": {
+          "heading": "Section D: Fractions"
+        }
+      },
+      {
+        "type": "PractiseQuestions",
+        "id": "practice-004",
+        "props": {
+          "content": [
+            {
+              "type": "MultipleChoiceQuestion",
+              "id": "mcq-003",
+              "props": {
+                "questionNumber": 13,
+                "questionContent": "Which fraction is equivalent to one-half? (1 mark)",
+                "options": [
+                  "2/6",
+                  "3/6",
+                  "4/6",
+                  "5/6"
+                ]
+              }
+            },
+            {
+              "type": "MultipleChoiceQuestion",
+              "id": "mcq-004",
+              "props": {
+                "questionNumber": 14,
+                "questionContent": "Which fraction is greater: 2/3 or 3/4? (1 mark)",
+                "options": [
+                  "2/3",
+                  "3/4",
+                  "They are equal",
+                  "Cannot be compared"
+                ]
+              }
+            },
+            {
+              "type": "ShortAnswerQuestion",
+              "id": "saq-009",
+              "props": {
+                "questionNumber": 15,
+                "questionContent": "A chocolate bar has 12 pieces. Emma ate 1/4 of the chocolate bar. How many pieces did she eat? (2 marks)"
+              }
+            },
+            {
+              "type": "ShortAnswerQuestion",
+              "id": "saq-010",
+              "props": {
+                "questionNumber": 16,
+                "questionContent": "Write the mixed number for: 2 wholes and 3/5. (1 mark)"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "Heading",
+        "id": "heading-006",
+        "props": {
+          "heading": "Section E: Measurement"
+        }
+      },
+      {
+        "type": "PractiseQuestions",
+        "id": "practice-005",
+        "props": {
+          "content": [
+            {
+              "type": "MultipleChoiceQuestion",
+              "id": "mcq-005",
+              "props": {
+                "questionNumber": 17,
+                "questionContent": "How many millilitres are in 3 litres? (1 mark)",
+                "options": [
+                  "30 mL",
+                  "300 mL",
+                  "3,000 mL",
+                  "30,000 mL"
+                ]
+              }
+            },
+            {
+              "type": "ShortAnswerQuestion",
+              "id": "saq-011",
+              "props": {
+                "questionNumber": 18,
+                "questionContent": "Convert 4 kilograms and 250 grams to grams. _____ g (1 mark)"
+              }
+            },
+            {
+              "type": "ShortAnswerQuestion",
+              "id": "saq-012",
+              "props": {
+                "questionNumber": 19,
+                "questionContent": "A rectangle has a length of 12 cm and a width of 7 cm. What is its perimeter? (2 marks)"
+              }
+            },
+            {
+              "type": "ShortAnswerQuestion",
+              "id": "saq-013",
+              "props": {
+                "questionNumber": 20,
+                "questionContent": "A movie started at 2:45 pm and finished at 4:20 pm. How long was the movie? (2 marks)"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "Heading",
+        "id": "heading-007",
+        "props": {
+          "heading": "Section F: Money"
+        }
+      },
+      {
+        "type": "PractiseQuestions",
+        "id": "practice-006",
+        "props": {
+          "content": [
+            {
+              "type": "ShortAnswerQuestion",
+              "id": "saq-014",
+              "props": {
+                "questionNumber": 21,
+                "questionContent": "Tom bought a toy for $12.75 and paid with a $20 note. How much change did he receive? (2 marks)"
+              }
+            },
+            {
+              "type": "ShortAnswerQuestion",
+              "id": "saq-015",
+              "props": {
+                "questionNumber": 22,
+                "questionContent": "Lucy is saving for a $45 game. She has saved $18.50 so far. How much more does she need to save? (2 marks)"
+              }
+            },
+            {
+              "type": "MultipleChoiceQuestion",
+              "id": "mcq-006",
+              "props": {
+                "questionNumber": 23,
+                "questionContent": "Which amount is closest to $50? (1 mark)",
+                "options": [
+                  "$48.25",
+                  "$52.10",
+                  "$49.85",
+                  "$45.90"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "Heading",
+        "id": "heading-008",
+        "props": {
+          "heading": "Section G: Geometry and Shapes"
+        }
+      },
+      {
+        "type": "PractiseQuestions",
+        "id": "practice-007",
+        "props": {
+          "content": [
+            {
+              "type": "MultipleChoiceQuestion",
+              "id": "mcq-007",
+              "props": {
+                "questionNumber": 24,
+                "questionContent": "How many sides does a hexagon have? (1 mark)",
+                "options": [
+                  "5",
+                  "6",
+                  "7",
+                  "8"
+                ]
+              }
+            },
+            {
+              "type": "MultipleChoiceQuestion",
+              "id": "mcq-008",
+              "props": {
+                "questionNumber": 25,
+                "questionContent": "Which of these angles is greater than 90 degrees but less than 180 degrees? (1 mark)",
+                "options": [
+                  "Acute angle",
+                  "Right angle",
+                  "Obtuse angle",
+                  "Straight angle"
+                ]
+              }
+            },
+            {
+              "type": "ShortAnswerQuestion",
+              "id": "saq-016",
+              "props": {
+                "questionNumber": 26,
+                "questionContent": "Name a 3D shape that has 6 square faces. (1 mark)"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "Heading",
+        "id": "heading-009",
+        "props": {
+          "heading": "Section H: Data and Probability"
+        }
+      },
+      {
+        "type": "Text",
+        "id": "text-003",
+        "props": {
+          "text": "The table below shows the favourite fruits of students in Year 3:"
+        }
+      },
+      {
+        "type": "GeneralPurpose",
+        "id": "gp-001",
+        "props": {
+          "componentName": "DataTable",
+          "html": "<table style='width:100%; border-collapse: collapse; margin: 20px 0;'><thead><tr style='background-color: #f0f0f0;'><th style='border: 1px solid #ddd; padding: 12px; text-align: left;'>Fruit</th><th style='border: 1px solid #ddd; padding: 12px; text-align: left;'>Number of Students</th></tr></thead><tbody><tr><td style='border: 1px solid #ddd; padding: 10px;'>Apples</td><td style='border: 1px solid #ddd; padding: 10px;'>12</td></tr><tr><td style='border: 1px solid #ddd; padding: 10px;'>Bananas</td><td style='border: 1px solid #ddd; padding: 10px;'>8</td></tr><tr><td style='border: 1px solid #ddd; padding: 10px;'>Oranges</td><td style='border: 1px solid #ddd; padding: 10px;'>15</td></tr><tr><td style='border: 1px solid #ddd; padding: 10px;'>Grapes</td><td style='border: 1px solid #ddd; padding: 10px;'>5</td></tr></tbody></table>"
+        }
+      },
+      {
+        "type": "PractiseQuestions",
+        "id": "practice-008",
+        "props": {
+          "content": [
+            {
+              "type": "ShortAnswerQuestion",
+              "id": "saq-017",
+              "props": {
+                "questionNumber": 27,
+                "questionContent": "How many more students chose oranges than bananas? (1 mark)"
+              }
+            },
+            {
+              "type": "ShortAnswerQuestion",
+              "id": "saq-018",
+              "props": {
+                "questionNumber": 28,
+                "questionContent": "What is the total number of students surveyed? (1 mark)"
+              }
+            },
+            {
+              "type": "MultipleChoiceQuestion",
+              "id": "mcq-009",
+              "props": {
+                "questionNumber": 29,
+                "questionContent": "Which fruit was the least popular? (1 mark)",
+                "options": [
+                  "Apples",
+                  "Bananas",
+                  "Oranges",
+                  "Grapes"
+                ]
+              }
+            },
+            {
+              "type": "ShortAnswerQuestion",
+              "id": "saq-019",
+              "props": {
+                "questionNumber": 30,
+                "questionContent": "If you spin a spinner with 4 equal sections coloured red, blue, green and yellow, what is the chance of landing on blue? Write your answer as a fraction. (1 mark)"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "Heading",
+        "id": "heading-010",
+        "props": {
+          "heading": "Section I: Patterns and Algebra"
+        }
+      },
+      {
+        "type": "PractiseQuestions",
+        "id": "practice-009",
+        "props": {
+          "content": [
+            {
+              "type": "ShortAnswerQuestion",
+              "id": "saq-020",
+              "props": {
+                "questionNumber": 31,
+                "questionContent": "Complete the pattern: 5, 10, 15, 20, _____, _____, _____ (1 mark)"
+              }
+            },
+            {
+              "type": "ShortAnswerQuestion",
+              "id": "saq-021",
+              "props": {
+                "questionNumber": 32,
+                "questionContent": "What is the rule for this pattern: 3, 7, 11, 15, 19? (1 mark)"
+              }
+            },
+            {
+              "type": "ShortAnswerQuestion",
+              "id": "saq-022",
+              "props": {
+                "questionNumber": 33,
+                "questionContent": "If ◼ + 8 = 23, what number does ◼ represent? (1 mark)"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "Heading",
+        "id": "heading-011",
+        "props": {
+          "heading": "Parent Information: Understanding Your Child's Results"
+        }
+      },
+      {
+        "type": "Text",
+        "id": "text-004",
+        "props": {
+          "text": "This assessment comprehensively evaluates your child's mathematical understanding across all key areas of the Year 3 Australian Curriculum. The total possible score is 50 marks. Below you will find detailed information about how your child's performance compares to Year 3 students nationally."
+        }
+      },
+      {
+        "type": "ExplanationBox",
+        "id": "eb-001",
+        "props": {
+          "title": "Overall Performance Bands",
+          "content": [
+            {
+              "type": "ExplanationBoxText",
+              "id": "ebt-001",
+              "props": {
+                "children": "The following bands indicate where your child sits relative to Year 3 students across Australia:"
+              }
+            },
+            {
+              "type": "ExplanationBoxList",
+              "id": "ebl-001",
+              "props": {
+                "items": [
+                  "45-50 marks (90-100%): EXCEPTIONAL - Top 10% of Year 3 students. Your child demonstrates advanced mathematical thinking well beyond year level expectations. They show mastery across all domains and are ready for extension work.",
+                  "40-44 marks (80-89%): EXCELLENT - Top 25% of Year 3 students. Your child has a strong grasp of Year 3 concepts and consistently applies mathematical reasoning. They are performing above the expected standard.",
+                  "33-39 marks (66-79%): PROFICIENT - Top 50% of Year 3 students. Your child demonstrates solid understanding of Year 3 mathematics and is working at the expected standard for their year level.",
+                  "25-32 marks (50-65%): DEVELOPING - Middle 50% of Year 3 students. Your child shows developing understanding but needs support in some areas to reach the expected standard. Targeted practice will help consolidate skills.",
+                  "18-24 marks (36-49%): EMERGING - Bottom 30% of Year 3 students. Your child is working towards the expected standard and requires significant support to build foundational skills across multiple areas.",
+                  "0-17 marks (0-35%): BEGINNING - Bottom 10% of Year 3 students. Your child needs intensive support and intervention to develop essential Year 3 mathematical concepts. Additional one-on-one assistance is strongly recommended."
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "Heading",
+        "id": "heading-012",
+        "props": {
+          "heading": "Detailed Strand Analysis"
+        }
+      },
+      {
+        "type": "Text",
+        "id": "text-005",
+        "props": {
+          "text": "Understanding performance by mathematical strand helps identify specific strengths and areas for growth:"
+        }
+      },
+      {
+        "type": "ExplanationBox",
+        "id": "eb-002",
+        "props": {
+          "title": "Number and Place Value (Questions 1-4, 4 marks total)",
+          "content": [
+            {
+              "type": "ExplanationBoxText",
+              "id": "ebt-002",
+              "props": {
+                "children": "This section assesses understanding of four and five-digit numbers, place value, rounding, and number ordering."
+              }
+            },
+            {
+              "type": "ExplanationBoxList",
+              "id": "ebl-002",
+              "props": {
+                "items": [
+                  "4 marks (100%): Exceptional - Top 15% nationally. Strong place value understanding.",
+                  "3 marks (75%): Proficient - Top 40% nationally. Solid grasp of concepts.",
+                  "2 marks (50%): Developing - Middle 50% nationally. Basic understanding present.",
+                  "0-1 marks (0-25%): Needs support - Bottom 30% nationally. Requires place value intervention."
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "ExplanationBox",
+        "id": "eb-003",
+        "props": {
+          "title": "Addition and Subtraction (Questions 5-8, 8 marks total)",
+          "content": [
+            {
+              "type": "ExplanationBoxText",
+              "id": "ebt-003",
+              "props": {
+                "children": "This section evaluates computational fluency with four-digit addition and subtraction, including problem-solving applications."
+              }
+            },
+            {
+              "type": "ExplanationBoxList",
+              "id": "ebl-003",
+              "props": {
+                "items": [
+                  "7-8 marks (88-100%): Exceptional - Top 12% nationally. Highly accurate with efficient strategies.",
+                  "6 marks (75%): Proficient - Top 35% nationally. Generally accurate with minor errors.",
+                  "4-5 marks (50-63%): Developing - Middle 50% nationally. Developing accuracy and strategies.",
+                  "0-3 marks (0-38%): Needs support - Bottom 35% nationally. Requires basic operation support."
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "ExplanationBox",
+        "id": "eb-004",
+        "props": {
+          "title": "Multiplication and Division (Questions 9-12, 12 marks total)",
+          "content": [
+            {
+              "type": "ExplanationBoxText",
+              "id": "ebt-004",
+              "props": {
+                "children": "This section tests multiplication and division fact fluency up to 10 × 10, and application in word problems."
+              }
+            },
+            {
+              "type": "ExplanationBoxList",
+              "id": "ebl-004",
+              "props": {
+                "items": [
+                  "11-12 marks (92-100%): Exceptional - Top 10% nationally. Excellent recall and application.",
+                  "9-10 marks (75-83%): Proficient - Top 30% nationally. Good fact knowledge and problem-solving.",
+                  "6-8 marks (50-67%): Developing - Middle 50% nationally. Developing fluency with facts.",
+                  "0-5 marks (0-42%): Needs support - Bottom 40% nationally. Requires times tables practice."
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "ExplanationBox",
+        "id": "eb-005",
+        "props": {
+          "title": "Fractions (Questions 13-16, 5 marks total)",
+          "content": [
+            {
+              "type": "ExplanationBoxText",
+              "id": "ebt-005",
+              "props": {
+                "children": "This section assesses understanding of unit fractions, equivalent fractions, comparing fractions, and mixed numbers."
+              }
+            },
+            {
+              "type": "ExplanationBoxList",
+              "id": "ebl-005",
+              "props": {
+                "items": [
+                  "5 marks (100%): Exceptional - Top 15% nationally. Strong conceptual understanding of fractions.",
+                  "4 marks (80%): Proficient - Top 35% nationally. Good fraction sense and comparison skills.",
+                  "3 marks (60%): Developing - Middle 50% nationally. Basic fraction concepts understood.",
+                  "0-2 marks (0-40%): Needs support - Bottom 40% nationally. Needs fraction concept building."
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "ExplanationBox",
+        "id": "eb-006",
+        "props": {
+          "title": "Measurement (Questions 17-20, 6 marks total)",
+          "content": [
+            {
+              "type": "ExplanationBoxText",
+              "id": "ebt-006",
+              "props": {
+                "children": "This section evaluates understanding of metric units, conversions, perimeter, and time calculations."
+              }
+            },
+            {
+              "type": "ExplanationBoxList",
+              "id": "ebl-006",
+              "props": {
+                "items": [
+                  "6 marks (100%): Exceptional - Top 12% nationally. Excellent measurement sense and conversions.",
+                  "5 marks (83%): Proficient - Top 32% nationally. Strong understanding of measurement concepts.",
+                  "3-4 marks (50-67%): Developing - Middle 50% nationally. Developing measurement skills.",
+                  "0-2 marks (0-33%): Needs support - Bottom 35% nationally. Requires measurement practice."
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "ExplanationBox",
+        "id": "eb-007",
+        "props": {
+          "title": "Money (Questions 21-23, 5 marks total)",
+          "content": [
+            {
+              "type": "ExplanationBoxText",
+              "id": "ebt-007",
+              "props": {
+                "children": "This section assesses financial mathematics including change calculations, savings problems, and estimation."
+              }
+            },
+            {
+              "type": "ExplanationBoxList",
+              "id": "ebl-007",
+              "props": {
+                "items": [
+                  "5 marks (100%): Exceptional - Top 18% nationally. Confident with money calculations.",
+                  "4 marks (80%): Proficient - Top 40% nationally. Accurate money problem-solving.",
+                  "3 marks (60%): Developing - Middle 50% nationally. Basic money concepts understood.",
+                  "0-2 marks (0-40%): Needs support - Bottom 35% nationally. Needs real-world money practice."
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "ExplanationBox",
+        "id": "eb-008",
+        "props": {
+          "title": "Geometry and Shapes (Questions 24-26, 3 marks total)",
+          "content": [
+            {
+              "type": "ExplanationBoxText",
+              "id": "ebt-008",
+              "props": {
+                "children": "This section tests knowledge of 2D and 3D shapes, angles, and geometric properties."
+              }
+            },
+            {
+              "type": "ExplanationBoxList",
+              "id": "ebl-008",
+              "props": {
+                "items": [
+                  "3 marks (100%): Exceptional - Top 20% nationally. Strong geometric knowledge.",
+                  "2 marks (67%): Proficient - Top 45% nationally. Good shape understanding.",
+                  "1 mark (33%): Developing - Middle 50% nationally. Basic shapes recognised.",
+                  "0 marks (0%): Needs support - Bottom 30% nationally. Requires shape exploration."
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "ExplanationBox",
+        "id": "eb-009",
+        "props": {
+          "title": "Data and Probability (Questions 27-30, 4 marks total)",
+          "content": [
+            {
+              "type": "ExplanationBoxText",
+              "id": "ebt-009",
+              "props": {
+                "children": "This section assesses data interpretation from tables and basic probability concepts."
+              }
+            },
+            {
+              "type": "ExplanationBoxList",
+              "id": "ebl-009",
+              "props": {
+                "items": [
+                  "4 marks (100%): Exceptional - Top 15% nationally. Excellent data analysis skills.",
+                  "3 marks (75%): Proficient - Top 38% nationally. Good interpretation abilities.",
+                  "2 marks (50%): Developing - Middle 50% nationally. Developing data skills.",
+                  "0-1 marks (0-25%): Needs support - Bottom 35% nationally. Needs data practice."
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "ExplanationBox",
+        "id": "eb-010",
+        "props": {
+          "title": "Patterns and Algebra (Questions 31-33, 3 marks total)",
+          "content": [
+            {
+              "type": "ExplanationBoxText",
+              "id": "ebt-010",
+              "props": {
+                "children": "This section evaluates pattern recognition, rule identification, and early algebraic thinking."
+              }
+            },
+            {
+              "type": "ExplanationBoxList",
+              "id": "ebl-010",
+              "props": {
+                "items": [
+                  "3 marks (100%): Exceptional - Top 18% nationally. Strong pattern and algebraic reasoning.",
+                  "2 marks (67%): Proficient - Top 42% nationally. Good pattern recognition.",
+                  "1 mark (33%): Developing - Middle 50% nationally. Basic patterns understood.",
+                  "0 marks (0%): Needs support - Bottom 30% nationally. Needs pattern work."
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "Heading",
+        "id": "heading-013",
+        "props": {
+          "heading": "What Do These Results Mean?"
+        }
+      },
+      {
+        "type": "Text",
+        "id": "text-006",
+        "props": {
+          "text": "The percentile rankings provided above are based on national NAPLAN data, research from the Australian Curriculum Assessment and Reporting Authority (ACARA), and typical Year 3 achievement standards across Australian schools. These benchmarks help you understand not just what your child scored, but where they stand compared to their peers nationally."
+        }
+      },
+      {
+        "type": "ExplanationBox",
+        "id": "eb-011",
+        "props": {
+          "title": "Key Points for Parents",
+          "content": [
+            {
+              "type": "ExplanationBoxList",
+              "id": "ebl-011",
+              "props": {
+                "items": [
+                  "Strand-Specific Performance: Your child may excel in some areas while needing support in others. This is completely normal. Look at individual strand results to identify where to focus practice.",
+                  "Working Towards Mastery: Year 3 is a critical year for building mathematical foundations. Students working at the 'Developing' level are making progress but need consistent practice to reach proficiency.",
+                  "Growth Over Time: A single assessment provides a snapshot. Monitor progress over multiple assessments to see growth trends. Improvement in specific strands indicates effective learning.",
+                  "Times Tables Matter: Strong performance in multiplication and division often correlates with overall mathematical success. Daily practice of times tables (5-10 minutes) significantly improves confidence.",
+                  "Problem-Solving Skills: Questions requiring multi-step thinking (word problems) are more challenging. Students scoring well on these demonstrate advanced mathematical reasoning.",
+                  "When to Seek Support: If your child scores in the 'Beginning' or 'Emerging' bands overall, or consistently struggles in 2-3 specific strands, consider additional tutoring or discussing support strategies with their teacher."
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "Heading",
+        "id": "heading-014",
+        "props": {
+          "heading": "Recommendations Based on Performance"
+        }
+      },
+      {
+        "type": "ExplanationBox",
+        "id": "eb-012",
+        "props": {
+          "title": "For High Achievers (40-50 marks)",
+          "content": [
+            {
+              "type": "ExplanationBoxText",
+              "id": "ebt-011",
+              "props": {
+                "children": "Your child is performing exceptionally well and is ready for enrichment:"
+              }
+            },
+            {
+              "type": "ExplanationBoxList",
+              "id": "ebl-012",
+              "props": {
+                "items": [
+                  "Introduce Year 4 concepts to maintain engagement and challenge",
+                  "Focus on open-ended problem-solving and mathematical investigations",
+                  "Explore real-world applications of mathematics (budgeting, measurement projects, data collection)",
+                  "Consider extension programs or mathematics competitions (ICAS, AMT)",
+                  "Encourage explaining mathematical thinking to build deeper understanding"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "ExplanationBox",
+        "id": "eb-013",
+        "props": {
+          "title": "For Proficient Students (33-39 marks)",
+          "content": [
+            {
+              "type": "ExplanationBoxText",
+              "id": "ebt-012",
+              "props": {
+                "children": "Your child is working at the expected standard and should focus on consolidation:"
+              }
+            },
+            {
+              "type": "ExplanationBoxList",
+              "id": "ebl-013",
+              "props": {
+                "items": [
+                  "Continue regular practice to maintain skills and build confidence",
+                  "Focus extra attention on any strands where they scored below 60%",
+                  "Use online resources (Mathletics, Essential Assessment) for varied practice",
+                  "Apply mathematics in daily life (cooking measurements, shopping calculations, time management)",
+                  "Build mental computation strategies to improve speed and accuracy"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "ExplanationBox",
+        "id": "eb-014",
+        "props": {
+          "title": "For Developing Students (25-32 marks)",
+          "content": [
+            {
+              "type": "ExplanationBoxText",
+              "id": "ebt-013",
+              "props": {
+                "children": "Your child needs targeted support to reach the expected standard:"
+              }
+            },
+            {
+              "type": "ExplanationBoxList",
+              "id": "ebl-014",
+              "props": {
+                "items": [
+                  "Focus on 2-3 priority strands where scores were lowest",
+                  "Practice times tables daily using games, songs, or apps (multiplication is foundational)",
+                  "Use concrete materials (blocks, counters, money) to build conceptual understanding",
+                  "Break practice into short, frequent sessions (15 minutes daily is better than one long session)",
+                  "Communicate with the teacher about specific areas needing support",
+                  "Consider engaging a tutor for personalised instruction in weak areas"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "ExplanationBox",
+        "id": "eb-015",
+        "props": {
+          "title": "For Emerging/Beginning Students (0-24 marks)",
+          "content": [
+            {
+              "type": "ExplanationBoxText",
+              "id": "ebt-014",
+              "props": {
+                "children": "Your child requires significant support and intervention:"
+              }
+            },
+            {
+              "type": "ExplanationBoxList",
+              "id": "ebl-015",
+              "props": {
+                "items": [
+                  "Urgent: Schedule a meeting with your child's teacher to develop an intervention plan",
+                  "Consider professional tutoring focused on foundational skills (2-3 sessions per week)",
+                  "Start with concrete, hands-on activities before moving to abstract concepts",
+                  "Build number sense through counting games, number lines, and visual models",
+                  "Focus initially on place value and basic operations before moving to complex topics",
+                  "Celebrate small wins to build mathematical confidence and reduce anxiety",
+                  "Investigate whether underlying issues (working memory, processing speed, maths anxiety) may need addressing"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "Heading",
+        "id": "heading-015",
+        "props": {
+          "heading": "Understanding National Standards"
+        }
+      },
+      {
+        "type": "Text",
+        "id": "text-007",
+        "props": {
+          "text": "The Australian Curriculum defines clear achievement standards for Year 3 mathematics. By the end of Year 3, students are expected to:"
+        }
+      },
+      {
+        "type": "KeyTakeaway",
+        "id": "kt-001",
+        "props": {
+          "keyTakeaways": [
+            "Count and order numbers up to 10,000 and represent them in various ways",
+            "Recall addition and subtraction facts for numbers up to 20",
+            "Recall multiplication facts up to 10 × 10 and related division facts",
+            "Model and represent unit fractions and compare common fractions",
+            "Measure and compare lengths, masses, capacities using metric units",
+            "Tell time accurately and calculate time durations",
+            "Identify angles and classify shapes by their properties",
+            "Collect, represent, and interpret data using tables and graphs",
+            "Create and continue patterns and describe their rules"
+          ]
+        }
+      },
+      {
+        "type": "Text",
+        "id": "text-008",
+        "props": {
+          "text": "Students scoring 33 marks or above (66%) are demonstrating achievement at or above the expected Year 3 standard. Students scoring below this threshold are working towards the standard and require additional support."
+        }
+      },
+      {
+        "type": "Heading",
+        "id": "heading-016",
+        "props": {
+          "heading": "Next Steps and Action Plan"
+        }
+      },
+      {
+        "type": "Text",
+        "id": "text-009",
+        "props": {
+          "text": "Based on your child's results, create a personalised action plan:"
+        }
+      },
+      {
+        "type": "ExplanationBox",
+        "id": "eb-016",
+        "props": {
+          "title": "Your Child's Action Plan Template",
+          "content": [
+            {
+              "type": "ExplanationBoxList",
+              "id": "ebl-016",
+              "props": {
+                "items": [
+                  "Step 1: Identify the 2-3 strands where your child scored lowest (check strand analysis above)",
+                  "Step 2: Set specific, achievable goals (e.g., 'Master 7, 8, and 9 times tables by end of term')",
+                  "Step 3: Create a daily practice routine (consistency matters more than duration)",
+                  "Step 4: Use a variety of resources (worksheets, online games, real-world activities)",
+                  "Step 5: Track progress with weekly mini-quizzes or practice tests",
+                  "Step 6: Celebrate improvements and maintain a positive attitude towards mathematics",
+                  "Step 7: Communicate regularly with the teacher about progress and challenges"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "Heading",
+        "id": "heading-017",
+        "props": {
+          "heading": "Recommended Resources"
+        }
+      },
+      {
+        "type": "ExplanationBox",
+        "id": "eb-017",
+        "props": {
+          "title": "Helpful Resources for Home Practice",
+          "content": [
+            {
+              "type": "ExplanationBoxList",
+              "id": "ebl-017",
+              "props": {
+                "items": [
+                  "Online Platforms: Mathletics, Prodigy Math, Khan Academy Kids, Mathseeds",
+                  "Times Tables Practice: Times Tables Rock Stars, Squeebles Times Tables, multiplication.com",
+                  "Australian Curriculum Resources: Scootle (free educational resources), ABC Education",
+                  "Workbooks: Oxford University Press Year 3 Maths, Pascal Press Australian Curriculum series",
+                  "Games: Card games (multiplication war), board games (Yahtzee for addition), dice games",
+                  "Apps: Motion Math, DragonBox Numbers, Todo Math, SplashLearn"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "Text",
+        "id": "text-010",
+        "props": {
+          "text": "Remember: Every child develops at their own pace. This assessment provides valuable information about current performance, but it does not define your child's potential or future success in mathematics. With appropriate support, practice, and encouragement, all students can improve their mathematical skills and confidence."
+        }
+      },
+      {
+        "type": "Text",
+        "id": "text-011",
+        "props": {
+          "text": "If you have concerns about your child's results or need guidance on how to support their learning, please don't hesitate to contact their teacher or consider engaging a qualified mathematics tutor who can provide personalised support."
+        }
+      }
+    ]
+  }
+}

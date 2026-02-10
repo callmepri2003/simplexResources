@@ -1,0 +1,344 @@
+{
+  "type": "data",
+  "id": "transformers-angles-booklet",
+  "props": {
+    "content": [
+      {
+        "type": "Heading",
+        "id": "main-heading",
+        "props": {
+          "heading": "🤖 Transformers Angles Mission: Identify and Classify Angles! 🤖"
+        }
+      },
+      {
+        "type": "Text",
+        "id": "intro-text",
+        "props": {
+          "text": "Welcome, young Autobot! Today you're going on a special mission with Optimus Prime to learn about angles. Just like how Transformers have joints that bend at different angles when they transform, we need to understand angles to help them complete their missions!"
+        }
+      },
+      {
+        "type": "ExplanationBox",
+        "id": "what-is-angle",
+        "props": {
+          "title": "🔧 What is an Angle? - Transformer Joint Basics",
+          "content": [
+            {
+              "type": "ExplanationBoxText",
+              "id": "angle-definition",
+              "props": {
+                "children": "An angle is formed when two lines meet at a point, just like when Bumblebee's arm joints bend! The point where they meet is called the vertex - think of it as the joint in a Transformer's body."
+              }
+            },
+            {
+              "type": "ExplanationBoxText",
+              "id": "angle-parts",
+              "props": {
+                "children": "Every angle has three parts: two lines (called rays) and the vertex where they meet. When Optimus Prime transforms, his joints create different angles!"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "ExplanationBox",
+        "id": "right-angle-explanation",
+        "props": {
+          "title": "⭐ The Special Right Angle - Optimus Prime's Perfect Corner",
+          "content": [
+            {
+              "type": "ExplanationBoxText",
+              "id": "right-angle-definition",
+              "props": {
+                "children": "A right angle is a very special angle that measures exactly 90 degrees. It looks like a perfect corner - just like the corners of Optimus Prime's truck cab or the corner of your bedroom!"
+              }
+            },
+            {
+              "type": "ExplanationBoxText",
+              "id": "right-angle-symbol",
+              "props": {
+                "children": "We can spot a right angle because it has a small square symbol in the corner. This is our secret Autobot signal that means 'perfect 90-degree angle ahead!'"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "PractiseQuestions",
+        "id": "right-angle-practice",
+        "props": {
+          "content": [
+            {
+              "type": "MultipleChoiceQuestion",
+              "id": "right-angle-mc1",
+              "props": {
+                "questionNumber": 1,
+                "questionContent": "Optimus Prime is looking for right angles around the Autobot base. Which of these would definitely have a right angle?",
+                "options": [
+                  "The corner of a square window",
+                  "A bent elbow joint",
+                  "A curved wheel",
+                  "A slanted roof"
+                ]
+              }
+            },
+            {
+              "type": "ShortAnswerQuestion",
+              "id": "right-angle-sa1",
+              "props": {
+                "questionNumber": 2,
+                "questionContent": "Bumblebee says a right angle looks like the letter 'L'. Draw or describe two things in your classroom that have right angles like the letter 'L'."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "ExplanationBox",
+        "id": "angle-types",
+        "props": {
+          "title": "🚗 Types of Angles - Transformer Joint Positions",
+          "content": [
+            {
+              "type": "ExplanationBoxText",
+              "id": "acute-angle",
+              "props": {
+                "children": "ACUTE ANGLE: This is smaller than a right angle (less than 90°). Think of Bumblebee's arm when it's only slightly bent - it's a sharp, pointy angle. Acute angles are like a bird's beak or a slice of pizza!"
+              }
+            },
+            {
+              "type": "ExplanationBoxText",
+              "id": "right-angle-reminder",
+              "props": {
+                "children": "RIGHT ANGLE: Exactly 90° - our perfect corner angle! Like Optimus Prime's truck corners or the corner of a book."
+              }
+            },
+            {
+              "type": "ExplanationBoxText",
+              "id": "obtuse-angle",
+              "props": {
+                "children": "OBTUSE ANGLE: This is bigger than a right angle (more than 90°). Imagine Megatron's arm opened wide - it's a big, wide angle. Obtuse angles are like an open book or a door that's opened wide!"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "KeyTakeaway",
+        "id": "angle-classification-key",
+        "props": {
+          "keyTakeaways": [
+            "Acute angles are SMALLER than right angles (pointy like Bumblebee's sharp moves)",
+            "Right angles are EXACTLY 90° (perfect corners like Optimus Prime's truck)",
+            "Obtuse angles are BIGGER than right angles (wide like Megatron's intimidating pose)",
+            "We compare all angles to the right angle to classify them"
+          ]
+        }
+      },
+      {
+        "type": "PractiseQuestions",
+        "id": "angle-classification-practice",
+        "props": {
+          "content": [
+            {
+              "type": "MultipleChoiceQuestion",
+              "id": "angle-type-mc1",
+              "props": {
+                "questionNumber": 3,
+                "questionContent": "Jazz is transforming and his wheel joint makes an angle that looks bigger than a square corner. What type of angle is this?",
+                "options": [
+                  "Acute angle",
+                  "Right angle", 
+                  "Obtuse angle",
+                  "Straight angle"
+                ]
+              }
+            },
+            {
+              "type": "GroupedSubquestionsGrid",
+              "id": "angle-comparison-grid",
+              "props": {
+                "questionNumber": 4,
+                "questionContent": "Help the Autobots classify these angles by comparing them to a right angle:",
+                "subquestions": [
+                  {
+                    "prompt": "A slightly opened door - acute, right, or obtuse?"
+                  },
+                  {
+                    "prompt": "The corner of Optimus Prime's windshield - acute, right, or obtuse?"
+                  },
+                  {
+                    "prompt": "Bumblebee's antenna pointing straight up and forward (L-shape) - acute, right, or obtuse?"
+                  },
+                  {
+                    "prompt": "A wide-open robot arm - acute, right, or obtuse?"
+                  },
+                  {
+                    "prompt": "The tip of Starscream's pointed wing - acute, right, or obtuse?"
+                  },
+                  {
+                    "prompt": "A book opened halfway - acute, right, or obtuse?"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "ExplanationBox",
+        "id": "finding-angles",
+        "props": {
+          "title": "🔍 Angle Detective Mission - Spotting Angles Like a True Autobot",
+          "content": [
+            {
+              "type": "ExplanationBoxText",
+              "id": "angle-hunting-tips",
+              "props": {
+                "children": "To be a great angle detective like the Autobots, look for places where two lines or edges meet. These could be on buildings, furniture, toys, or even in nature!"
+              }
+            },
+            {
+              "type": "ExplanationBoxList",
+              "id": "angle-locations",
+              "props": {
+                "items": [
+                  "Corners of windows, doors, and picture frames (usually right angles)",
+                  "Joints in toys and action figures (can be acute, right, or obtuse)",
+                  "Where walls meet the ceiling or floor (right angles)",
+                  "Open scissors (acute to obtuse depending on how open)",
+                  "Roof peaks and triangular shapes (often acute angles)",
+                  "Wide-open books or laptop computers (obtuse angles)"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "PractiseQuestions",
+        "id": "angle-detective-practice",
+        "props": {
+          "content": [
+            {
+              "type": "ShortAnswerQuestion",
+              "id": "angle-hunt-sa1",
+              "props": {
+                "questionNumber": 5,
+                "questionContent": "Go on an angle hunt around your house! Find and list 3 acute angles, 3 right angles, and 3 obtuse angles. Write where you found each one."
+              }
+            },
+            {
+              "type": "MultipleChoiceQuestion",
+              "id": "angle-comparison-mc1",
+              "props": {
+                "questionNumber": 6,
+                "questionContent": "Ratchet is fixing Ironhide's shoulder joint. The joint can bend to form different angles. If the joint is bent less than a square corner, what type of angle is it?",
+                "options": [
+                  "Obtuse angle",
+                  "Right angle",
+                  "Acute angle",
+                  "Straight angle"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "ExplanationBox",
+        "id": "real-world-angles",
+        "props": {
+          "title": "🌍 Angles in the Real World - Where Transformers Hide",
+          "content": [
+            {
+              "type": "ExplanationBoxText",
+              "id": "everyday-angles",
+              "props": {
+                "children": "Angles are everywhere around us! From the moment we wake up until we go to sleep, we see and use angles. Understanding them helps us describe shapes and solve problems - just like how Transformers need to understand angles to transform properly!"
+              }
+            },
+            {
+              "type": "ExplanationBoxText",
+              "id": "transformer-examples",
+              "props": {
+                "children": "When Optimus Prime transforms from truck to robot, his joints move through different angles. His elbow might start at an obtuse angle when extended, move through a right angle, and end up at an acute angle when fully bent!"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "PractiseQuestions",
+        "id": "final-practice",
+        "props": {
+          "content": [
+            {
+              "type": "FillInTheBlanksQuestion",
+              "id": "angle-fill-1",
+              "props": {
+                "questionNumber": 7,
+                "leftPart": "An angle that is smaller than a right angle is called an",
+                "middlePart": "acute",
+                "rightPart": "angle."
+              }
+            },
+            {
+              "type": "FillInTheBlanksQuestion",
+              "id": "angle-fill-2",
+              "props": {
+                "questionNumber": 8,
+                "leftPart": "An angle that is larger than a right angle is called an",
+                "middlePart": "obtuse", 
+                "rightPart": "angle."
+              }
+            },
+            {
+              "type": "MultipleChoiceQuestion",
+              "id": "final-mc",
+              "props": {
+                "questionNumber": 9,
+                "questionContent": "Wheeljack is building a new invention. He needs to create an angle that is exactly like the corner of a square. What type of angle does he need?",
+                "options": [
+                  "Acute angle",
+                  "Right angle",
+                  "Obtuse angle",
+                  "Curved angle"
+                ]
+              }
+            },
+            {
+              "type": "ShortAnswerQuestion",
+              "id": "final-sa",
+              "props": {
+                "questionNumber": 10,
+                "questionContent": "Imagine you are helping the Autobots design a new base. Explain why right angles would be important for building strong, stable walls and corners. Use what you learned about angles in your answer."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "KeyTakeaway",
+        "id": "mission-complete",
+        "props": {
+          "keyTakeaways": [
+            "Mission Complete! You now know how to identify and classify angles",
+            "Remember: Compare every angle to a right angle (90° corner)",
+            "Acute = smaller than right angle (sharp and pointy)",
+            "Right = exactly 90° (perfect square corner)",
+            "Obtuse = larger than right angle (wide and open)",
+            "Angles are everywhere - keep practicing your angle detective skills!"
+          ]
+        }
+      },
+      {
+        "type": "Text",
+        "id": "closing-text",
+        "props": {
+          "text": "Congratulations, Autobot! You've successfully completed your angles training mission. Optimus Prime would be proud! Remember to keep looking for angles in your everyday life - they're hiding everywhere, just waiting to be discovered and classified. Roll out and keep learning! 🤖⚡"
+        }
+      }
+    ]
+  }
+}

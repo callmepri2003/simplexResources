@@ -1,0 +1,960 @@
+{
+  "type": "data",
+  "id": "naplan-year7-conventions",
+  "props": {
+    "content": [
+      {
+        "type": "ExamHeader",
+        "id": "header-1",
+        "props": {
+          "title": "Year 7 Language Conventions",
+          "subtitle": "NAPLAN-Style Assessment",
+          "timeAllowed": "40 minutes"
+        }
+      },
+      {
+        "type": "ExamSection",
+        "id": "section-spelling",
+        "props": {
+          "title": "Part A: Spelling",
+          "instructions": "Read each sentence carefully. Write the missing word in the space provided. Make sure you spell the word correctly.",
+          "marks": 25
+        }
+      },
+      {
+        "type": "GrammarQuestion",
+        "id": "spell-1",
+        "props": {
+          "questionNumber": "1",
+          "question": "The archaeologist made an important __________ in the ancient tomb.",
+          "instruction": "discovery"
+        }
+      },
+      {
+        "type": "AnswerBox",
+        "id": "answer-spell-1",
+        "props": {
+          "height": "40px"
+        }
+      },
+      {
+        "type": "GrammarQuestion",
+        "id": "spell-2",
+        "props": {
+          "questionNumber": "2",
+          "question": "Her __________ to become a marine biologist never wavered.",
+          "instruction": "determination"
+        }
+      },
+      {
+        "type": "AnswerBox",
+        "id": "answer-spell-2",
+        "props": {
+          "height": "40px"
+        }
+      },
+      {
+        "type": "GrammarQuestion",
+        "id": "spell-3",
+        "props": {
+          "questionNumber": "3",
+          "question": "The weather forecast predicted __________ rain throughout the weekend.",
+          "instruction": "continuous"
+        }
+      },
+      {
+        "type": "AnswerBox",
+        "id": "answer-spell-3",
+        "props": {
+          "height": "40px"
+        }
+      },
+      {
+        "type": "GrammarQuestion",
+        "id": "spell-4",
+        "props": {
+          "questionNumber": "4",
+          "question": "The students showed great __________ when organising the charity event.",
+          "instruction": "enthusiasm"
+        }
+      },
+      {
+        "type": "AnswerBox",
+        "id": "answer-spell-4",
+        "props": {
+          "height": "40px"
+        }
+      },
+      {
+        "type": "GrammarQuestion",
+        "id": "spell-5",
+        "props": {
+          "questionNumber": "5",
+          "question": "The athlete's performance was __________ by anyone's standards.",
+          "instruction": "extraordinary"
+        }
+      },
+      {
+        "type": "AnswerBox",
+        "id": "answer-spell-5",
+        "props": {
+          "height": "40px"
+        }
+      },
+      {
+        "type": "GrammarQuestion",
+        "id": "spell-6",
+        "props": {
+          "questionNumber": "6",
+          "question": "We need to __________ our plans before the deadline.",
+          "instruction": "finalise"
+        }
+      },
+      {
+        "type": "AnswerBox",
+        "id": "answer-spell-6",
+        "props": {
+          "height": "40px"
+        }
+      },
+      {
+        "type": "GrammarQuestion",
+        "id": "spell-7",
+        "props": {
+          "questionNumber": "7",
+          "question": "The documentary provided a __________ account of the historical events.",
+          "instruction": "comprehensive"
+        }
+      },
+      {
+        "type": "AnswerBox",
+        "id": "answer-spell-7",
+        "props": {
+          "height": "40px"
+        }
+      },
+      {
+        "type": "GrammarQuestion",
+        "id": "spell-8",
+        "props": {
+          "questionNumber": "8",
+          "question": "The medicine helped to __________ the patient's symptoms.",
+          "instruction": "alleviate"
+        }
+      },
+      {
+        "type": "AnswerBox",
+        "id": "answer-spell-8",
+        "props": {
+          "height": "40px"
+        }
+      },
+      {
+        "type": "GrammarQuestion",
+        "id": "spell-9",
+        "props": {
+          "questionNumber": "9",
+          "question": "The magician's tricks created an __________ of floating objects.",
+          "instruction": "illusion"
+        }
+      },
+      {
+        "type": "AnswerBox",
+        "id": "answer-spell-9",
+        "props": {
+          "height": "40px"
+        }
+      },
+      {
+        "type": "GrammarQuestion",
+        "id": "spell-10",
+        "props": {
+          "questionNumber": "10",
+          "question": "The company aims to __________ customer satisfaction above all else.",
+          "instruction": "prioritise"
+        }
+      },
+      {
+        "type": "AnswerBox",
+        "id": "answer-spell-10",
+        "props": {
+          "height": "40px"
+        }
+      },
+      {
+        "type": "GrammarQuestion",
+        "id": "spell-11",
+        "props": {
+          "questionNumber": "11",
+          "question": "The twins showed a __________ resemblance to each other.",
+          "instruction": "remarkable"
+        }
+      },
+      {
+        "type": "AnswerBox",
+        "id": "answer-spell-11",
+        "props": {
+          "height": "40px"
+        }
+      },
+      {
+        "type": "GrammarQuestion",
+        "id": "spell-12",
+        "props": {
+          "questionNumber": "12",
+          "question": "Regular exercise can __________ your overall health.",
+          "instruction": "strengthen"
+        }
+      },
+      {
+        "type": "AnswerBox",
+        "id": "answer-spell-12",
+        "props": {
+          "height": "40px"
+        }
+      },
+      {
+        "type": "GrammarQuestion",
+        "id": "spell-13",
+        "props": {
+          "questionNumber": "13",
+          "question": "The referee made a __________ decision that upset both teams.",
+          "instruction": "controversial"
+        }
+      },
+      {
+        "type": "AnswerBox",
+        "id": "answer-spell-13",
+        "props": {
+          "height": "40px"
+        }
+      },
+      {
+        "type": "GrammarQuestion",
+        "id": "spell-14",
+        "props": {
+          "questionNumber": "14",
+          "question": "The museum displayed __________ artefacts from ancient civilisations.",
+          "instruction": "genuine"
+        }
+      },
+      {
+        "type": "AnswerBox",
+        "id": "answer-spell-14",
+        "props": {
+          "height": "40px"
+        }
+      },
+      {
+        "type": "GrammarQuestion",
+        "id": "spell-15",
+        "props": {
+          "questionNumber": "15",
+          "question": "The architect designed a __________ building for the city centre.",
+          "instruction": "magnificent"
+        }
+      },
+      {
+        "type": "AnswerBox",
+        "id": "answer-spell-15",
+        "props": {
+          "height": "40px"
+        }
+      },
+      {
+        "type": "GrammarQuestion",
+        "id": "spell-16",
+        "props": {
+          "questionNumber": "16",
+          "question": "We must __________ the situation before making any decisions.",
+          "instruction": "analyse"
+        }
+      },
+      {
+        "type": "AnswerBox",
+        "id": "answer-spell-16",
+        "props": {
+          "height": "40px"
+        }
+      },
+      {
+        "type": "GrammarQuestion",
+        "id": "spell-17",
+        "props": {
+          "questionNumber": "17",
+          "question": "The principal gave __________ for the excursion to proceed.",
+          "instruction": "permission"
+        }
+      },
+      {
+        "type": "AnswerBox",
+        "id": "answer-spell-17",
+        "props": {
+          "height": "40px"
+        }
+      },
+      {
+        "type": "GrammarQuestion",
+        "id": "spell-18",
+        "props": {
+          "questionNumber": "18",
+          "question": "The scientist's theory was based on __________ evidence.",
+          "instruction": "substantial"
+        }
+      },
+      {
+        "type": "AnswerBox",
+        "id": "answer-spell-18",
+        "props": {
+          "height": "40px"
+        }
+      },
+      {
+        "type": "GrammarQuestion",
+        "id": "spell-19",
+        "props": {
+          "questionNumber": "19",
+          "question": "The committee will __________ the new policies next month.",
+          "instruction": "implement"
+        }
+      },
+      {
+        "type": "AnswerBox",
+        "id": "answer-spell-19",
+        "props": {
+          "height": "40px"
+        }
+      },
+      {
+        "type": "GrammarQuestion",
+        "id": "spell-20",
+        "props": {
+          "questionNumber": "20",
+          "question": "The lawyer presented a __________ argument in court.",
+          "instruction": "persuasive"
+        }
+      },
+      {
+        "type": "AnswerBox",
+        "id": "answer-spell-20",
+        "props": {
+          "height": "40px"
+        }
+      },
+      {
+        "type": "GrammarQuestion",
+        "id": "spell-21",
+        "props": {
+          "questionNumber": "21",
+          "question": "The council plans to __________ the old playground equipment.",
+          "instruction": "demolish"
+        }
+      },
+      {
+        "type": "AnswerBox",
+        "id": "answer-spell-21",
+        "props": {
+          "height": "40px"
+        }
+      },
+      {
+        "type": "GrammarQuestion",
+        "id": "spell-22",
+        "props": {
+          "questionNumber": "22",
+          "question": "His __________ attitude helped him overcome many obstacles.",
+          "instruction": "persistent"
+        }
+      },
+      {
+        "type": "AnswerBox",
+        "id": "answer-spell-22",
+        "props": {
+          "height": "40px"
+        }
+      },
+      {
+        "type": "GrammarQuestion",
+        "id": "spell-23",
+        "props": {
+          "questionNumber": "23",
+          "question": "The chef used __________ ingredients to create the perfect dish.",
+          "instruction": "exquisite"
+        }
+      },
+      {
+        "type": "AnswerBox",
+        "id": "answer-spell-23",
+        "props": {
+          "height": "40px"
+        }
+      },
+      {
+        "type": "GrammarQuestion",
+        "id": "spell-24",
+        "props": {
+          "questionNumber": "24",
+          "question": "The government announced a new __________ to reduce carbon emissions.",
+          "instruction": "initiative"
+        }
+      },
+      {
+        "type": "AnswerBox",
+        "id": "answer-spell-24",
+        "props": {
+          "height": "40px"
+        }
+      },
+      {
+        "type": "GrammarQuestion",
+        "id": "spell-25",
+        "props": {
+          "questionNumber": "25",
+          "question": "The singer's __________ voice captivated the audience.",
+          "instruction": "magnificent"
+        }
+      },
+      {
+        "type": "AnswerBox",
+        "id": "answer-spell-25",
+        "props": {
+          "height": "40px"
+        }
+      },
+      {
+        "type": "ExamSection",
+        "id": "section-grammar-punct",
+        "props": {
+          "title": "Part B: Grammar and Punctuation",
+          "instructions": "Choose the correct answer for each question. Select A, B, C, or D.",
+          "marks": 35
+        }
+      },
+      {
+        "type": "MultipleChoiceExam",
+        "id": "mc-1",
+        "props": {
+          "questionNumber": "26",
+          "question": "Which sentence is punctuated correctly?",
+          "options": [
+            "The students finished their homework, then they went outside to play.",
+            "The students finished their homework then, they went outside to play.",
+            "The students, finished their homework then they went outside to play.",
+            "The students finished their homework then they went outside, to play."
+          ],
+          "marks": 1
+        }
+      },
+      {
+        "type": "MultipleChoiceExam",
+        "id": "mc-2",
+        "props": {
+          "questionNumber": "27",
+          "question": "Identify the adjective in this sentence: The enormous elephant trumpeted loudly.",
+          "options": [
+            "elephant",
+            "enormous",
+            "trumpeted",
+            "loudly"
+          ],
+          "marks": 1
+        }
+      },
+      {
+        "type": "MultipleChoiceExam",
+        "id": "mc-3",
+        "props": {
+          "questionNumber": "28",
+          "question": "Which sentence uses apostrophes correctly?",
+          "options": [
+            "The dog's were playing in the park.",
+            "The dogs' toys were scattered everywhere.",
+            "The dog's toy's were broken.",
+            "The dogs toy's needed replacing."
+          ],
+          "marks": 1
+        }
+      },
+      {
+        "type": "MultipleChoiceExam",
+        "id": "mc-4",
+        "props": {
+          "questionNumber": "29",
+          "question": "Which word is an adverb in this sentence: She quickly ran across the field.",
+          "options": [
+            "she",
+            "quickly",
+            "ran",
+            "field"
+          ],
+          "marks": 1
+        }
+      },
+      {
+        "type": "MultipleChoiceExam",
+        "id": "mc-5",
+        "props": {
+          "questionNumber": "30",
+          "question": "Which sentence is grammatically correct?",
+          "options": [
+            "Me and my friend went to the cinema.",
+            "My friend and me went to the cinema.",
+            "My friend and I went to the cinema.",
+            "I and my friend went to the cinema."
+          ],
+          "marks": 1
+        }
+      },
+      {
+        "type": "MultipleChoiceExam",
+        "id": "mc-6",
+        "props": {
+          "questionNumber": "31",
+          "question": "Where should the comma be placed? Before the concert began the musicians tuned their instruments.",
+          "options": [
+            "Before the concert, began the musicians tuned their instruments.",
+            "Before the concert began, the musicians tuned their instruments.",
+            "Before the, concert began the musicians tuned their instruments.",
+            "Before the concert began the musicians, tuned their instruments."
+          ],
+          "marks": 1
+        }
+      },
+      {
+        "type": "MultipleChoiceExam",
+        "id": "mc-7",
+        "props": {
+          "questionNumber": "32",
+          "question": "Which sentence contains a verb in the past tense?",
+          "options": [
+            "The cat is sleeping on the couch.",
+            "The cat sleeps on the couch every day.",
+            "The cat will sleep on the couch later.",
+            "The cat slept on the couch yesterday."
+          ],
+          "marks": 1
+        }
+      },
+      {
+        "type": "MultipleChoiceExam",
+        "id": "mc-8",
+        "props": {
+          "questionNumber": "33",
+          "question": "Which sentence uses quotation marks correctly?",
+          "options": [
+            "\"Where are you going? asked Tom.\"",
+            "Where are you going? \"asked Tom.\"",
+            "\"Where are you going?\" asked Tom.",
+            "\"Where are you going\" asked Tom?"
+          ],
+          "marks": 1
+        }
+      },
+      {
+        "type": "MultipleChoiceExam",
+        "id": "mc-9",
+        "props": {
+          "questionNumber": "34",
+          "question": "Identify the noun phrase in this sentence: The tall girl with brown hair won the race.",
+          "options": [
+            "tall girl",
+            "The tall girl with brown hair",
+            "won the race",
+            "with brown hair"
+          ],
+          "marks": 1
+        }
+      },
+      {
+        "type": "MultipleChoiceExam",
+        "id": "mc-10",
+        "props": {
+          "questionNumber": "35",
+          "question": "Which sentence uses a semicolon correctly?",
+          "options": [
+            "I love reading; books take me to different worlds.",
+            "I love; reading books take me to different worlds.",
+            "I love reading books; take me to different worlds.",
+            "I; love reading books take me to different worlds."
+          ],
+          "marks": 1
+        }
+      },
+      {
+        "type": "MultipleChoiceExam",
+        "id": "mc-11",
+        "props": {
+          "questionNumber": "36",
+          "question": "Which word best completes this sentence? Neither the teacher _____ the students knew the answer.",
+          "options": [
+            "or",
+            "nor",
+            "and",
+            "but"
+          ],
+          "marks": 1
+        }
+      },
+      {
+        "type": "MultipleChoiceExam",
+        "id": "mc-12",
+        "props": {
+          "questionNumber": "37",
+          "question": "Which sentence is a compound sentence?",
+          "options": [
+            "The rain poured down heavily all afternoon.",
+            "Although it was raining, we went outside.",
+            "It was raining heavily, so we stayed inside.",
+            "We stayed inside because of the heavy rain."
+          ],
+          "marks": 1
+        }
+      },
+      {
+        "type": "MultipleChoiceExam",
+        "id": "mc-13",
+        "props": {
+          "questionNumber": "38",
+          "question": "Which sentence uses 'their', 'there', or 'they're' correctly?",
+          "options": [
+            "Their going to the beach tomorrow.",
+            "The students put there books on the desk.",
+            "They're planning a surprise party for their friend.",
+            "There coming to visit us next week."
+          ],
+          "marks": 1
+        }
+      },
+      {
+        "type": "MultipleChoiceExam",
+        "id": "mc-14",
+        "props": {
+          "questionNumber": "39",
+          "question": "Identify the preposition in this sentence: The book is under the table.",
+          "options": [
+            "book",
+            "is",
+            "under",
+            "table"
+          ],
+          "marks": 1
+        }
+      },
+      {
+        "type": "MultipleChoiceExam",
+        "id": "mc-15",
+        "props": {
+          "questionNumber": "40",
+          "question": "Which sentence contains correct subject-verb agreement?",
+          "options": [
+            "The group of students are going on an excursion.",
+            "The group of students is going on an excursion.",
+            "The group of students were going on an excursion.",
+            "The group of students have going on an excursion."
+          ],
+          "marks": 1
+        }
+      },
+      {
+        "type": "MultipleChoiceExam",
+        "id": "mc-16",
+        "props": {
+          "questionNumber": "41",
+          "question": "Which word in this sentence is a conjunction? I wanted to go swimming, but the pool was closed.",
+          "options": [
+            "to",
+            "swimming",
+            "but",
+            "was"
+          ],
+          "marks": 1
+        }
+      },
+      {
+        "type": "MultipleChoiceExam",
+        "id": "mc-17",
+        "props": {
+          "questionNumber": "42",
+          "question": "Which sentence uses a colon correctly?",
+          "options": [
+            "For the recipe you will need: flour, eggs, milk, and sugar.",
+            "For the recipe: you will need flour, eggs, milk, and sugar.",
+            "For the recipe you will need flour: eggs, milk, and sugar.",
+            "For: the recipe you will need flour, eggs, milk, and sugar."
+          ],
+          "marks": 1
+        }
+      },
+      {
+        "type": "MultipleChoiceExam",
+        "id": "mc-18",
+        "props": {
+          "questionNumber": "43",
+          "question": "Which is the best way to combine these sentences? The dog barked. The cat ran away.",
+          "options": [
+            "The dog barked, the cat ran away.",
+            "The dog barked and the cat ran away.",
+            "The dog barked, so the cat ran away.",
+            "The dog barked the cat ran away."
+          ],
+          "marks": 1
+        }
+      },
+      {
+        "type": "MultipleChoiceExam",
+        "id": "mc-19",
+        "props": {
+          "questionNumber": "44",
+          "question": "Which sentence is written in the passive voice?",
+          "options": [
+            "The chef prepared a delicious meal.",
+            "A delicious meal was prepared by the chef.",
+            "The chef is preparing a delicious meal.",
+            "The chef will prepare a delicious meal."
+          ],
+          "marks": 1
+        }
+      },
+      {
+        "type": "MultipleChoiceExam",
+        "id": "mc-20",
+        "props": {
+          "questionNumber": "45",
+          "question": "Which sentence uses 'its' or 'it's' correctly?",
+          "options": [
+            "The dog wagged it's tail happily.",
+            "Its going to rain this afternoon.",
+            "The tree lost its leaves in autumn.",
+            "The committee made it's decision yesterday."
+          ],
+          "marks": 1
+        }
+      },
+      {
+        "type": "MultipleChoiceExam",
+        "id": "mc-21",
+        "props": {
+          "questionNumber": "46",
+          "question": "Identify the pronoun in this sentence: We enjoyed ourselves at the party.",
+          "options": [
+            "We",
+            "enjoyed",
+            "party",
+            "at"
+          ],
+          "marks": 1
+        }
+      },
+      {
+        "type": "MultipleChoiceExam",
+        "id": "mc-22",
+        "props": {
+          "questionNumber": "47",
+          "question": "Which sentence contains an error?",
+          "options": [
+            "She walks to school every morning.",
+            "They was playing football in the park.",
+            "The students are reading their books quietly.",
+            "My brother has finished his homework."
+          ],
+          "marks": 1
+        }
+      },
+      {
+        "type": "MultipleChoiceExam",
+        "id": "mc-23",
+        "props": {
+          "questionNumber": "48",
+          "question": "Which sentence uses commas correctly in a list?",
+          "options": [
+            "We bought apples, oranges, bananas and grapes.",
+            "We bought apples oranges, bananas, and grapes.",
+            "We bought, apples, oranges, bananas, and grapes.",
+            "We bought apples, oranges, bananas, and grapes."
+          ],
+          "marks": 1
+        }
+      },
+      {
+        "type": "MultipleChoiceExam",
+        "id": "mc-24",
+        "props": {
+          "questionNumber": "49",
+          "question": "Which word is a proper noun?",
+          "options": [
+            "city",
+            "Sydney",
+            "building",
+            "school"
+          ],
+          "marks": 1
+        }
+      },
+      {
+        "type": "MultipleChoiceExam",
+        "id": "mc-25",
+        "props": {
+          "questionNumber": "50",
+          "question": "Which sentence is a complex sentence?",
+          "options": [
+            "I ate lunch and then went for a walk.",
+            "When I arrived home, I started my homework.",
+            "She likes reading, and he enjoys sports.",
+            "The weather was perfect for a picnic."
+          ],
+          "marks": 1
+        }
+      },
+      {
+        "type": "MultipleChoiceExam",
+        "id": "mc-26",
+        "props": {
+          "questionNumber": "51",
+          "question": "Which sentence uses 'affect' or 'effect' correctly?",
+          "options": [
+            "The weather will effect our plans.",
+            "What affect did the news have on you?",
+            "The medicine had a positive effect on her health.",
+            "How will this affect to the outcome?"
+          ],
+          "marks": 1
+        }
+      },
+      {
+        "type": "MultipleChoiceExam",
+        "id": "mc-27",
+        "props": {
+          "questionNumber": "52",
+          "question": "Identify the article in this sentence: A small bird landed on the branch.",
+          "options": [
+            "small",
+            "bird",
+            "A",
+            "on"
+          ],
+          "marks": 1
+        }
+      },
+      {
+        "type": "MultipleChoiceExam",
+        "id": "mc-28",
+        "props": {
+          "questionNumber": "53",
+          "question": "Which sentence uses consistent verb tense?",
+          "options": [
+            "Yesterday, I walk to school and see my friend.",
+            "Yesterday, I walked to school and saw my friend.",
+            "Yesterday, I walked to school and see my friend.",
+            "Yesterday, I will walk to school and saw my friend."
+          ],
+          "marks": 1
+        }
+      },
+      {
+        "type": "MultipleChoiceExam",
+        "id": "mc-29",
+        "props": {
+          "questionNumber": "54",
+          "question": "Which sentence needs a question mark?",
+          "options": [
+            "I wonder what time it is",
+            "She asked me to help her",
+            "What time does the movie start",
+            "He told me where to go"
+          ],
+          "marks": 1
+        }
+      },
+      {
+        "type": "MultipleChoiceExam",
+        "id": "mc-30",
+        "props": {
+          "questionNumber": "55",
+          "question": "Which sentence contains a comparative adjective?",
+          "options": [
+            "This is the tallest building in the city.",
+            "She is taller than her sister.",
+            "He is a tall person.",
+            "They are very tall."
+          ],
+          "marks": 1
+        }
+      },
+      {
+        "type": "MultipleChoiceExam",
+        "id": "mc-31",
+        "props": {
+          "questionNumber": "56",
+          "question": "Which sentence uses 'who' or 'whom' correctly?",
+          "options": [
+            "Who did you give the book to?",
+            "To who did you give the book?",
+            "Whom is coming to the party?",
+            "Who are you looking for?"
+          ],
+          "marks": 1
+        }
+      },
+      {
+        "type": "MultipleChoiceExam",
+        "id": "mc-32",
+        "props": {
+          "questionNumber": "57",
+          "question": "Which sentence contains a dangling modifier?",
+          "options": [
+            "Walking down the street, the trees looked beautiful.",
+            "Walking down the street, I admired the beautiful trees.",
+            "The trees looked beautiful as I walked down the street.",
+            "I walked down the street admiring the beautiful trees."
+          ],
+          "marks": 1
+        }
+      },
+      {
+        "type": "MultipleChoiceExam",
+        "id": "mc-33",
+        "props": {
+          "questionNumber": "58",
+          "question": "Which sentence uses parallel structure correctly?",
+          "options": [
+            "She enjoys swimming, to run, and cycling.",
+            "She enjoys swimming, running, and to cycle.",
+            "She enjoys swimming, running, and cycling.",
+            "She enjoys to swim, running, and cycling."
+          ],
+          "marks": 1
+        }
+      },
+      {
+        "type": "MultipleChoiceExam",
+        "id": "mc-34",
+        "props": {
+          "questionNumber": "59",
+          "question": "Which word is an interjection?",
+          "options": [
+            "Wow, that was amazing!",
+            "The race was exciting.",
+            "She ran quickly.",
+            "They cheered loudly."
+          ],
+          "marks": 1
+        }
+      },
+      {
+        "type": "MultipleChoiceExam",
+        "id": "mc-35",
+        "props": {
+          "questionNumber": "60",
+          "question": "Which sentence uses 'fewer' or 'less' correctly?",
+          "options": [
+            "There were less people at the concert than expected.",
+            "I have less homework than you.",
+            "There are fewer students in this class.",
+            "She drinks less glasses of water than recommended."
+          ],
+          "marks": 1
+        }
+      }
+    ]
+  }
+}

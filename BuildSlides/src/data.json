@@ -1,0 +1,1771 @@
+{
+  "type": "data",
+  "id": "week3-time-ryan",
+  "props": {
+    "content": [
+      {
+        "type": "Slide",
+        "id": "slide-title",
+        "props": {
+          "content": [
+            {
+              "type": "SlideTitle",
+              "id": "title-1",
+              "props": {
+                "text": "Week 3: Reading Time",
+                "align": "center",
+                "size": "xlarge",
+                "color": "#2563eb"
+              }
+            },
+            {
+              "type": "SlideIconBox",
+              "id": "intro-box",
+              "props": {
+                "content": [
+                  {
+                    "type": "Text",
+                    "id": "intro-text",
+                    "props": {
+                      "content": "Hi Ryan! This week we're learning all about telling time on clocks. Let's become time experts!"
+                    }
+                  }
+                ],
+                "iconPlaceholder": "⏰",
+                "iconPosition": "top",
+                "iconSize": "large",
+                "iconBackground": "#3b82f6"
+              }
+            }
+          ],
+          "backgroundColor": "#eff6ff"
+        }
+      },
+      {
+        "type": "Slide",
+        "id": "slide-half-hour",
+        "props": {
+          "content": [
+            {
+              "type": "SlideTitle",
+              "id": "title-2",
+              "props": {
+                "text": "30 Minutes = Half an Hour",
+                "size": "large",
+                "color": "#7c3aed"
+              }
+            },
+            {
+              "type": "SlideContent",
+              "id": "content-half-hour",
+              "props": {
+                "content": [
+                  {
+                    "type": "SlideCard",
+                    "id": "card-half-hour",
+                    "props": {
+                      "content": [
+                        {
+                          "type": "Text",
+                          "id": "text-half-hour-1",
+                          "props": {
+                            "content": "When the minute hand moves halfway around the clock, that's 30 minutes."
+                          }
+                        },
+                        {
+                          "type": "Text",
+                          "id": "text-half-hour-2",
+                          "props": {
+                            "content": "We also call 30 minutes 'half an hour' because it's half of 60 minutes!"
+                          }
+                        }
+                      ],
+                      "elevation": "medium",
+                      "backgroundColor": "#faf5ff"
+                    }
+                  },
+                  {
+                    "type": "SlideCallout",
+                    "id": "callout-half-hour",
+                    "props": {
+                      "text": "30 minutes = half an hour = half-past",
+                      "type": "primary",
+                      "size": "large"
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "backgroundColor": "white"
+        }
+      },
+      {
+        "type": "Slide",
+        "id": "slide-hour",
+        "props": {
+          "content": [
+            {
+              "type": "SlideTitle",
+              "id": "title-3",
+              "props": {
+                "text": "60 Minutes = 1 Hour",
+                "size": "large",
+                "color": "#0891b2"
+              }
+            },
+            {
+              "type": "SlideContent",
+              "id": "content-hour",
+              "props": {
+                "content": [
+                  {
+                    "type": "SlideNumberedStep",
+                    "id": "step-hour-1",
+                    "props": {
+                      "content": [
+                        {
+                          "type": "Text",
+                          "id": "text-hour-1",
+                          "props": {
+                            "content": "When the minute hand goes all the way around the clock, that's 60 minutes."
+                          }
+                        }
+                      ],
+                      "stepNumber": 1,
+                      "stepColor": "#0891b2"
+                    }
+                  },
+                  {
+                    "type": "SlideNumberedStep",
+                    "id": "step-hour-2",
+                    "props": {
+                      "content": [
+                        {
+                          "type": "Text",
+                          "id": "text-hour-2",
+                          "props": {
+                            "content": "60 minutes equals 1 full hour. The hour hand moves to the next number."
+                          }
+                        }
+                      ],
+                      "stepNumber": 2,
+                      "stepColor": "#0891b2"
+                    }
+                  },
+                  {
+                    "type": "SlideFeatureBox",
+                    "id": "feature-hour",
+                    "props": {
+                      "content": [
+                        {
+                          "type": "Text",
+                          "id": "text-hour-3",
+                          "props": {
+                            "content": "Remember: 60 minutes = 1 hour"
+                          }
+                        }
+                      ],
+                      "iconPlaceholder": "🕐",
+                      "title": "Key Fact",
+                      "variant": "info",
+                      "size": "large"
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "backgroundColor": "#ecfeff"
+        }
+      },
+      {
+        "type": "Slide",
+        "id": "slide-quarter-hour",
+        "props": {
+          "content": [
+            {
+              "type": "SlideTitle",
+              "id": "title-4",
+              "props": {
+                "text": "Quarter-Hour = 15 Minutes",
+                "size": "large",
+                "color": "#ea580c"
+              }
+            },
+            {
+              "type": "SlideContent",
+              "id": "content-quarter",
+              "props": {
+                "content": [
+                  {
+                    "type": "SlideGradientBox",
+                    "id": "gradient-quarter",
+                    "props": {
+                      "content": [
+                        {
+                          "type": "Text",
+                          "id": "text-quarter-1",
+                          "props": {
+                            "content": "A quarter is one-fourth. So a quarter-hour is one-fourth of an hour."
+                          }
+                        },
+                        {
+                          "type": "Text",
+                          "id": "text-quarter-2",
+                          "props": {
+                            "content": "Since 1 hour = 60 minutes, a quarter-hour = 15 minutes!"
+                          }
+                        }
+                      ],
+                      "gradientStart": "#f97316",
+                      "gradientEnd": "#fb923c",
+                      "direction": "to-right",
+                      "textColor": "white"
+                    }
+                  },
+                  {
+                    "type": "SlideTwoColumn",
+                    "id": "two-col-quarter",
+                    "props": {
+                      "leftContent": [
+                        {
+                          "type": "SlideCard",
+                          "id": "card-quarter-past",
+                          "props": {
+                            "content": [
+                              {
+                                "type": "Text",
+                                "id": "text-qp",
+                                "props": {
+                                  "content": "Quarter past = 15 minutes after the hour"
+                                }
+                              }
+                            ],
+                            "backgroundColor": "#fff7ed"
+                          }
+                        }
+                      ],
+                      "rightContent": [
+                        {
+                          "type": "SlideCard",
+                          "id": "card-quarter-to",
+                          "props": {
+                            "content": [
+                              {
+                                "type": "Text",
+                                "id": "text-qt",
+                                "props": {
+                                  "content": "Quarter to = 15 minutes before the hour"
+                                }
+                              }
+                            ],
+                            "backgroundColor": "#fff7ed"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "backgroundColor": "white"
+        }
+      },
+      {
+        "type": "Slide",
+        "id": "slide-two-values",
+        "props": {
+          "content": [
+            {
+              "type": "SlideTitle",
+              "id": "title-5",
+              "props": {
+                "text": "Clock Numbers Have 2 Values!",
+                "size": "large",
+                "color": "#dc2626"
+              }
+            },
+            {
+              "type": "SlideContent",
+              "id": "content-two-values",
+              "props": {
+                "content": [
+                  {
+                    "type": "SlideAccentBar",
+                    "id": "accent-values",
+                    "props": {
+                      "content": [
+                        {
+                          "type": "Text",
+                          "id": "text-values-1",
+                          "props": {
+                            "content": "Each number on a clock tells us TWO things:"
+                          }
+                        }
+                      ],
+                      "accentColor": "#dc2626",
+                      "position": "left",
+                      "thickness": "thick"
+                    }
+                  },
+                  {
+                    "type": "SlideTwoColumn",
+                    "id": "two-col-values",
+                    "props": {
+                      "leftContent": [
+                        {
+                          "type": "SlideIconBox",
+                          "id": "icon-hour",
+                          "props": {
+                            "content": [
+                              {
+                                "type": "Text",
+                                "id": "text-hour-hand",
+                                "props": {
+                                  "content": "Hour Hand: The number shows the hour (e.g., 3 means 3 o'clock)"
+                                }
+                              }
+                            ],
+                            "iconPlaceholder": "🕒",
+                            "iconPosition": "left",
+                            "iconBackground": "#dc2626"
+                          }
+                        }
+                      ],
+                      "rightContent": [
+                        {
+                          "type": "SlideIconBox",
+                          "id": "icon-minute",
+                          "props": {
+                            "content": [
+                              {
+                                "type": "Text",
+                                "id": "text-minute-hand",
+                                "props": {
+                                  "content": "Minute Hand: The number shows minutes (e.g., 3 means 15 minutes)"
+                                }
+                              }
+                            ],
+                            "iconPlaceholder": "⏱️",
+                            "iconPosition": "left",
+                            "iconBackground": "#dc2626"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "SlideCallout",
+                    "id": "callout-values",
+                    "props": {
+                      "text": "Example: The number 6 means '6 o'clock' for the hour hand BUT '30 minutes' for the minute hand!",
+                      "type": "warning",
+                      "size": "large"
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "backgroundColor": "#fef2f2"
+        }
+      },
+      {
+        "type": "Slide",
+        "id": "slide-5-minute-intervals",
+        "props": {
+          "content": [
+            {
+              "type": "SlideTitle",
+              "id": "title-6",
+              "props": {
+                "text": "5-Minute Intervals",
+                "size": "large",
+                "color": "#16a34a"
+              }
+            },
+            {
+              "type": "SlideContent",
+              "id": "content-5min",
+              "props": {
+                "content": [
+                  {
+                    "type": "SlideCard",
+                    "id": "card-5min",
+                    "props": {
+                      "content": [
+                        {
+                          "type": "Text",
+                          "id": "text-5min-1",
+                          "props": {
+                            "content": "Each number on the clock represents 5 minutes when we're counting minutes:"
+                          }
+                        }
+                      ],
+                      "backgroundColor": "#f0fdf4"
+                    }
+                  },
+                  {
+                    "type": "SlideBulletList",
+                    "id": "list-5min",
+                    "props": {
+                      "items": [
+                        "12 = 0 minutes (or 60 minutes)",
+                        "1 = 5 minutes",
+                        "2 = 10 minutes",
+                        "3 = 15 minutes",
+                        "4 = 20 minutes",
+                        "5 = 25 minutes",
+                        "6 = 30 minutes",
+                        "7 = 35 minutes",
+                        "8 = 40 minutes",
+                        "9 = 45 minutes",
+                        "10 = 50 minutes",
+                        "11 = 55 minutes"
+                      ],
+                      "bulletStyle": "disc",
+                      "fontSize": "medium",
+                      "spacing": "compact"
+                    }
+                  },
+                  {
+                    "type": "SlideFeatureBox",
+                    "id": "feature-5min",
+                    "props": {
+                      "content": [
+                        {
+                          "type": "Text",
+                          "id": "text-5min-tip",
+                          "props": {
+                            "content": "Tip: Count by 5s around the clock to find the minutes!"
+                          }
+                        }
+                      ],
+                      "iconPlaceholder": "💡",
+                      "title": "Quick Trick",
+                      "variant": "success"
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "backgroundColor": "white"
+        }
+      },
+      {
+        "type": "Slide",
+        "id": "slide-past-hour",
+        "props": {
+          "content": [
+            {
+              "type": "SlideTitle",
+              "id": "title-7",
+              "props": {
+                "text": "Reading Time: Past the Hour",
+                "size": "large",
+                "color": "#7c3aed"
+              }
+            },
+            {
+              "type": "SlideContent",
+              "id": "content-past",
+              "props": {
+                "content": [
+                  {
+                    "type": "SlideNumberedStep",
+                    "id": "step-past-1",
+                    "props": {
+                      "content": [
+                        {
+                          "type": "Text",
+                          "id": "text-past-1",
+                          "props": {
+                            "content": "From the 12 to the 6, we say 'past' the hour. The minute hand has gone past the 12."
+                          }
+                        }
+                      ],
+                      "stepNumber": 1,
+                      "stepColor": "#7c3aed"
+                    }
+                  },
+                  {
+                    "type": "SlideNumberedStep",
+                    "id": "step-past-2",
+                    "props": {
+                      "content": [
+                        {
+                          "type": "Text",
+                          "id": "text-past-2",
+                          "props": {
+                            "content": "Examples: 10 past 2, quarter past 3, 25 past 7, half-past 9"
+                          }
+                        }
+                      ],
+                      "stepNumber": 2,
+                      "stepColor": "#7c3aed"
+                    }
+                  },
+                  {
+                    "type": "SlideGradientBox",
+                    "id": "gradient-past",
+                    "props": {
+                      "content": [
+                        {
+                          "type": "Text",
+                          "id": "text-past-formula",
+                          "props": {
+                            "content": "How to say it: [minutes] past [hour]"
+                          }
+                        }
+                      ],
+                      "gradientStart": "#7c3aed",
+                      "gradientEnd": "#a78bfa",
+                      "direction": "to-right",
+                      "textColor": "white"
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "backgroundColor": "#faf5ff"
+        }
+      },
+      {
+        "type": "Slide",
+        "id": "slide-to-hour",
+        "props": {
+          "content": [
+            {
+              "type": "SlideTitle",
+              "id": "title-8",
+              "props": {
+                "text": "Reading Time: To the Hour",
+                "size": "large",
+                "color": "#0891b2"
+              }
+            },
+            {
+              "type": "SlideContent",
+              "id": "content-to",
+              "props": {
+                "content": [
+                  {
+                    "type": "SlideNumberedStep",
+                    "id": "step-to-1",
+                    "props": {
+                      "content": [
+                        {
+                          "type": "Text",
+                          "id": "text-to-1",
+                          "props": {
+                            "content": "From the 6 to the 12, we say 'to' the hour. We're counting towards the NEXT hour."
+                          }
+                        }
+                      ],
+                      "stepNumber": 1,
+                      "stepColor": "#0891b2"
+                    }
+                  },
+                  {
+                    "type": "SlideNumberedStep",
+                    "id": "step-to-2",
+                    "props": {
+                      "content": [
+                        {
+                          "type": "Text",
+                          "id": "text-to-2",
+                          "props": {
+                            "content": "To find 'to' time: subtract the minutes from 60, then add 1 to the hour."
+                          }
+                        }
+                      ],
+                      "stepNumber": 2,
+                      "stepColor": "#0891b2"
+                    }
+                  },
+                  {
+                    "type": "SlideCard",
+                    "id": "card-to-example",
+                    "props": {
+                      "content": [
+                        {
+                          "type": "Text",
+                          "id": "text-to-example",
+                          "props": {
+                            "content": "Example: If it's 50 minutes past 3, we can also say it's 10 to 4 (because 60 - 50 = 10, and 3 + 1 = 4)"
+                          }
+                        }
+                      ],
+                      "backgroundColor": "#ecfeff",
+                      "elevation": "medium"
+                    }
+                  },
+                  {
+                    "type": "SlideCallout",
+                    "id": "callout-to",
+                    "props": {
+                      "text": "Examples: quarter to 5 (45 past 4), 10 to 8, 20 to 11",
+                      "type": "info",
+                      "size": "large"
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "backgroundColor": "white"
+        }
+      },
+      {
+        "type": "Slide",
+        "id": "slide-to-minute",
+        "props": {
+          "content": [
+            {
+              "type": "SlideTitle",
+              "id": "title-9",
+              "props": {
+                "text": "Reading Clocks to the Minute",
+                "size": "large",
+                "color": "#ea580c"
+              }
+            },
+            {
+              "type": "SlideContent",
+              "id": "content-minute",
+              "props": {
+                "content": [
+                  {
+                    "type": "SlideAccentBar",
+                    "id": "accent-minute",
+                    "props": {
+                      "content": [
+                        {
+                          "type": "Text",
+                          "id": "text-minute-intro",
+                          "props": {
+                            "content": "Now let's learn to read the exact minute, not just 5-minute intervals!"
+                          }
+                        }
+                      ],
+                      "accentColor": "#ea580c",
+                      "position": "left",
+                      "thickness": "thick"
+                    }
+                  },
+                  {
+                    "type": "SlideNumberedStep",
+                    "id": "step-minute-1",
+                    "props": {
+                      "content": [
+                        {
+                          "type": "Text",
+                          "id": "text-minute-1",
+                          "props": {
+                            "content": "Find the nearest 5-minute mark (the hour numbers)."
+                          }
+                        }
+                      ],
+                      "stepNumber": 1,
+                      "stepColor": "#ea580c"
+                    }
+                  },
+                  {
+                    "type": "SlideNumberedStep",
+                    "id": "step-minute-2",
+                    "props": {
+                      "content": [
+                        {
+                          "type": "Text",
+                          "id": "text-minute-2",
+                          "props": {
+                            "content": "Count the small tick marks between the numbers. Each tick mark is 1 minute."
+                          }
+                        }
+                      ],
+                      "stepNumber": 2,
+                      "stepColor": "#ea580c"
+                    }
+                  },
+                  {
+                    "type": "SlideNumberedStep",
+                    "id": "step-minute-3",
+                    "props": {
+                      "content": [
+                        {
+                          "type": "Text",
+                          "id": "text-minute-3",
+                          "props": {
+                            "content": "Add the tick marks to your 5-minute benchmark."
+                          }
+                        }
+                      ],
+                      "stepNumber": 3,
+                      "stepColor": "#ea580c"
+                    }
+                  },
+                  {
+                    "type": "SlideFeatureBox",
+                    "id": "feature-minute-example",
+                    "props": {
+                      "content": [
+                        {
+                          "type": "Text",
+                          "id": "text-minute-example",
+                          "props": {
+                            "content": "Example: If the minute hand is 3 tick marks past the 2, that's 10 + 3 = 13 minutes past the hour!"
+                          }
+                        }
+                      ],
+                      "iconPlaceholder": "✏️",
+                      "title": "Example",
+                      "variant": "warning"
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "backgroundColor": "#fff7ed"
+        }
+      },
+      {
+        "type": "Slide",
+        "id": "slide-practice-1",
+        "props": {
+          "content": [
+            {
+              "type": "SlideTitle",
+              "id": "title-10",
+              "props": {
+                "text": "Practice Time!",
+                "size": "large",
+                "color": "#dc2626"
+              }
+            },
+            {
+              "type": "SlideContent",
+              "id": "content-practice-1",
+              "props": {
+                "content": [
+                  {
+                    "type": "SlideCard",
+                    "id": "card-q1",
+                    "props": {
+                      "content": [
+                        {
+                          "type": "Text",
+                          "id": "text-q1",
+                          "props": {
+                            "content": "Question 1: How many minutes are in half an hour?"
+                          }
+                        }
+                      ],
+                      "backgroundColor": "#fef2f2"
+                    }
+                  },
+                  {
+                    "type": "SlideCard",
+                    "id": "card-q2",
+                    "props": {
+                      "content": [
+                        {
+                          "type": "Text",
+                          "id": "text-q2",
+                          "props": {
+                            "content": "Question 2: How many minutes are in a full hour?"
+                          }
+                        }
+                      ],
+                      "backgroundColor": "#fef2f2"
+                    }
+                  },
+                  {
+                    "type": "SlideCard",
+                    "id": "card-q3",
+                    "props": {
+                      "content": [
+                        {
+                          "type": "Text",
+                          "id": "text-q3",
+                          "props": {
+                            "content": "Question 3: How many minutes are in a quarter-hour?"
+                          }
+                        }
+                      ],
+                      "backgroundColor": "#fef2f2"
+                    }
+                  },
+                  {
+                    "type": "SlideCard",
+                    "id": "card-q4",
+                    "props": {
+                      "content": [
+                        {
+                          "type": "Text",
+                          "id": "text-q4",
+                          "props": {
+                            "content": "Question 4: If the minute hand is pointing at the 3, how many minutes past the hour is it?"
+                          }
+                        }
+                      ],
+                      "backgroundColor": "#fef2f2"
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "backgroundColor": "white"
+        }
+      },
+      {
+        "type": "Slide",
+        "id": "slide-practice-2",
+        "props": {
+          "content": [
+            {
+              "type": "SlideTitle",
+              "id": "title-11",
+              "props": {
+                "text": "More Practice Questions",
+                "size": "large",
+                "color": "#16a34a"
+              }
+            },
+            {
+              "type": "SlideContent",
+              "id": "content-practice-2",
+              "props": {
+                "content": [
+                  {
+                    "type": "SlideCard",
+                    "id": "card-q5",
+                    "props": {
+                      "content": [
+                        {
+                          "type": "Text",
+                          "id": "text-q5",
+                          "props": {
+                            "content": "Question 5: If the minute hand is pointing at the 9, how many minutes past the hour is it?"
+                          }
+                        }
+                      ],
+                      "backgroundColor": "#f0fdf4"
+                    }
+                  },
+                  {
+                    "type": "SlideCard",
+                    "id": "card-q6",
+                    "props": {
+                      "content": [
+                        {
+                          "type": "Text",
+                          "id": "text-q6",
+                          "props": {
+                            "content": "Question 6: What is another way to say 45 minutes past 2? (Hint: Use 'quarter to')"
+                          }
+                        }
+                      ],
+                      "backgroundColor": "#f0fdf4"
+                    }
+                  },
+                  {
+                    "type": "SlideCard",
+                    "id": "card-q7",
+                    "props": {
+                      "content": [
+                        {
+                          "type": "Text",
+                          "id": "text-q7",
+                          "props": {
+                            "content": "Question 7: If it's 55 minutes past 7, what is another way to say this time using 'to'?"
+                          }
+                        }
+                      ],
+                      "backgroundColor": "#f0fdf4"
+                    }
+                  },
+                  {
+                    "type": "SlideCard",
+                    "id": "card-q8",
+                    "props": {
+                      "content": [
+                        {
+                          "type": "Text",
+                          "id": "text-q8",
+                          "props": {
+                            "content": "Question 8: What number does the minute hand point to when it's half-past the hour?"
+                          }
+                        }
+                      ],
+                      "backgroundColor": "#f0fdf4"
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "backgroundColor": "white"
+        }
+      },
+      {
+        "type": "Slide",
+        "id": "slide-practice-3",
+        "props": {
+          "content": [
+            {
+              "type": "SlideTitle",
+              "id": "title-12",
+              "props": {
+                "text": "Challenge Questions",
+                "size": "large",
+                "color": "#7c3aed"
+              }
+            },
+            {
+              "type": "SlideContent",
+              "id": "content-practice-3",
+              "props": {
+                "content": [
+                  {
+                    "type": "SlideCard",
+                    "id": "card-q9",
+                    "props": {
+                      "content": [
+                        {
+                          "type": "Text",
+                          "id": "text-q9",
+                          "props": {
+                            "content": "Question 9: If the minute hand is 2 tick marks past the 4, what time is it in minutes past the hour?"
+                          }
+                        }
+                      ],
+                      "backgroundColor": "#faf5ff"
+                    }
+                  },
+                  {
+                    "type": "SlideCard",
+                    "id": "card-q10",
+                    "props": {
+                      "content": [
+                        {
+                          "type": "Text",
+                          "id": "text-q10",
+                          "props": {
+                            "content": "Question 10: If it's 23 minutes past 5, where would the minute hand be pointing? (Hint: Between which two numbers?)"
+                          }
+                        }
+                      ],
+                      "backgroundColor": "#faf5ff"
+                    }
+                  },
+                  {
+                    "type": "SlideCard",
+                    "id": "card-q11",
+                    "props": {
+                      "content": [
+                        {
+                          "type": "Text",
+                          "id": "text-q11",
+                          "props": {
+                            "content": "Question 11: How many 5-minute intervals are there in one complete hour?"
+                          }
+                        }
+                      ],
+                      "backgroundColor": "#faf5ff"
+                    }
+                  },
+                  {
+                    "type": "SlideCard",
+                    "id": "card-q12",
+                    "props": {
+                      "content": [
+                        {
+                          "type": "Text",
+                          "id": "text-q12",
+                          "props": {
+                            "content": "Question 12: If the hour hand is between 3 and 4, and the minute hand is pointing at 7, what time is it?"
+                          }
+                        }
+                      ],
+                      "backgroundColor": "#faf5ff"
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "backgroundColor": "white"
+        }
+      },
+      {
+        "type": "Slide",
+        "id": "slide-practice-4",
+        "props": {
+          "content": [
+            {
+              "type": "SlideTitle",
+              "id": "title-13",
+              "props": {
+                "text": "Tricky Time Problems",
+                "size": "large",
+                "color": "#0891b2"
+              }
+            },
+            {
+              "type": "SlideContent",
+              "id": "content-practice-4",
+              "props": {
+                "content": [
+                  {
+                    "type": "SlideCard",
+                    "id": "card-q13",
+                    "props": {
+                      "content": [
+                        {
+                          "type": "Text",
+                          "id": "text-q13",
+                          "props": {
+                            "content": "Question 13: Write 'quarter past 6' as minutes past the hour."
+                          }
+                        }
+                      ],
+                      "backgroundColor": "#ecfeff"
+                    }
+                  },
+                  {
+                    "type": "SlideCard",
+                    "id": "card-q14",
+                    "props": {
+                      "content": [
+                        {
+                          "type": "Text",
+                          "id": "text-q14",
+                          "props": {
+                            "content": "Question 14: Write '20 to 9' as minutes past the hour. (Hint: Convert it to 'past' format)"
+                          }
+                        }
+                      ],
+                      "backgroundColor": "#ecfeff"
+                    }
+                  },
+                  {
+                    "type": "SlideCard",
+                    "id": "card-q15",
+                    "props": {
+                      "content": [
+                        {
+                          "type": "Text",
+                          "id": "text-q15",
+                          "props": {
+                            "content": "Question 15: If the minute hand moves from the 6 to the 9, how many minutes have passed?"
+                          }
+                        }
+                      ],
+                      "backgroundColor": "#ecfeff"
+                    }
+                  },
+                  {
+                    "type": "SlideCard",
+                    "id": "card-q16",
+                    "props": {
+                      "content": [
+                        {
+                          "type": "Text",
+                          "id": "text-q16",
+                          "props": {
+                            "content": "Question 16: If it's 28 minutes past 4, the minute hand is between which two numbers?"
+                          }
+                        }
+                      ],
+                      "backgroundColor": "#ecfeff"
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "backgroundColor": "white"
+        }
+      },
+      {
+        "type": "Slide",
+        "id": "slide-practice-5",
+        "props": {
+          "content": [
+            {
+              "type": "SlideTitle",
+              "id": "title-14",
+              "props": {
+                "text": "Converting Times",
+                "size": "large",
+                "color": "#ea580c"
+              }
+            },
+            {
+              "type": "SlideContent",
+              "id": "content-practice-5",
+              "props": {
+                "content": [
+                  {
+                    "type": "SlideCallout",
+                    "id": "callout-convert",
+                    "props": {
+                      "text": "Let's practise converting between 'past' and 'to' the hour!",
+                      "type": "warning",
+                      "size": "medium"
+                    }
+                  },
+                  {
+                    "type": "SlideCard",
+                    "id": "card-q17",
+                    "props": {
+                      "content": [
+                        {
+                          "type": "Text",
+                          "id": "text-q17",
+                          "props": {
+                            "content": "Question 17: Convert 'quarter to 7' into minutes past 6."
+                          }
+                        }
+                      ],
+                      "backgroundColor": "#fff7ed"
+                    }
+                  },
+                  {
+                    "type": "SlideCard",
+                    "id": "card-q18",
+                    "props": {
+                      "content": [
+                        {
+                          "type": "Text",
+                          "id": "text-q18",
+                          "props": {
+                            "content": "Question 18: Convert '50 minutes past 3' into minutes to the next hour."
+                          }
+                        }
+                      ],
+                      "backgroundColor": "#fff7ed"
+                    }
+                  },
+                  {
+                    "type": "SlideCard",
+                    "id": "card-q19",
+                    "props": {
+                      "content": [
+                        {
+                          "type": "Text",
+                          "id": "text-q19",
+                          "props": {
+                            "content": "Question 19: It's 38 minutes past 11. How many minutes until 12 o'clock?"
+                          }
+                        }
+                      ],
+                      "backgroundColor": "#fff7ed"
+                    }
+                  },
+                  {
+                    "type": "SlideCard",
+                    "id": "card-q20",
+                    "props": {
+                      "content": [
+                        {
+                          "type": "Text",
+                          "id": "text-q20",
+                          "props": {
+                            "content": "Question 20: Write '5 to 10' as minutes past 9."
+                          }
+                        }
+                      ],
+                      "backgroundColor": "#fff7ed"
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "backgroundColor": "white"
+        }
+      },
+      {
+        "type": "Slide",
+        "id": "slide-practice-6",
+        "props": {
+          "content": [
+            {
+              "type": "SlideTitle",
+              "id": "title-15",
+              "props": {
+                "text": "Reading Exact Minutes",
+                "size": "large",
+                "color": "#dc2626"
+              }
+            },
+            {
+              "type": "SlideContent",
+              "id": "content-practice-6",
+              "props": {
+                "content": [
+                  {
+                    "type": "SlideCard",
+                    "id": "card-q21",
+                    "props": {
+                      "content": [
+                        {
+                          "type": "Text",
+                          "id": "text-q21",
+                          "props": {
+                            "content": "Question 21: The minute hand is 4 tick marks past the 7. How many minutes past the hour is this?"
+                          }
+                        }
+                      ],
+                      "backgroundColor": "#fef2f2"
+                    }
+                  },
+                  {
+                    "type": "SlideCard",
+                    "id": "card-q22",
+                    "props": {
+                      "content": [
+                        {
+                          "type": "Text",
+                          "id": "text-q22",
+                          "props": {
+                            "content": "Question 22: To show 43 minutes past the hour, between which two numbers would the minute hand be, and how many tick marks past the first number?"
+                          }
+                        }
+                      ],
+                      "backgroundColor": "#fef2f2"
+                    }
+                  },
+                  {
+                    "type": "SlideCard",
+                    "id": "card-q23",
+                    "props": {
+                      "content": [
+                        {
+                          "type": "Text",
+                          "id": "text-q23",
+                          "props": {
+                            "content": "Question 23: If the minute hand is 1 tick mark before the 10, what time is it in minutes past the hour?"
+                          }
+                        }
+                      ],
+                      "backgroundColor": "#fef2f2"
+                    }
+                  },
+                  {
+                    "type": "SlideCard",
+                    "id": "card-q24",
+                    "props": {
+                      "content": [
+                        {
+                          "type": "Text",
+                          "id": "text-q24",
+                          "props": {
+                            "content": "Question 24: How many individual tick marks are there all the way around a clock face?"
+                          }
+                        }
+                      ],
+                      "backgroundColor": "#fef2f2"
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "backgroundColor": "white"
+        }
+      },
+      {
+        "type": "Slide",
+        "id": "slide-practice-7",
+        "props": {
+          "content": [
+            {
+              "type": "SlideTitle",
+              "id": "title-16",
+              "props": {
+                "text": "Word Problems",
+                "size": "large",
+                "color": "#16a34a"
+              }
+            },
+            {
+              "type": "SlideContent",
+              "id": "content-practice-7",
+              "props": {
+                "content": [
+                  {
+                    "type": "SlideCard",
+                    "id": "card-q25",
+                    "props": {
+                      "content": [
+                        {
+                          "type": "Text",
+                          "id": "text-q25",
+                          "props": {
+                            "content": "Question 25: Ryan started his homework at quarter past 3. He finished at quarter to 4. How many minutes did he spend on homework?"
+                          }
+                        }
+                      ],
+                      "backgroundColor": "#f0fdf4"
+                    }
+                  },
+                  {
+                    "type": "SlideCard",
+                    "id": "card-q26",
+                    "props": {
+                      "content": [
+                        {
+                          "type": "Text",
+                          "id": "text-q26",
+                          "props": {
+                            "content": "Question 26: A movie starts at 20 past 2 and runs for 30 minutes. What time does it finish? Give your answer as 'minutes past the hour'."
+                          }
+                        }
+                      ],
+                      "backgroundColor": "#f0fdf4"
+                    }
+                  },
+                  {
+                    "type": "SlideCard",
+                    "id": "card-q27",
+                    "props": {
+                      "content": [
+                        {
+                          "type": "Text",
+                          "id": "text-q27",
+                          "props": {
+                            "content": "Question 27: The clock shows 10 to 8. How many more minutes until 8 o'clock?"
+                          }
+                        }
+                      ],
+                      "backgroundColor": "#f0fdf4"
+                    }
+                  },
+                  {
+                    "type": "SlideCard",
+                    "id": "card-q28",
+                    "props": {
+                      "content": [
+                        {
+                          "type": "Text",
+                          "id": "text-q28",
+                          "props": {
+                            "content": "Question 28: Ryan's lunch break is half an hour long. It starts at 25 past 12. What time does it end?"
+                          }
+                        }
+                      ],
+                      "backgroundColor": "#f0fdf4"
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "backgroundColor": "white"
+        }
+      },
+      {
+        "type": "Slide",
+        "id": "slide-practice-8",
+        "props": {
+          "content": [
+            {
+              "type": "SlideTitle",
+              "id": "title-17",
+              "props": {
+                "text": "Advanced Time Problems",
+                "size": "large",
+                "color": "#7c3aed"
+              }
+            },
+            {
+              "type": "SlideContent",
+              "id": "content-practice-8",
+              "props": {
+                "content": [
+                  {
+                    "type": "SlideCard",
+                    "id": "card-q29",
+                    "props": {
+                      "content": [
+                        {
+                          "type": "Text",
+                          "id": "text-q29",
+                          "props": {
+                            "content": "Question 29: A clock shows 17 minutes past 9. If the minute hand moves forward 8 minutes, what will be the new time?"
+                          }
+                        }
+                      ],
+                      "backgroundColor": "#faf5ff"
+                    }
+                  },
+                  {
+                    "type": "SlideCard",
+                    "id": "card-q30",
+                    "props": {
+                      "content": [
+                        {
+                          "type": "Text",
+                          "id": "text-q30",
+                          "props": {
+                            "content": "Question 30: If it takes Ryan 15 minutes to walk to school, and school starts at 9 o'clock, what is the latest time he can leave home? Write your answer as 'minutes to 9'."
+                          }
+                        }
+                      ],
+                      "backgroundColor": "#faf5ff"
+                    }
+                  },
+                  {
+                    "type": "SlideCard",
+                    "id": "card-q31",
+                    "props": {
+                      "content": [
+                        {
+                          "type": "Text",
+                          "id": "text-q31",
+                          "props": {
+                            "content": "Question 31: The minute hand is pointing exactly at the 8. If it moves backwards 13 minutes, where will it point? (Give the number and how many tick marks)"
+                          }
+                        }
+                      ],
+                      "backgroundColor": "#faf5ff"
+                    }
+                  },
+                  {
+                    "type": "SlideCard",
+                    "id": "card-q32",
+                    "props": {
+                      "content": [
+                        {
+                          "type": "Text",
+                          "id": "text-q32",
+                          "props": {
+                            "content": "Question 32: How many minutes does the minute hand travel when it moves from 'quarter past' to 'half-past' the hour?"
+                          }
+                        }
+                      ],
+                      "backgroundColor": "#faf5ff"
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "backgroundColor": "white"
+        }
+      },
+      {
+        "type": "Slide",
+        "id": "slide-practice-9",
+        "props": {
+          "content": [
+            {
+              "type": "SlideTitle",
+              "id": "title-18",
+              "props": {
+                "text": "Time Calculation Challenges",
+                "size": "large",
+                "color": "#0891b2"
+              }
+            },
+            {
+              "type": "SlideContent",
+              "id": "content-practice-9",
+              "props": {
+                "content": [
+                  {
+                    "type": "SlideCard",
+                    "id": "card-q33",
+                    "props": {
+                      "content": [
+                        {
+                          "type": "Text",
+                          "id": "text-q33",
+                          "props": {
+                            "content": "Question 33: Ryan plays outside from 28 minutes past 3 until 7 minutes past 4. For how many minutes does he play?"
+                          }
+                        }
+                      ],
+                      "backgroundColor": "#ecfeff"
+                    }
+                  },
+                  {
+                    "type": "SlideCard",
+                    "id": "card-q34",
+                    "props": {
+                      "content": [
+                        {
+                          "type": "Text",
+                          "id": "text-q34",
+                          "props": {
+                            "content": "Question 34: A TV show is 25 minutes long. It finishes at 18 minutes past 6. What time did it start?"
+                          }
+                        }
+                      ],
+                      "backgroundColor": "#ecfeff"
+                    }
+                  },
+                  {
+                    "type": "SlideCard",
+                    "id": "card-q35",
+                    "props": {
+                      "content": [
+                        {
+                          "type": "Text",
+                          "id": "text-q35",
+                          "props": {
+                            "content": "Question 35: How many times does the minute hand pass the 12 between 2 o'clock and 5 o'clock?"
+                          }
+                        }
+                      ],
+                      "backgroundColor": "#ecfeff"
+                    }
+                  },
+                  {
+                    "type": "SlideCard",
+                    "id": "card-q36",
+                    "props": {
+                      "content": [
+                        {
+                          "type": "Text",
+                          "id": "text-q36",
+                          "props": {
+                            "content": "Question 36: If a clock shows 42 minutes past 7, write this time in two different ways (use both 'past' and 'to')."
+                          }
+                        }
+                      ],
+                      "backgroundColor": "#ecfeff"
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "backgroundColor": "white"
+        }
+      },
+      {
+        "type": "Slide",
+        "id": "slide-practice-10",
+        "props": {
+          "content": [
+            {
+              "type": "SlideTitle",
+              "id": "title-19",
+              "props": {
+                "text": "Expert Level Questions",
+                "size": "large",
+                "color": "#ea580c"
+              }
+            },
+            {
+              "type": "SlideContent",
+              "id": "content-practice-10",
+              "props": {
+                "content": [
+                  {
+                    "type": "SlideCallout",
+                    "id": "callout-expert",
+                    "props": {
+                      "text": "These are the trickiest questions. Take your time and think carefully!",
+                      "type": "danger",
+                      "size": "medium"
+                    }
+                  },
+                  {
+                    "type": "SlideCard",
+                    "id": "card-q37",
+                    "props": {
+                      "content": [
+                        {
+                          "type": "Text",
+                          "id": "text-q37",
+                          "props": {
+                            "content": "Question 37: The minute hand moves from 23 minutes past the hour to 51 minutes past the hour. How many minutes have passed?"
+                          }
+                        }
+                      ],
+                      "backgroundColor": "#fff7ed"
+                    }
+                  },
+                  {
+                    "type": "SlideCard",
+                    "id": "card-q38",
+                    "props": {
+                      "content": [
+                        {
+                          "type": "Text",
+                          "id": "text-q38",
+                          "props": {
+                            "content": "Question 38: Ryan has three clocks. One shows quarter to 4, one shows 15 to 4, and one shows 45 past 3. Are they all showing the same time? Explain why or why not."
+                          }
+                        }
+                      ],
+                      "backgroundColor": "#fff7ed"
+                    }
+                  },
+                  {
+                    "type": "SlideCard",
+                    "id": "card-q39",
+                    "props": {
+                      "content": [
+                        {
+                          "type": "Text",
+                          "id": "text-q39",
+                          "props": {
+                            "content": "Question 39: If Ryan starts reading at 37 minutes past 2 and reads for exactly one hour, what time will he finish? Give your answer as minutes past the hour."
+                          }
+                        }
+                      ],
+                      "backgroundColor": "#fff7ed"
+                    }
+                  },
+                  {
+                    "type": "SlideCard",
+                    "id": "card-q40",
+                    "props": {
+                      "content": [
+                        {
+                          "type": "Text",
+                          "id": "text-q40",
+                          "props": {
+                            "content": "Question 40: Between 3 o'clock and 4 o'clock, at what time are the hour hand and minute hand closest together (but not at exactly 3 o'clock)? Hint: Think about when they're both pointing in almost the same direction."
+                          }
+                        }
+                      ],
+                      "backgroundColor": "#fff7ed"
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "backgroundColor": "white"
+        }
+      },
+      {
+        "type": "Slide",
+        "id": "slide-summary",
+        "props": {
+          "content": [
+            {
+              "type": "SlideTitle",
+              "id": "title-20",
+              "props": {
+                "text": "Week 3 Summary",
+                "align": "center",
+                "size": "xlarge",
+                "color": "#16a34a"
+              }
+            },
+            {
+              "type": "SlideContent",
+              "id": "content-summary",
+              "props": {
+                "content": [
+                  {
+                    "type": "SlideGradientBox",
+                    "id": "gradient-summary",
+                    "props": {
+                      "content": [
+                        {
+                          "type": "Text",
+                          "id": "text-summary",
+                          "props": {
+                            "content": "Great work, Ryan! You've learned so much about telling time!"
+                          }
+                        }
+                      ],
+                      "gradientStart": "#16a34a",
+                      "gradientEnd": "#22c55e",
+                      "direction": "to-right",
+                      "textColor": "white"
+                    }
+                  },
+                  {
+                    "type": "SlideTwoColumn",
+                    "id": "two-col-summary",
+                    "props": {
+                      "leftContent": [
+                        {
+                          "type": "SlideFeatureBox",
+                          "id": "feature-summary-1",
+                          "props": {
+                            "content": [
+                              {
+                                "type": "SlideBulletList",
+                                "id": "list-summary-1",
+                                "props": {
+                                  "items": [
+                                    "30 minutes = half an hour",
+                                    "60 minutes = 1 hour",
+                                    "15 minutes = quarter-hour",
+                                    "Clock numbers show 2 values"
+                                  ],
+                                  "bulletStyle": "disc",
+                                  "fontSize": "medium"
+                                }
+                              }
+                            ],
+                            "iconPlaceholder": "✓",
+                            "title": "What You Learned",
+                            "variant": "success"
+                          }
+                        }
+                      ],
+                      "rightContent": [
+                        {
+                          "type": "SlideFeatureBox",
+                          "id": "feature-summary-2",
+                          "props": {
+                            "content": [
+                              {
+                                "type": "SlideBulletList",
+                                "id": "list-summary-2",
+                                "props": {
+                                  "items": [
+                                    "5-minute intervals",
+                                    "Reading past the hour",
+                                    "Reading to the hour",
+                                    "Reading to the minute"
+                                  ],
+                                  "bulletStyle": "disc",
+                                  "fontSize": "medium"
+                                }
+                              }
+                            ],
+                            "iconPlaceholder": "⭐",
+                            "title": "Skills Mastered",
+                            "variant": "primary"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "SlideCallout",
+                    "id": "callout-summary",
+                    "props": {
+                      "text": "Keep practising telling time every day, and soon you'll be a time-telling expert!",
+                      "type": "success",
+                      "size": "large"
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "backgroundColor": "#f0fdf4"
+        }
+      }
+    ]
+  }
+}

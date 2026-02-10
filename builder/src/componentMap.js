@@ -11,6 +11,19 @@ import MultipleChoiceQuestion from "./components/practiseQuestions/MultipleChoic
 import PractiseQuestions from "./components/practiseQuestions/PractiseQuestions";
 import ShortAnswerQuestion from "./components/practiseQuestions/ShortAnswerQuestion";
 import Text from "./components/Text";
+import StepByStepSolution from "./components/StepByStepSolution";
+import FormulaCard from "./components/FormulaCard";
+import WeeklyTitle from "./components/WeeklyTitle";
+import TermTitlePage from "./components/TermTitlePage";
+import ContentPlaceholder from "./components/ContentPlaceholder";
+import Angle from "./components/Angle";
+import RetrievalPractice from "./components/RetrievalPractice";
+import CommonMisconception from "./components/CommonMisconception";
+import WorkedErrorExample from "./components/WorkedErrorExample";
+import MetacognitivePrompt from "./components/MetacognitivePrompt";
+import ConceptComparison from "./components/ConceptComparison";
+import MultipleRepresentation from "./components/MultipleRepresentation";
+import HomeworkComment from "./components/HomeworkComment";
 
 const componentMap = {
   ExplanationBox,
@@ -26,6 +39,19 @@ const componentMap = {
   GroupedSubquestionsGrid,
   Heading,
   Text,
+  StepByStepSolution,
+  FormulaCard,
+  WeeklyTitle,
+  TermTitlePage,
+  ContentPlaceholder,
+  Angle,
+  RetrievalPractice,
+  CommonMisconception,
+  WorkedErrorExample,
+  MetacognitivePrompt,
+  ConceptComparison,
+  MultipleRepresentation,
+  HomeworkComment,
 };
 
 export default componentMap;

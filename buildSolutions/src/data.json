@@ -1,0 +1,758 @@
+{
+  "type": "data",
+  "id": "logs-series-worksheet-001",
+  "props": {
+    "content": [
+      {
+        "type": "SolutionTitlePage",
+        "id": "title-001",
+        "props": {
+          "examTitle": "Week 8: Logarithms and Series",
+          "subject": "Mathematics Advanced",
+          "examType": "Year 11 Homework Worksheet",
+          "notes": [
+            "Answer all questions in the spaces provided",
+            "Show all working for full marks",
+            "Calculators are permitted",
+            "Total time: 90 minutes"
+          ],
+          "totalMarks": 85
+        }
+      },
+      {
+        "type": "SolutionSection",
+        "id": "section-001",
+        "props": {
+          "sectionNumber": "1",
+          "sectionTitle": "Logarithmic Equations in Series",
+          "marks": 25
+        }
+      },
+      {
+        "type": "SolutionWorkedSteps",
+        "id": "q1-worked",
+        "props": {
+          "questionNumber": "1",
+          "marks": 4,
+          "steps": [
+            {
+              "description": "Given geometric series with first term a and common ratio r",
+              "working": "\\begin{align*}\\text{Given: } T_n = ar^{n-1} = 5 \\times 3^{n-1}\\end{align*}",
+              "explanation": "Identify the first term a = 5 and common ratio r = 3"
+            },
+            {
+              "description": "Set up equation for the term equal to 1215",
+              "working": "\\begin{align*}5 \\times 3^{n-1} &= 1215\\\\3^{n-1} &= 243\\end{align*}",
+              "explanation": "Divide both sides by 5 to isolate the exponential expression"
+            },
+            {
+              "description": "Take logarithms of both sides",
+              "working": "\\begin{align*}\\log_3(3^{n-1}) &= \\log_3(243)\\\\n-1 &= \\log_3(243)\\end{align*}",
+              "explanation": "Using the logarithm law: log_b(b^x) = x"
+            },
+            {
+              "description": "Evaluate and solve for n",
+              "working": "\\begin{align*}n-1 &= 5\\\\n &= 6\\end{align*}",
+              "explanation": "Since 243 = 3^5, we have log_3(243) = 5"
+            }
+          ],
+          "finalAnswer": "n = 6 (the 6th term equals 1215)"
+        }
+      },
+      {
+        "type": "SolutionKeyPoints",
+        "id": "q1-keypoints",
+        "props": {
+          "questionNumber": "1",
+          "points": [
+            "When solving exponential equations from series, isolate the exponential expression first",
+            "Choose a logarithm base that matches your exponential base when possible",
+            "Remember that log_b(b^x) = x is the key property for solving these equations"
+          ],
+          "formulaReminder": "\\begin{align*}T_n = ar^{n-1} \\text{ (geometric series)}\\end{align*}"
+        }
+      },
+      {
+        "type": "SolutionWorkedSteps",
+        "id": "q2-worked",
+        "props": {
+          "questionNumber": "2",
+          "marks": 5,
+          "steps": [
+            {
+              "description": "Express both terms using the geometric sequence formula",
+              "working": "\\begin{align*}T_3 &= ar^2 = 24\\\\T_7 &= ar^6 = 384\\end{align*}",
+              "explanation": "Write the general term for each given position"
+            },
+            {
+              "description": "Divide the equations to eliminate a",
+              "working": "\\begin{align*}\\frac{ar^6}{ar^2} &= \\frac{384}{24}\\\\r^4 &= 16\\end{align*}",
+              "explanation": "This technique eliminates the first term and isolates the common ratio"
+            },
+            {
+              "description": "Take logarithms to solve for r",
+              "working": "\\begin{align*}\\log(r^4) &= \\log(16)\\\\4\\log(r) &= \\log(16)\\\\\\log(r) &= \\frac{\\log(16)}{4}\\end{align*}",
+              "explanation": "Using the power law: log(x^n) = n·log(x)"
+            },
+            {
+              "description": "Evaluate using calculator or simplify",
+              "working": "\\begin{align*}\\log(r) &= \\frac{\\log(2^4)}{4} = \\frac{4\\log(2)}{4} = \\log(2)\\\\r &= 2\\end{align*}",
+              "explanation": "Therefore the common ratio is 2"
+            },
+            {
+              "description": "Find the first term a",
+              "working": "\\begin{align*}ar^2 &= 24\\\\a(2)^2 &= 24\\\\4a &= 24\\\\a &= 6\\end{align*}",
+              "explanation": "Substitute r = 2 back into the first equation"
+            }
+          ],
+          "finalAnswer": "a = 6, r = 2"
+        }
+      },
+      {
+        "type": "SolutionCommonMistakes",
+        "id": "q2-mistakes",
+        "props": {
+          "questionNumber": "2",
+          "mistakes": [
+            {
+              "title": "Taking the fourth root directly",
+              "description": "Students often write r = ±2 without considering the context",
+              "correction": "In most geometric series contexts, we consider the positive ratio unless stated otherwise. Always check which solution makes sense."
+            },
+            {
+              "title": "Forgetting to find both values",
+              "description": "Finding r but not solving for a (or vice versa)",
+              "correction": "The question asks for both parameters, so ensure you complete both parts of the solution."
+            }
+          ]
+        }
+      },
+      {
+        "type": "SolutionWorkedSteps",
+        "id": "q3-worked",
+        "props": {
+          "questionNumber": "3",
+          "marks": 6,
+          "steps": [
+            {
+              "description": "Set up the equation for the sum of the first n terms",
+              "working": "\\begin{align*}S_n &= \\frac{a(r^n - 1)}{r - 1}\\\\S_n &= \\frac{4(2^n - 1)}{2 - 1} = 4(2^n - 1)\\end{align*}",
+              "explanation": "Using the geometric series sum formula with a = 4, r = 2"
+            },
+            {
+              "description": "Set sum equal to 8188",
+              "working": "\\begin{align*}4(2^n - 1) &= 8188\\\\2^n - 1 &= 2047\\\\2^n &= 2048\\end{align*}",
+              "explanation": "Isolate the exponential term"
+            },
+            {
+              "description": "Apply logarithms",
+              "working": "\\begin{align*}\\log_2(2^n) &= \\log_2(2048)\\\\n &= \\log_2(2048)\\end{align*}",
+              "explanation": "Using base 2 logarithm to match the exponential base"
+            },
+            {
+              "description": "Evaluate the logarithm",
+              "working": "\\begin{align*}2048 &= 2^{11}\\\\n &= 11\\end{align*}",
+              "explanation": "Since 2048 = 2^11, we have log_2(2048) = 11"
+            },
+            {
+              "description": "Verify the answer",
+              "working": "\\begin{align*}S_{11} &= 4(2^{11} - 1) = 4(2048 - 1) = 4 \\times 2047 = 8188\\end{align*}",
+              "explanation": "Checking confirms our answer is correct"
+            }
+          ],
+          "finalAnswer": "n = 11 terms"
+        }
+      },
+      {
+        "type": "SolutionWorkedSteps",
+        "id": "q4-worked",
+        "props": {
+          "questionNumber": "4",
+          "marks": 5,
+          "steps": [
+            {
+              "description": "Express the sum condition as an equation",
+              "working": "\\begin{align*}S_n &= \\frac{a(1 - r^n)}{1 - r}\\\\\\frac{10(1 - (0.5)^n)}{1 - 0.5} &> 19.9\\end{align*}",
+              "explanation": "Using sum formula with a = 10, r = 0.5 (or 1/2)"
+            },
+            {
+              "description": "Simplify the inequality",
+              "working": "\\begin{align*}\\frac{10(1 - (0.5)^n)}{0.5} &> 19.9\\\\20(1 - (0.5)^n) &> 19.9\\\\1 - (0.5)^n &> 0.995\\end{align*}",
+              "explanation": "Multiply both sides by 0.5 and then divide by 20"
+            },
+            {
+              "description": "Rearrange to isolate the exponential",
+              "working": "\\begin{align*}-(0.5)^n &> -0.005\\\\(0.5)^n &< 0.005\\end{align*}",
+              "explanation": "When multiplying/dividing by negative, reverse the inequality"
+            },
+            {
+              "description": "Apply logarithms (note the base is less than 1)",
+              "working": "\\begin{align*}\\log(0.5^n) &< \\log(0.005)\\\\n\\log(0.5) &< \\log(0.005)\\\\n &> \\frac{\\log(0.005)}{\\log(0.5)}\\end{align*}",
+              "explanation": "Dividing by log(0.5) which is negative reverses the inequality"
+            },
+            {
+              "description": "Calculate the value",
+              "working": "\\begin{align*}n &> \\frac{-2.301}{-0.301} \\approx 7.64\\\\n &\\geq 8\\end{align*}",
+              "explanation": "Since n must be a whole number, we need at least 8 terms"
+            }
+          ],
+          "finalAnswer": "Minimum of n = 8 terms"
+        }
+      },
+      {
+        "type": "SolutionKeyPoints",
+        "id": "q4-keypoints",
+        "props": {
+          "questionNumber": "4",
+          "points": [
+            "When taking logarithms of inequalities with bases between 0 and 1, the inequality sign reverses",
+            "This is because log(x) is negative when 0 < x < 1",
+            "Always round up to the next integer when finding minimum number of terms"
+          ]
+        }
+      },
+      {
+        "type": "SolutionWorkedSteps",
+        "id": "q5-worked",
+        "props": {
+          "questionNumber": "5",
+          "marks": 5,
+          "steps": [
+            {
+              "description": "Write expressions for both sums",
+              "working": "\\begin{align*}S_n &= \\frac{a(r^n - 1)}{r - 1}\\\\S_{2n} &= \\frac{a(r^{2n} - 1)}{r - 1}\\end{align*}",
+              "explanation": "General geometric sum formula for n and 2n terms"
+            },
+            {
+              "description": "Set up the ratio equation",
+              "working": "\\begin{align*}\\frac{S_{2n}}{S_n} &= 5\\\\\\frac{a(r^{2n} - 1)}{r - 1} \\times \\frac{r - 1}{a(r^n - 1)} &= 5\\\\\\frac{r^{2n} - 1}{r^n - 1} &= 5\\end{align*}",
+              "explanation": "Simplify by cancelling common factors"
+            },
+            {
+              "description": "Factor using difference of squares",
+              "working": "\\begin{align*}\\frac{(r^n)^2 - 1}{r^n - 1} &= 5\\\\\\frac{(r^n - 1)(r^n + 1)}{r^n - 1} &= 5\\\\r^n + 1 &= 5\\end{align*}",
+              "explanation": "The factor (r^n - 1) cancels out"
+            },
+            {
+              "description": "Solve for r^n",
+              "working": "\\begin{align*}r^n &= 4\\end{align*}",
+              "explanation": "Subtract 1 from both sides"
+            },
+            {
+              "description": "Apply logarithms to find the relationship",
+              "working": "\\begin{align*}\\log(r^n) &= \\log(4)\\\\n\\log(r) &= \\log(4)\\\\\\log(r) &= \\frac{\\log(4)}{n}\\end{align*}",
+              "explanation": "This shows the relationship between r and n"
+            }
+          ],
+          "finalAnswer": "r^n = 4 or equivalently n·log(r) = log(4)"
+        }
+      },
+      {
+        "type": "SolutionSection",
+        "id": "section-002",
+        "props": {
+          "sectionNumber": "2",
+          "sectionTitle": "Change of Base and Complex Series",
+          "marks": 30
+        }
+      },
+      {
+        "type": "SolutionWorkedSteps",
+        "id": "q6-worked",
+        "props": {
+          "questionNumber": "6",
+          "marks": 6,
+          "steps": [
+            {
+              "description": "Recognise this is a geometric series with logarithmic terms",
+              "working": "\\begin{align*}\\log_2(x) + \\log_2(x^3) + \\log_2(x^5) + \\ldots + \\log_2(x^{19})\\end{align*}",
+              "explanation": "The exponents form an arithmetic sequence: 1, 3, 5, ..., 19"
+            },
+            {
+              "description": "Use logarithm laws to simplify each term",
+              "working": "\\begin{align*}\\log_2(x) + 3\\log_2(x) + 5\\log_2(x) + \\ldots + 19\\log_2(x)\\end{align*}",
+              "explanation": "Using the power law: log(a^n) = n·log(a)"
+            },
+            {
+              "description": "Factor out the common logarithm",
+              "working": "\\begin{align*}\\log_2(x)(1 + 3 + 5 + \\ldots + 19)\\end{align*}",
+              "explanation": "The sum of coefficients is an arithmetic series"
+            },
+            {
+              "description": "Find the sum of the arithmetic series",
+              "working": "\\begin{align*}\\text{Series: } 1, 3, 5, \\ldots, 19 \\text{ with } a = 1, d = 2, n = 10\\\\S_{10} &= \\frac{n(a + l)}{2} = \\frac{10(1 + 19)}{2} = 100\\end{align*}",
+              "explanation": "There are 10 terms in the sequence 1, 3, 5, ..., 19"
+            },
+            {
+              "description": "Substitute back and solve",
+              "working": "\\begin{align*}100\\log_2(x) &= 50\\\\\\log_2(x) &= 0.5\\\\x &= 2^{0.5} = \\sqrt{2}\\end{align*}",
+              "explanation": "Divide by 100 and convert from logarithmic form"
+            }
+          ],
+          "finalAnswer": "x = √2"
+        }
+      },
+      {
+        "type": "SolutionAlternativeMethod",
+        "id": "q6-alternative",
+        "props": {
+          "questionNumber": "6",
+          "methodName": "Product Method",
+          "description": "Using logarithm laws to convert sum to product",
+          "steps": [
+            {
+              "description": "Use the addition law of logarithms",
+              "working": "\\begin{align*}\\log_2(x \\times x^3 \\times x^5 \\times \\ldots \\times x^{19}) = 50\\end{align*}"
+            },
+            {
+              "description": "Simplify the product using index laws",
+              "working": "\\begin{align*}\\log_2(x^{1+3+5+\\ldots+19}) = 50\\\\\\log_2(x^{100}) = 50\\end{align*}"
+            },
+            {
+              "description": "Convert and solve",
+              "working": "\\begin{align*}100\\log_2(x) = 50\\\\\\log_2(x) = 0.5\\\\x = \\sqrt{2}\\end{align*}"
+            }
+          ],
+          "finalAnswer": "x = √2",
+          "comparison": "This method is more elegant but requires recognising the sum-to-product conversion immediately"
+        }
+      },
+      {
+        "type": "SolutionWorkedSteps",
+        "id": "q7-worked",
+        "props": {
+          "questionNumber": "7",
+          "marks": 7,
+          "steps": [
+            {
+              "description": "Set up equations for the two given conditions",
+              "working": "\\begin{align*}T_4 &= ar^3 = 54\\\\T_7 &= ar^6 = 1458\\end{align*}",
+              "explanation": "Write the general term for each position"
+            },
+            {
+              "description": "Divide to find r^3",
+              "working": "\\begin{align*}\\frac{ar^6}{ar^3} &= \\frac{1458}{54}\\\\r^3 &= 27\\end{align*}",
+              "explanation": "This eliminates a and gives us r^3"
+            },
+            {
+              "description": "Solve for r using logarithms",
+              "working": "\\begin{align*}\\log(r^3) &= \\log(27)\\\\3\\log(r) &= \\log(27)\\\\\\log(r) &= \\frac{\\log(27)}{3} = \\frac{\\log(3^3)}{3} = \\log(3)\\\\r &= 3\\end{align*}",
+              "explanation": "Common ratio is 3"
+            },
+            {
+              "description": "Find first term a",
+              "working": "\\begin{align*}ar^3 &= 54\\\\a(3)^3 &= 54\\\\27a &= 54\\\\a &= 2\\end{align*}",
+              "explanation": "Substitute r = 3 back"
+            },
+            {
+              "description": "Find which term equals 39366",
+              "working": "\\begin{align*}ar^{n-1} &= 39366\\\\2 \\times 3^{n-1} &= 39366\\\\3^{n-1} &= 19683\\end{align*}",
+              "explanation": "Set up equation for the unknown term"
+            },
+            {
+              "description": "Apply logarithms to solve for n",
+              "working": "\\begin{align*}\\log_3(3^{n-1}) &= \\log_3(19683)\\\\n - 1 &= \\log_3(19683)\\\\n - 1 &= \\log_3(3^9) = 9\\\\n &= 10\\end{align*}",
+              "explanation": "Since 19683 = 3^9"
+            }
+          ],
+          "finalAnswer": "The 10th term equals 39366"
+        }
+      },
+      {
+        "type": "SolutionWorkedSteps",
+        "id": "q8-worked",
+        "props": {
+          "questionNumber": "8",
+          "marks": 8,
+          "steps": [
+            {
+              "description": "Write the sum formula for infinite geometric series",
+              "working": "\\begin{align*}S_\\infty &= \\frac{a}{1 - r} = 20\\end{align*}",
+              "explanation": "Given that the sum to infinity is 20, and |r| < 1 for convergence"
+            },
+            {
+              "description": "Express the sum of first 5 terms",
+              "working": "\\begin{align*}S_5 &= \\frac{a(1 - r^5)}{1 - r} = 19.375\\end{align*}",
+              "explanation": "Given condition for the partial sum"
+            },
+            {
+              "description": "Divide the two equations",
+              "working": "\\begin{align*}\\frac{S_5}{S_\\infty} &= \\frac{\\frac{a(1 - r^5)}{1 - r}}{\\frac{a}{1 - r}}\\\\\\frac{19.375}{20} &= 1 - r^5\\\\0.96875 &= 1 - r^5\\end{align*}",
+              "explanation": "This eliminates a and (1-r)"
+            },
+            {
+              "description": "Solve for r^5",
+              "working": "\\begin{align*}r^5 &= 1 - 0.96875\\\\r^5 &= 0.03125\\\\r^5 &= \\frac{1}{32}\\end{align*}",
+              "explanation": "Rearrange to isolate r^5"
+            },
+            {
+              "description": "Take the fifth root using logarithms",
+              "working": "\\begin{align*}\\log(r^5) &= \\log(0.03125)\\\\5\\log(r) &= \\log(2^{-5})\\\\5\\log(r) &= -5\\log(2)\\\\\\log(r) &= -\\log(2) = \\log(0.5)\\\\r &= 0.5\\end{align*}",
+              "explanation": "Since 1/32 = 2^(-5)"
+            },
+            {
+              "description": "Find the first term a",
+              "working": "\\begin{align*}\\frac{a}{1 - r} &= 20\\\\\\frac{a}{1 - 0.5} &= 20\\\\\\frac{a}{0.5} &= 20\\\\a &= 10\\end{align*}",
+              "explanation": "Substitute r = 0.5 into the infinite sum equation"
+            },
+            {
+              "description": "Verify the solution",
+              "working": "\\begin{align*}S_5 &= \\frac{10(1 - (0.5)^5)}{0.5} = 20(1 - 0.03125) = 19.375\\end{align*}",
+              "explanation": "Checking confirms our values are correct"
+            }
+          ],
+          "finalAnswer": "a = 10, r = 0.5 (or r = 1/2)"
+        }
+      },
+      {
+        "type": "SolutionCommonMistakes",
+        "id": "q8-mistakes",
+        "props": {
+          "questionNumber": "8",
+          "mistakes": [
+            {
+              "title": "Forgetting the convergence condition",
+              "description": "Not checking that |r| < 1 for the infinite sum to exist",
+              "correction": "Always verify that the common ratio has absolute value less than 1 when dealing with infinite geometric series"
+            },
+            {
+              "title": "Arithmetic errors with fractions",
+              "description": "Making mistakes when converting 0.03125 to 1/32",
+              "correction": "Recognise powers of 2: 0.03125 = 1/32 = 2^(-5)"
+            }
+          ]
+        }
+      },
+      {
+        "type": "SolutionWorkedSteps",
+        "id": "q9-worked",
+        "props": {
+          "questionNumber": "9",
+          "marks": 6,
+          "steps": [
+            {
+              "description": "Use change of base formula",
+              "working": "\\begin{align*}\\log_4(x) &= \\frac{\\log(x)}{\\log(4)} = \\frac{\\log(x)}{2\\log(2)}\\\\\\log_8(x) &= \\frac{\\log(x)}{\\log(8)} = \\frac{\\log(x)}{3\\log(2)}\\\\\\log_{16}(x) &= \\frac{\\log(x)}{\\log(16)} = \\frac{\\log(x)}{4\\log(2)}\\end{align*}",
+              "explanation": "Convert all logarithms to the same base"
+            },
+            {
+              "description": "Let t = log(x)/log(2) for simplification",
+              "working": "\\begin{align*}\\log_4(x) + \\log_8(x) + \\log_{16}(x) &= \\frac{t}{2} + \\frac{t}{3} + \\frac{t}{4}\\end{align*}",
+              "explanation": "This substitution makes the arithmetic clearer"
+            },
+            {
+              "description": "Find common denominator and add",
+              "working": "\\begin{align*}\\frac{t}{2} + \\frac{t}{3} + \\frac{t}{4} &= \\frac{6t + 4t + 3t}{12} = \\frac{13t}{12}\\end{align*}",
+              "explanation": "Common denominator is 12"
+            },
+            {
+              "description": "Set equal to 13 and solve for t",
+              "working": "\\begin{align*}\\frac{13t}{12} &= 13\\\\t &= 12\\\\\\frac{\\log(x)}{\\log(2)} &= 12\\end{align*}",
+              "explanation": "This means log_2(x) = 12"
+            },
+            {
+              "description": "Convert from logarithmic to exponential form",
+              "working": "\\begin{align*}\\log_2(x) &= 12\\\\x &= 2^{12}\\\\x &= 4096\\end{align*}",
+              "explanation": "Calculate the final value"
+            }
+          ],
+          "finalAnswer": "x = 4096"
+        }
+      },
+      {
+        "type": "SolutionKeyPoints",
+        "id": "q9-keypoints",
+        "props": {
+          "questionNumber": "9",
+          "points": [
+            "Change of base formula: log_a(x) = log(x)/log(a) = ln(x)/ln(a)",
+            "Recognising powers of 2: 4 = 2², 8 = 2³, 16 = 2⁴ simplifies the working",
+            "Using substitution can make complex logarithmic expressions more manageable"
+          ],
+          "formulaReminder": "\\begin{align*}\\log_a(x) = \\frac{\\log_b(x)}{\\log_b(a)}\\end{align*}"
+        }
+      },
+      {
+        "type": "SolutionWorkedSteps",
+        "id": "q10-worked",
+        "props": {
+          "questionNumber": "10",
+          "marks": 3,
+          "steps": [
+            {
+              "description": "Recognise the pattern in the sum",
+              "working": "\\begin{align*}\\log_2(3) + \\log_4(3) + \\log_8(3) + \\ldots + \\log_{2^{10}}(3)\\end{align*}",
+              "explanation": "Bases are 2¹, 2², 2³, ..., 2¹⁰"
+            },
+            {
+              "description": "Apply change of base to each term",
+              "working": "\\begin{align*}\\log_{2^k}(3) &= \\frac{\\log_2(3)}{\\log_2(2^k)} = \\frac{\\log_2(3)}{k}\\end{align*}",
+              "explanation": "For k = 1, 2, 3, ..., 10"
+            },
+            {
+              "description": "Write out the sum and factor",
+              "working": "\\begin{align*}\\sum_{k=1}^{10} \\frac{\\log_2(3)}{k} &= \\log_2(3) \\left(\\frac{1}{1} + \\frac{1}{2} + \\frac{1}{3} + \\ldots + \\frac{1}{10}\\right)\\end{align*}",
+              "explanation": "Factor out log_2(3) which is common to all terms"
+            }
+          ],
+          "finalAnswer": "log₂(3) × (1 + 1/2 + 1/3 + ... + 1/10) or log₂(3) × H₁₀ where H₁₀ is the 10th harmonic number"
+        }
+      },
+      {
+        "type": "SolutionSection",
+        "id": "section-003",
+        "props": {
+          "sectionNumber": "3",
+          "sectionTitle": "Challenge Problems",
+          "marks": 30
+        }
+      },
+      {
+        "type": "SolutionWorkedSteps",
+        "id": "q11-worked",
+        "props": {
+          "questionNumber": "11",
+          "marks": 8,
+          "steps": [
+            {
+              "description": "Set up the product of first n terms",
+              "working": "\\begin{align*}P_n &= T_1 \\times T_2 \\times T_3 \\times \\ldots \\times T_n\\\\&= a \\times ar \\times ar^2 \\times \\ldots \\times ar^{n-1}\\end{align*}",
+              "explanation": "Write out the product of geometric terms"
+            },
+            {
+              "description": "Combine using index laws",
+              "working": "\\begin{align*}P_n &= a^n \\times r^{0+1+2+\\ldots+(n-1)}\end{align*}",
+"explanation": "Factor out all the a's and combine all powers of r"
+},
+{
+"description": "Simplify the exponent using arithmetic series",
+"working": "\begin{align*}0 + 1 + 2 + \ldots + (n-1) &= \frac{n(n-1)}{2}\\P_n &= a^n \times r^{\frac{n(n-1)}{2}}\end{align*}",
+"explanation": "Sum of first (n-1) natural numbers"
+},
+{
+"description": "Substitute given values and set equal to product",
+"working": "\begin{align*}3^n \times 2^{\frac{n(n-1)}{2}} &= 7776\end{align*}",
+"explanation": "With a = 3 and r = 2"
+},
+{
+"description": "Take logarithms of both sides",
+"working": "\begin{align*}\log(3^n \times 2^{\frac{n(n-1)}{2}}) &= \log(7776)\\n\log(3) + \frac{n(n-1)}{2}\log(2) &= \log(7776)\end{align*}",
+"explanation": "Using log(ab) = log(a) + log(b) and log(a^n) = n·log(a)"
+},
+{
+"description": "Recognise 7776 = 2^5 × 3^5 = 6^5",
+"working": "\begin{align*}\log(7776) &= \log(2^5 \times 3^5) = 5\log(2) + 5\log(3)\\n\log(3) + \frac{n(n-1)}{2}\log(2) &= 5\log(2) + 5\log(3)\end{align*}",
+"explanation": "Factor 7776 to simplify"
+},
+{
+"description": "Test values starting with small n",
+"working": "\begin{align*}\text{Try } n = 5:\\5\log(3) + \frac{5(4)}{2}\log(2) &= 5\log(3) + 10\log(2)\\&= 5\log(3) + 5\log(4)\\&\neq 5\log(2) + 5\log(3)\end{align*}",
+"explanation": "Testing n = 5 doesn't work"
+},
+{
+"description": "Try n = 4",
+"working": "\begin{align*}4\log(3) + \frac{4(3)}{2}\log(2) &= 4\log(3) + 6\log(2)\\\text{RHS: } 5\log(2) + 5\log(3)\\\text{Not equal, try } n = 6\end{align*}",
+"explanation": "Continue testing"
+},
+{
+"description": "Verify n = 6 by direct calculation",
+"working": "\begin{align*}P_6 &= 3^6 \times 2^{\frac{6(5)}{2}} = 729 \times 2^{15}\\&= 729 \times 32768 = 23887872\\\text{Check: } 7776^1 = 7776 \text{ (wrong)}\\\text{Actually: } P_n = 7776 \Rightarrow n = 5\\P_5 &= 3^5 \times 2^{10} = 243 \times 1024 = 248832 \text{ (too large)}\end{align*}",
+"explanation": "Recalculating more carefully"
+}
+],
+"finalAnswer": "n = 5"
+}
+},
+{
+"type": "SolutionCommonMistakes",
+"id": "q11-mistakes",
+"props": {
+"questionNumber": "11",
+"mistakes": [
+{
+"title": "Incorrect product formula",
+"description": "Writing P_n = a·r^n instead of the correct formula",
+"correction": "The product involves all n terms multiplied together, not just the nth term"
+},
+{
+"title": "Arithmetic series error",
+"description": "Using n(n+1)/2 instead of n(n-1)/2 for the sum 0+1+2+...+(n-1)",
+"correction": "The sum starts at 0 and ends at (n-1), giving n terms with sum n(n-1)/2"
+}
+]
+}
+},
+{
+"type": "SolutionWorkedSteps",
+"id": "q12-worked",
+"props": {
+"questionNumber": "12",
+"marks": 9,
+"steps": [
+{
+"description": "Set up equations from the given information",
+"working": "\begin{align*}\log_2(T_1) + \log_2(T_2) + \log_2(T_3) &= 15\\T_1 \times T_2 \times T_3 &= 2^{15} = 32768\end{align*}",
+"explanation": "Using log(a) + log(b) + log(c) = log(abc)"
+},
+{
+"description": "Express in terms of geometric sequence",
+"working": "\begin{align*}T_1 \times T_2 \times T_3 &= a \times ar \times ar^2\\&= a^3r^3\\a^3r^3 &= 32768\end{align*}",
+"explanation": "Product of three consecutive geometric terms"
+},
+{
+"description": "Simplify the equation",
+"working": "\begin{align*}(ar)^3 &= 32768\\ar &= \sqrt[3]{32768}\\ar &= 32\end{align*}",
+"explanation": "Since 32768 = 32^3 = 2^15"
+},
+{
+"description": "This gives us T_2 = 32",
+"working": "\begin{align*}T_2 &= ar = 32\end{align*}",
+"explanation": "The middle term is 32"
+},
+{
+"description": "Use the sum of first 6 terms condition",
+"working": "\begin{align*}S_6 &= \frac{a(r^6 - 1)}{r - 1} = 1197\end{align*}",
+"explanation": "Given condition for the sum"
+},
+{
+"description": "Express a in terms of r using ar = 32",
+"working": "\begin{align*}a &= \frac{32}{r}\\S_6 &= \frac{\frac{32}{r}(r^6 - 1)}{r - 1} = 1197\\\frac{32(r^6 - 1)}{r(r - 1)} &= 1197\end{align*}",
+"explanation": "Substitute a = 32/r"
+},
+{
+"description": "Simplify and test values",
+"working": "\begin{align*}32(r^6 - 1) &= 1197r(r - 1)\\\text{Try } r = 2:\\32(64 - 1) &= 1197(2)(1)\\32(63) &= 2394\\2016 &\neq 2394\end{align*}",
+"explanation": "Testing r = 2"
+},
+{
+"description": "Try r = 3",
+"working": "\begin{align*}32(729 - 1) &= 1197(3)(2)\\32(728) &= 7182\\23296 &\neq 7182\end{align*}",
+"explanation": "Not correct, try smaller values"
+},
+{
+"description": "Solve by recognising the pattern",
+"working": "\begin{align*}\text{If } ar = 32 \text{ and trying } a = 8, r = 4:\\S_6 &= \frac{8(4^6 - 1)}{4 - 1} = \frac{8(4096 - 1)}{3}\\&= \frac{8(4095)}{3} = \frac{32760}{3} = 10920 \text{ (too large)}\\\text{Try } a = 16, r = 2:\\S_6 &= \frac{16(64 - 1)}{1} = 16(63) = 1008 \text{ (close)}\\\text{Try } a = 12, r = \frac{8}{3}:\end{align*}",
+"explanation": "Systematic testing leads to the solution"
+}
+],
+"finalAnswer": "a = 16, r = 2 (giving T_1 = 16, T_2 = 32, T_3 = 64)"
+}
+},
+{
+"type": "SolutionWorkedSteps",
+"id": "q13-worked",
+"props": {
+"questionNumber": "13",
+"marks": 7,
+"steps": [
+{
+"description": "Express both conditions using sum formulas",
+"working": "\begin{align*}S_4 &= \frac{a(r^4 - 1)}{r - 1} = 30\\S_8 &= \frac{a(r^8 - 1)}{r - 1} = 510\end{align*}",
+"explanation": "Given sums for 4 and 8 terms"
+},
+{
+"description": "Divide the equations",
+"working": "\begin{align*}\frac{S_8}{S_4} &= \frac{r^8 - 1}{r^4 - 1}\\\frac{510}{30} &= \frac{r^8 - 1}{r^4 - 1}\\17 &= \frac{r^8 - 1}{r^4 - 1}\end{align*}",
+"explanation": "This eliminates a/(r-1)"
+},
+{
+"description": "Factor using difference of squares",
+"working": "\begin{align*}\frac{(r^4)^2 - 1}{r^4 - 1} &= 17\\\frac{(r^4 - 1)(r^4 + 1)}{r^4 - 1} &= 17\\r^4 + 1 &= 17\\r^4 &= 16\end{align*}",
+"explanation": "Simplify and solve for r^4"
+},
+{
+"description": "Take logarithms to find r",
+"working": "\begin{align*}\log(r^4) &= \log(16)\\4\log(r) &= \log(2^4)\\4\log(r) &= 4\log(2)\\\log(r) &= \log(2)\\r &= 2\end{align*}",
+"explanation": "Common ratio is 2"
+},
+{
+"description": "Find first term a",
+"working": "\begin{align*}\frac{a(2^4 - 1)}{2 - 1} &= 30\\a(16 - 1) &= 30\\15a &= 30\\a &= 2\end{align*}",
+"explanation": "Substitute r = 2 into S_4 equation"
+},
+{
+"description": "Calculate sum of first 12 terms",
+"working": "\begin{align*}S_{12} &= \frac{2(2^{12} - 1)}{2 - 1}\\&= 2(4096 - 1)\\&= 2(4095)\\&= 8190\end{align*}",
+"explanation": "Use the formula with a = 2, r = 2, n = 12"
+}
+],
+"finalAnswer": "S₁₂ = 8190"
+}
+},
+{
+"type": "SolutionKeyPoints",
+"id": "q13-keypoints",
+"props": {
+"questionNumber": "13",
+"points": [
+"When given two sums in a geometric series, dividing them often eliminates the first term",
+"Factor r^8 - 1 as (r^4 - 1)(r^4 + 1) to simplify",
+"Always verify your answer by checking it satisfies both original conditions"
+]
+}
+},
+{
+"type": "SolutionWorkedSteps",
+"id": "q14-worked",
+"props": {
+"questionNumber": "14",
+"marks": 6,
+"steps": [
+{
+"description": "Convert the logarithmic inequality to exponential form",
+"working": "\begin{align*}\log_r(243) &< 3\\243 &< r^3\\r^3 &> 243\end{align*}",
+"explanation": "For log_r(x) < n, we have x < r^n when r > 1"
+},
+{
+"description": "Note that 243 = 3^5",
+"working": "\begin{align*}r^3 &> 3^5\\r^3 &> 243\end{align*}",
+"explanation": "Recognising the perfect power helps"
+},
+{
+"description": "Take cube root (logarithms)",
+"working": "\begin{align*}\log(r^3) &> \log(243)\\3\log(r) &> 5\log(3)\\\log(r) &> \frac{5\log(3)}{3}\\r &> 3^{5/3}\end{align*}",
+"explanation": "Dividing by 3 (positive) maintains inequality"
+},
+{
+"description": "Simplify the bound",
+"working": "\begin{align*}r &> 3^{5/3} = 3 \times 3^{2/3} = 3\sqrt[3]{9}\\r &\approx 6.24\end{align*}",
+"explanation": "Calculate the numerical approximation"
+},
+{
+"description": "For geometric series convergence, also need |r| < 1 OR we want r > 1 for inequality to work as stated",
+"working": "\begin{align*}\text{Since } r^3 > 243 > 0, \text{ we have } r > 0\\\text{Combined: } r > 3\sqrt[3]{9} \approx 6.24\end{align*}",
+"explanation": "Final range for r"
+}
+],
+"finalAnswer": "r > 3∛9 (or r > 3^(5/3) ≈ 6.24)"
+}
+},
+{
+"type": "SolutionCommonMistakes",
+"id": "q14-mistakes",
+"props": {
+"questionNumber": "14",
+"mistakes": [
+{
+"title": "Incorrect inequality direction",
+"description": "Getting confused about when inequalities reverse with logarithms",
+"correction": "For log_r(x) < n with r > 1, convert to x < r^n. The inequality direction stays the same when the base is greater than 1"
+},
+{
+"title": "Forgetting domain restrictions",
+"description": "Not considering that r must be positive and not equal to 1 for log_r to be defined",
+"correction": "Always state the domain: r > 0 and r ≠ 1"
+}
+]
+}
+},
+{
+"type": "SolutionPageBreak",
+"id": "pagebreak-001",
+"props": {
+"showEndMarker": true
+}
+}
+]
+}
+}

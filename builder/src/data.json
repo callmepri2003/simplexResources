@@ -1,40 +1,560 @@
 {
   "type": "data",
-  "id": "pythagoras_theorem_practice_test",
+  "id": "lead-magnet-mental-math-guide",
   "props": {
     "content": [
       {
         "type": "Heading",
-        "id": "heading-1",
+        "id": "heading-main-title",
         "props": {
-          "heading": "Year 8 Mathematics - Pythagoras' Theorem Practice Test"
+          "heading": "Mental Math Mastery Guide"
+        }
+      },
+      {
+        "type": "Text",
+        "id": "text-intro",
+        "props": {
+          "text": "Welcome! This guide contains powerful mental math strategies that will help your child calculate faster and more confidently. These techniques are used by high-achieving students and can transform how your child thinks about numbers."
         }
       },
       {
         "type": "ExplanationBox",
-        "id": "explanation-1",
+        "id": "explanation-how-to-use",
         "props": {
-          "title": "Understanding Pythagoras' Theorem",
+          "title": "How to Use This Guide",
           "content": [
             {
               "type": "ExplanationBoxText",
-              "id": "explanation-text-1",
+              "id": "text-how-to-1",
               "props": {
-                "children": "Pythagoras' Theorem states that in a right-angled triangle, the square of the length of the hypotenuse equals the sum of the squares of the lengths of the other two sides."
+                "children": "This guide is designed for students in Years 3-6. Each strategy includes examples at different difficulty levels, so your child can start where they feel comfortable and progress at their own pace."
               }
             },
             {
-              "type": "ExplanationBoxFormula",
-              "id": "explanation-formula-1",
+              "type": "ExplanationBoxList",
+              "id": "list-how-to",
               "props": {
-                "children": "c^2 = a^2 + b^2"
+                "items": [
+                  "Read through each strategy together",
+                  "Practice the examples out loud",
+                  "Try the practice questions at the end",
+                  "Use these tricks in everyday situations (shopping, cooking, games)"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "Heading",
+        "id": "heading-strategy-1",
+        "props": {
+          "heading": "Strategy 1: Adding 9 (The Sneaky Shortcut)"
+        }
+      },
+      {
+        "type": "Text",
+        "id": "text-strategy-1-intro",
+        "props": {
+          "text": "Instead of adding 9, add 10 and then subtract 1. This works because 9 is just one less than 10, and adding 10 is much easier!"
+        }
+      },
+      {
+        "type": "StepByStepSolution",
+        "id": "solution-adding-9-example",
+        "props": {
+          "title": "Example: 47 + 9",
+          "steps": [
+            {
+              "id": "step-1",
+              "description": "Add 10 instead of 9",
+              "work": "\\begin{align*} 47 + 10 = 57 \\end{align*}",
+              "explanation": "Adding 10 is easy - just increase the tens digit by 1"
+            },
+            {
+              "id": "step-2",
+              "description": "Subtract 1 to correct",
+              "work": "\\begin{align*} 57 - 1 = 56 \\end{align*}",
+              "explanation": "Since we added 10 instead of 9, we need to take away 1"
+            },
+            {
+              "id": "step-3",
+              "description": "Final answer",
+              "work": "\\begin{align*} 47 + 9 = 56 \\end{align*}",
+              "explanation": "Much faster than counting up by 9!"
+            }
+          ]
+        }
+      },
+      {
+        "type": "PractiseQuestions",
+        "id": "practice-adding-9",
+        "props": {
+          "content": [
+            {
+              "type": "ShortAnswerQuestion",
+              "id": "q-add9-1",
+              "props": {
+                "questionNumber": 1,
+                "questionContent": "Use the trick to work out: 23 + 9"
               }
             },
             {
-              "type": "ExplanationBoxText",
-              "id": "explanation-text-2",
+              "type": "ShortAnswerQuestion",
+              "id": "q-add9-2",
               "props": {
-                "children": "Where c is the length of the hypotenuse (the side opposite the right angle), and a and b are the lengths of the other two sides."
+                "questionNumber": 2,
+                "questionContent": "Use the trick to work out: 68 + 9"
+              }
+            },
+            {
+              "type": "ShortAnswerQuestion",
+              "id": "q-add9-3",
+              "props": {
+                "questionNumber": 3,
+                "questionContent": "Use the trick to work out: 135 + 9"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "Heading",
+        "id": "heading-strategy-2",
+        "props": {
+          "heading": "Strategy 2: Doubling and Halving for Multiplication"
+        }
+      },
+      {
+        "type": "Text",
+        "id": "text-strategy-2-intro",
+        "props": {
+          "text": "When multiplying, if one number is even, you can make the problem easier by doubling one number and halving the other. The answer stays the same!"
+        }
+      },
+      {
+        "type": "StepByStepSolution",
+        "id": "solution-double-halve",
+        "props": {
+          "title": "Example: 16 × 5",
+          "steps": [
+            {
+              "id": "step-1",
+              "description": "Double the first number",
+              "work": "\\begin{align*} 16 \\times 2 = 32 \\end{align*}",
+              "explanation": "We double 16 to get 32"
+            },
+            {
+              "id": "step-2",
+              "description": "Halve the second number",
+              "work": "\\begin{align*} 5 \\div 2 = 2.5 \\end{align*}",
+              "explanation": "We halve 5 to get 2.5"
+            },
+            {
+              "id": "step-3",
+              "description": "Now multiply the new numbers",
+              "work": "\\begin{align*} 32 \\times 2.5 = 80 \\end{align*}",
+              "explanation": "This might still seem hard, so let's try again!"
+            },
+            {
+              "id": "step-4",
+              "description": "Better approach: Halve the 16 instead",
+              "work": "\\begin{align*} 16 \\div 2 = 8 \\end{align*}",
+              "explanation": "Halve the first number to get 8"
+            },
+            {
+              "id": "step-5",
+              "description": "Double the 5",
+              "work": "\\begin{align*} 5 \\times 2 = 10 \\end{align*}",
+              "explanation": "Double the second number to get 10"
+            },
+            {
+              "id": "step-6",
+              "description": "Multiply the easier numbers",
+              "work": "\\begin{align*} 8 \\times 10 = 80 \\end{align*}",
+              "explanation": "8 times 10 is much easier than 16 times 5!"
+            }
+          ]
+        }
+      },
+      {
+        "type": "PractiseQuestions",
+        "id": "practice-double-halve",
+        "props": {
+          "content": [
+            {
+              "type": "ShortAnswerQuestion",
+              "id": "q-dh-1",
+              "props": {
+                "questionNumber": 4,
+                "questionContent": "Use doubling and halving: 14 × 5"
+              }
+            },
+            {
+              "type": "ShortAnswerQuestion",
+              "id": "q-dh-2",
+              "props": {
+                "questionNumber": 5,
+                "questionContent": "Use doubling and halving: 18 × 5"
+              }
+            },
+            {
+              "type": "ShortAnswerQuestion",
+              "id": "q-dh-3",
+              "props": {
+                "questionNumber": 6,
+                "questionContent": "Use doubling and halving: 32 × 25"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "Heading",
+        "id": "heading-strategy-3",
+        "props": {
+          "heading": "Strategy 3: The 11 Times Table Trick"
+        }
+      },
+      {
+        "type": "Text",
+        "id": "text-strategy-3-intro",
+        "props": {
+          "text": "Multiplying by 11 is super easy once you know the pattern! For two-digit numbers, add the two digits together and put the answer in the middle."
+        }
+      },
+      {
+        "type": "StepByStepSolution",
+        "id": "solution-times-11",
+        "props": {
+          "title": "Example: 23 × 11",
+          "steps": [
+            {
+              "id": "step-1",
+              "description": "Write the first digit",
+              "work": "\\begin{align*} 2\\_ \\_ \\end{align*}",
+              "explanation": "Start with the first digit of 23, which is 2"
+            },
+            {
+              "id": "step-2",
+              "description": "Add the two digits",
+              "work": "\\begin{align*} 2 + 3 = 5 \\end{align*}",
+              "explanation": "Add the two digits of 23 together"
+            },
+            {
+              "id": "step-3",
+              "description": "Put the sum in the middle",
+              "work": "\\begin{align*} 2\\underline{5}\\_ \\end{align*}",
+              "explanation": "The 5 goes in the middle"
+            },
+            {
+              "id": "step-4",
+              "description": "Write the last digit",
+              "work": "\\begin{align*} 253 \\end{align*}",
+              "explanation": "End with the last digit of 23, which is 3. So 23 × 11 = 253!"
+            }
+          ]
+        }
+      },
+      {
+        "type": "CommonMisconception",
+        "id": "misconception-11-trick",
+        "props": {
+          "misconception": "The trick doesn't work if the two digits add up to 10 or more",
+          "reality": "It still works, but you need to carry the 1",
+          "explanation": "For example: 67 × 11. Add 6 + 7 = 13. Write down the 3 and carry the 1 to the first digit. So you get 7, then 3, then 7, but you add the carried 1 to the first 6 to get 7. The answer is 737."
+        }
+      },
+      {
+        "type": "PractiseQuestions",
+        "id": "practice-times-11",
+        "props": {
+          "content": [
+            {
+              "type": "ShortAnswerQuestion",
+              "id": "q-11-1",
+              "props": {
+                "questionNumber": 7,
+                "questionContent": "Use the trick: 34 × 11"
+              }
+            },
+            {
+              "type": "ShortAnswerQuestion",
+              "id": "q-11-2",
+              "props": {
+                "questionNumber": 8,
+                "questionContent": "Use the trick: 52 × 11"
+              }
+            },
+            {
+              "type": "ShortAnswerQuestion",
+              "id": "q-11-3",
+              "props": {
+                "questionNumber": 9,
+                "questionContent": "Challenge: 78 × 11 (Remember to carry!)"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "Heading",
+        "id": "heading-strategy-4",
+        "props": {
+          "heading": "Strategy 4: Subtracting Near Multiples of 10"
+        }
+      },
+      {
+        "type": "Text",
+        "id": "text-strategy-4-intro",
+        "props": {
+          "text": "When subtracting numbers close to 10, 20, 30, etc., it's easier to subtract the round number and then add back the difference."
+        }
+      },
+      {
+        "type": "StepByStepSolution",
+        "id": "solution-subtract-near",
+        "props": {
+          "title": "Example: 85 - 29",
+          "steps": [
+            {
+              "id": "step-1",
+              "description": "Subtract 30 instead of 29",
+              "work": "\\begin{align*} 85 - 30 = 55 \\end{align*}",
+              "explanation": "30 is close to 29 and easier to work with"
+            },
+            {
+              "id": "step-2",
+              "description": "Add back 1",
+              "work": "\\begin{align*} 55 + 1 = 56 \\end{align*}",
+              "explanation": "We took away too much by 1 (since we subtracted 30 not 29), so add it back"
+            },
+            {
+              "id": "step-3",
+              "description": "Final answer",
+              "work": "\\begin{align*} 85 - 29 = 56 \\end{align*}",
+              "explanation": "Much easier than traditional subtraction!"
+            }
+          ]
+        }
+      },
+      {
+        "type": "PractiseQuestions",
+        "id": "practice-subtract-near",
+        "props": {
+          "content": [
+            {
+              "type": "ShortAnswerQuestion",
+              "id": "q-sub-1",
+              "props": {
+                "questionNumber": 10,
+                "questionContent": "Use the trick: 73 - 19"
+              }
+            },
+            {
+              "type": "ShortAnswerQuestion",
+              "id": "q-sub-2",
+              "props": {
+                "questionNumber": 11,
+                "questionContent": "Use the trick: 156 - 49"
+              }
+            },
+            {
+              "type": "ShortAnswerQuestion",
+              "id": "q-sub-3",
+              "props": {
+                "questionNumber": 12,
+                "questionContent": "Use the trick: 234 - 98"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "Heading",
+        "id": "heading-strategy-5",
+        "props": {
+          "heading": "Strategy 5: Percentage Shortcuts"
+        }
+      },
+      {
+        "type": "Text",
+        "id": "text-strategy-5-intro",
+        "props": {
+          "text": "Finding percentages can be really quick with these tricks. Remember: 10% is the same as dividing by 10, and you can build other percentages from there!"
+        }
+      },
+      {
+        "type": "ExplanationBox",
+        "id": "explanation-percentage-tricks",
+        "props": {
+          "title": "Quick Percentage Tricks",
+          "content": [
+            {
+              "type": "ExplanationBoxList",
+              "id": "list-percentage",
+              "props": {
+                "items": [
+                  "10% = Divide by 10 (move decimal point left one place)",
+                  "5% = Half of 10%",
+                  "25% = Quarter of the number (divide by 4)",
+                  "50% = Half of the number (divide by 2)",
+                  "20% = Double 10%",
+                  "15% = 10% + 5%"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "StepByStepSolution",
+        "id": "solution-percentage",
+        "props": {
+          "title": "Example: Find 15% of $80",
+          "steps": [
+            {
+              "id": "step-1",
+              "description": "Find 10% first",
+              "work": "\\begin{align*} 10\\% \\text{ of } \\$80 = \\$8 \\end{align*}",
+              "explanation": "Divide 80 by 10 to get 8"
+            },
+            {
+              "id": "step-2",
+              "description": "Find 5% (half of 10%)",
+              "work": "\\begin{align*} 5\\% \\text{ of } \\$80 = \\$4 \\end{align*}",
+              "explanation": "Half of $8 is $4"
+            },
+            {
+              "id": "step-3",
+              "description": "Add them together",
+              "work": "\\begin{align*} \\$8 + \\$4 = \\$12 \\end{align*}",
+              "explanation": "10% + 5% = 15%, so $8 + $4 = $12"
+            }
+          ]
+        }
+      },
+      {
+        "type": "PractiseQuestions",
+        "id": "practice-percentage",
+        "props": {
+          "content": [
+            {
+              "type": "ShortAnswerQuestion",
+              "id": "q-perc-1",
+              "props": {
+                "questionNumber": 13,
+                "questionContent": "Find 10% of $60"
+              }
+            },
+            {
+              "type": "ShortAnswerQuestion",
+              "id": "q-perc-2",
+              "props": {
+                "questionNumber": 14,
+                "questionContent": "Find 25% of $120"
+              }
+            },
+            {
+              "type": "ShortAnswerQuestion",
+              "id": "q-perc-3",
+              "props": {
+                "questionNumber": 15,
+                "questionContent": "Find 15% of $200"
+              }
+            },
+            {
+              "type": "ShortAnswerQuestion",
+              "id": "q-perc-4",
+              "props": {
+                "questionNumber": 16,
+                "questionContent": "Challenge: Find 35% of $80 (Hint: Use 10% three times, then add 5%)"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "Heading",
+        "id": "heading-bonus-challenge",
+        "props": {
+          "heading": "Bonus Challenge: Mixed Practice"
+        }
+      },
+      {
+        "type": "Text",
+        "id": "text-bonus-intro",
+        "props": {
+          "text": "Now try these problems using whichever strategy works best. Think about which trick will make each problem easiest!"
+        }
+      },
+      {
+        "type": "PractiseQuestions",
+        "id": "practice-mixed",
+        "props": {
+          "content": [
+            {
+              "type": "ShortAnswerQuestion",
+              "id": "q-mix-1",
+              "props": {
+                "questionNumber": 17,
+                "questionContent": "42 + 9"
+              }
+            },
+            {
+              "type": "ShortAnswerQuestion",
+              "id": "q-mix-2",
+              "props": {
+                "questionNumber": 18,
+                "questionContent": "45 × 11"
+              }
+            },
+            {
+              "type": "ShortAnswerQuestion",
+              "id": "q-mix-3",
+              "props": {
+                "questionNumber": 19,
+                "questionContent": "124 - 39"
+              }
+            },
+            {
+              "type": "ShortAnswerQuestion",
+              "id": "q-mix-4",
+              "props": {
+                "questionNumber": 20,
+                "questionContent": "Find 20% of $150"
+              }
+            },
+            {
+              "type": "ShortAnswerQuestion",
+              "id": "q-mix-5",
+              "props": {
+                "questionNumber": 21,
+                "questionContent": "26 × 5"
+              }
+            },
+            {
+              "type": "ShortAnswerQuestion",
+              "id": "q-mix-6",
+              "props": {
+                "questionNumber": 22,
+                "questionContent": "Sarah has $95. She spends $29 on a book. How much does she have left?"
+              }
+            },
+            {
+              "type": "ShortAnswerQuestion",
+              "id": "q-mix-7",
+              "props": {
+                "questionNumber": 23,
+                "questionContent": "A shop offers 25% off a $64 game. How much is the discount?"
+              }
+            },
+            {
+              "type": "ShortAnswerQuestion",
+              "id": "q-mix-8",
+              "props": {
+                "questionNumber": 24,
+                "questionContent": "Challenge: 88 × 11"
               }
             }
           ]
@@ -42,283 +562,43 @@
       },
       {
         "type": "KeyTakeaway",
-        "id": "key-takeaway-1",
+        "id": "takeaway-final",
         "props": {
           "keyTakeaways": [
-            "The hypotenuse is always the longest side of a right-angled triangle",
-            "Pythagoras' Theorem can be rearranged to find any side: a = √(c² - b²) or b = √(c² - a²)",
-            "When working with Pythagoras' Theorem, make sure your units are consistent",
-            "A Pythagorean triad is a set of three positive integers that satisfy the equation a² + b² = c²"
+            "Mental math is about finding clever shortcuts, not just memorising",
+            "Adding 9? Add 10 and subtract 1",
+            "Multiplying by 11? Add the digits and put them in the middle",
+            "Subtracting near 10, 20, 30? Subtract the round number and adjust",
+            "Percentages? Start with 10% and build from there",
+            "The more you practice these tricks, the faster and more automatic they become"
           ]
         }
       },
       {
-        "type": "PractiseQuestions",
-        "id": "practice-questions-1",
+        "type": "Text",
+        "id": "text-closing",
         "props": {
+          "text": "Congratulations on completing this Mental Math Mastery Guide! These strategies will help you calculate faster in class, during tests, and in everyday life. Keep practicing these tricks and they'll become second nature. Remember, the best mathematicians aren't always the ones who work the hardest – they're the ones who work the smartest!"
+        }
+      },
+      {
+        "type": "ExplanationBox",
+        "id": "explanation-next-steps",
+        "props": {
+          "title": "Want to Learn More?",
           "content": [
             {
-              "type": "GroupedSubquestionsGrid",
-              "id": "question-1",
+              "type": "ExplanationBoxText",
+              "id": "text-next-1",
               "props": {
-                "questionNumber": 1,
-                "questionContent": "Use your calculator to find the value of each of the following:",
-                "subquestions": [
-                  {
-                    "prompt": "5²"
-                  },
-                  {
-                    "prompt": "3.5²"
-                  },
-                  {
-                    "prompt": "6² + 8²"
-                  },
-                  {
-                    "prompt": "50² – 40²"
-                  }
-                ]
+                "children": "This guide only scratches the surface of what's possible when you understand mathematics deeply. Our expert tutors help students master not just mental math tricks, but develop genuine mathematical thinking that leads to exceptional results."
               }
             },
             {
-              "type": "GroupedSubquestionsGrid",
-              "id": "question-2",
+              "type": "ExplanationBoxText",
+              "id": "text-next-2",
               "props": {
-                "questionNumber": 2,
-                "questionContent": "Use your calculator to find the values of:",
-                "subquestions": [
-                  {
-                    "prompt": "√196"
-                  },
-                  {
-                    "prompt": "√900"
-                  },
-                  {
-                    "prompt": "√64"
-                  },
-                  {
-                    "prompt": "√121"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "GroupedSubquestionsGrid",
-              "id": "question-3",
-              "props": {
-                "questionNumber": 3,
-                "questionContent": "Calculate the square root of each of these numbers, correct to two decimal places:",
-                "subquestions": [
-                  {
-                    "prompt": "√12"
-                  },
-                  {
-                    "prompt": "√450"
-                  },
-                  {
-                    "prompt": "√1001"
-                  },
-                  {
-                    "prompt": "√80"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "GroupedSubquestionsGrid",
-              "id": "question-4",
-              "props": {
-                "questionNumber": 4,
-                "questionContent": "Find the value of each of these, correct to one decimal place:",
-                "subquestions": [
-                  {
-                    "prompt": "√(12² − 5²)"
-                  },
-                  {
-                    "prompt": "√(5² + 7²)"
-                  },
-                  {
-                    "prompt": "√((1.5)² + (4.2)²)"
-                  },
-                  {
-                    "prompt": "√((12.5)² − (7.1)²)"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "GeneralPurpose",
-              "id": "triangle-diagram-1",
-              "props": {
-                "componentName": "RightTriangleDiagram",
-                "html": "<div class='flex justify-center space-x-12 my-4'><div class='relative w-40 h-40'><div class='absolute bottom-0 left-0 w-32 h-32 border-b-2 border-l-2 border-black'><div class='absolute bottom-0 right-0 w-6 h-6 border-t-2 border-r-2 border-black transform rotate-45 translate-x-1 translate-y-1'></div></div><div class='absolute top-0 right-8 transform -translate-y-2'>c</div><div class='absolute bottom-16 left-0 transform -translate-x-4'>a</div><div class='absolute bottom-0 right-16 transform translate-y-4'>b</div><div class='absolute bottom-0 left-0 transform -translate-x-2 -translate-y-2'>P</div><div class='absolute bottom-0 right-32 transform translate-y-4'>Q</div><div class='absolute top-0 right-8 transform -translate-y-6'>R</div></div><div class='relative w-40 h-40'><div class='absolute bottom-0 left-0 w-32 h-32 border-b-2 border-l-2 border-black'><div class='absolute bottom-0 right-0 w-6 h-6 border-t-2 border-r-2 border-black transform rotate-45 translate-x-1 translate-y-1'></div></div><div class='absolute top-0 right-8 transform -translate-y-2'>c</div><div class='absolute bottom-16 left-0 transform -translate-x-4'>a</div><div class='absolute bottom-0 right-16 transform translate-y-4'>b</div><div class='absolute bottom-0 left-0 transform -translate-x-2 -translate-y-2'>L</div><div class='absolute bottom-0 right-32 transform translate-y-4'>M</div><div class='absolute top-0 right-8 transform -translate-y-6'>N</div></div></div>"
-              }
-            },
-            {
-              "type": "GroupedSubquestionsGrid",
-              "id": "question-5",
-              "props": {
-                "questionNumber": 5,
-                "questionContent": "Name the hypotenuse in each of these triangles shown above:",
-                "subquestions": [
-                  {
-                    "prompt": "In triangle PQR"
-                  },
-                  {
-                    "prompt": "In triangle LMN"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "GroupedSubquestionsGrid",
-              "id": "question-6",
-              "props": {
-                "questionNumber": 6,
-                "questionContent": "Write Pythagoras' Theorem for these triangles shown above:",
-                "subquestions": [
-                  {
-                    "prompt": "For triangle PQR"
-                  },
-                  {
-                    "prompt": "For triangle LMN"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "GeneralPurpose",
-              "id": "triangle-diagram-2",
-              "props": {
-                "componentName": "MissingLengthTriangles",
-                "html": "<div class='flex justify-center space-x-12 my-4'><div class='relative w-48 h-48'><div class='absolute bottom-0 left-0'><svg width='150' height='120' viewBox='0 0 150 120'><polygon points='0,120 120,120 120,0' fill='none' stroke='black' stroke-width='2'/><text x='60' y='70'>c cm</text><text x='55' y='115'>8 cm</text><text x='5' y='70'>5 cm</text></svg></div></div><div class='relative w-48 h-48'><div class='absolute bottom-0 left-0'><svg width='180' height='120' viewBox='0 0 180 120'><polygon points='0,120 180,120 180,20' fill='none' stroke='black' stroke-width='2'/><text x='90' y='80'>x m</text><text x='85' y='115'>24 m</text><text x='5' y='70'>7 m</text></svg></div></div></div>"
-              }
-            },
-            {
-              "type": "GroupedSubquestionsGrid",
-              "id": "question-7",
-              "props": {
-                "questionNumber": 7,
-                "questionContent": "Find the value of the pronumeral in these triangles. (Give your answer correct to 2 decimal places if necessary):",
-                "subquestions": [
-                  {
-                    "prompt": "Find the value of c in the first triangle (with sides 5 cm and 8 cm)"
-                  },
-                  {
-                    "prompt": "Find the value of x in the second triangle (with sides 7 m and 24 m)"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "GeneralPurpose",
-              "id": "triangle-diagram-3",
-              "props": {
-                "componentName": "MissingLengthTriangles2",
-                "html": "<div class='flex justify-center space-x-12 my-4'><div class='relative w-48 h-48'><div class='absolute bottom-0 left-0'><svg width='150' height='100' viewBox='0 0 150 100'><polygon points='0,100 150,100 150,0' fill='none' stroke='black' stroke-width='2'/><text x='75' y='60'>x mm</text><text x='75' y='95'>18 mm</text><text x='5' y='50'>23 mm</text></svg></div></div><div class='relative w-48 h-48'><div class='absolute bottom-0 left-0'><svg width='120' height='150' viewBox='0 0 120 150'><polygon points='0,150 120,150 120,0' fill='none' stroke='black' stroke-width='2'/><text x='30' y='80'>4 cm</text><text x='60' y='145'>6 cm</text><text x='55' y='75'>x cm</text></svg></div></div></div>"
-              }
-            },
-            {
-              "type": "GroupedSubquestionsGrid",
-              "id": "question-8",
-              "props": {
-                "questionNumber": 8,
-                "questionContent": "Find the value of the pronumeral in these triangles. (Give your answer correct to 2 decimal places if necessary):",
-                "subquestions": [
-                  {
-                    "prompt": "Find the value of x in the first triangle (with sides 23 mm and 18 mm)"
-                  },
-                  {
-                    "prompt": "Find the value of x in the second triangle (with sides 4 cm and 6 cm)"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "ShortAnswerQuestion",
-              "id": "question-9",
-              "props": {
-                "questionNumber": 9,
-                "questionContent": "Find the length of the diagonal of a square with sides 20 cm, correct to 2 decimal places."
-              }
-            },
-            {
-              "type": "GeneralPurpose",
-              "id": "triangle-diagram-4",
-              "props": {
-                "componentName": "RightAngleTriangle",
-                "html": "<div class='flex justify-center my-4'><div class='relative w-48 h-48'><svg width='150' height='120' viewBox='0 0 150 120'><polygon points='0,120 120,120 80,0' fill='none' stroke='black' stroke-width='2'/><text x='40' y='115'>8 cm</text><text x='85' y='65'>7 cm</text><text x='35' y='60'>10 cm</text></svg></div></div>"
-              }
-            },
-            {
-              "type": "ShortAnswerQuestion",
-              "id": "question-10",
-              "props": {
-                "questionNumber": 10,
-                "questionContent": "Is the triangle shown above (with sides 7 cm, 8 cm, and 10 cm) a right-angled triangle? Show your working."
-              }
-            },
-            {
-              "type": "ShortAnswerQuestion",
-              "id": "question-11",
-              "props": {
-                "questionNumber": 11,
-                "questionContent": "Find the value of x as a surd in a right-angled triangle with sides x cm, 6 cm, and 8 cm, where x is the hypotenuse."
-              }
-            },
-            {
-              "type": "ShortAnswerQuestion",
-              "id": "question-12",
-              "props": {
-                "questionNumber": 12,
-                "questionContent": "Do the numbers 5, 8, 10 form a Pythagorean triad? Show your working."
-              }
-            },
-            {
-              "type": "GeneralPurpose",
-              "id": "shape-diagram-1",
-              "props": {
-                "componentName": "PerimeterShapes",
-                "html": "<div class='flex justify-center space-x-12 my-4'><div class='relative w-48 h-48'><svg width='150' height='150' viewBox='0 0 150 150'><rect x='0' y='0' width='150' height='100' fill='none' stroke='black' stroke-width='2'/><line x1='0' y1='0' x2='150' y2='100' stroke='black' stroke-width='2'/><text x='65' y='15'>15 cm</text><text x='35' y='60'>36 cm</text><text x='120' y='60'>35 mm</text></svg></div><div class='relative w-48 h-48'><svg width='150' height='150' viewBox='0 0 150 150'><rect x='0' y='0' width='120' height='80' fill='none' stroke='black' stroke-width='2'/><line x1='0' y1='0' x2='120' y2='80' stroke='black' stroke-width='2'/><text x='50' y='15'>28 mm</text><text x='50' y='55'>30 cm</text><text x='5' y='40'>14 cm</text></svg></div></div>"
-              }
-            },
-            {
-              "type": "GroupedSubquestionsGrid",
-              "id": "question-13",
-              "props": {
-                "questionNumber": 13,
-                "questionContent": "Find the perimeter of each of these shapes shown above, correct to one decimal place:",
-                "subquestions": [
-                  {
-                    "prompt": "First shape (with sides 15 cm, 36 cm, and 35 mm)"
-                  },
-                  {
-                    "prompt": "Second shape (with sides 28 mm, 30 cm, and 14 cm)"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "GeneralPurpose",
-              "id": "shape-diagram-2",
-              "props": {
-                "componentName": "AreaShapes",
-                "html": "<div class='flex justify-center space-x-12 my-4'><div class='relative w-48 h-48'><svg width='150' height='150' viewBox='0 0 150 150'><rect x='0' y='0' width='150' height='100' fill='none' stroke='black' stroke-width='2'/><line x1='0' y1='0' x2='150' y2='100' stroke='black' stroke-width='2'/><text x='65' y='15'>2.5 m</text><text x='75' y='55'></text></svg></div><div class='relative w-48 h-48'><svg width='150' height='150' viewBox='0 0 150 150'><rect x='0' y='0' width='120' height='80' fill='none' stroke='black' stroke-width='2'/><line x1='0' y1='0' x2='120' y2='80' stroke='black' stroke-width='2'/><text x='50' y='15'>1.5 m</text></svg></div></div>"
-              }
-            },
-            {
-              "type": "GroupedSubquestionsGrid",
-              "id": "question-14",
-              "props": {
-                "questionNumber": 14,
-                "questionContent": "Find the area of each of these shapes shown above, correct to one decimal place:",
-                "subquestions": [
-                  {
-                    "prompt": "First shape (with side 2.5 m)"
-                  },
-                  {
-                    "prompt": "Second shape (with side 1.5 m)"
-                  }
-                ]
+                "children": "If your child enjoyed these strategies and you'd like them to develop their mathematical abilities further, we'd love to help. Our personalised tutoring programs are designed specifically for high-achieving students who want to excel in mathematics."
               }
             }
           ]
